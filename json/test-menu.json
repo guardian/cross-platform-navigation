@@ -1,0 +1,334 @@
+{
+  "sections" : [
+    {
+      "title": "",
+      "path": "/",
+      "editionalised": true,
+      "sections": {
+        "uk": [
+          {
+            "title": "Uk",
+            "path": "/",
+            "editionalised": true
+          },
+          {
+            "title": "world",
+            "path": "/world",
+            "editionalised": false
+          },
+          {
+            "title": "business",
+            "path": "/business",
+            "editionalised": true
+          },
+          {
+            "title": "football",
+            "path": "/football",
+            "editionalised": false
+          }
+        ],
+        "us": [
+          {
+            "title": "US",
+            "path": "/",
+            "editionalised" : true
+          },
+          {
+            "title": "world",
+            "path": "/world",
+            "editionalised": false
+          },
+          {
+            "title": "environment",
+            "path": "/environment",
+            "editionalised": true
+          },
+          {
+            "title": "soccer",
+            "path": "/football",
+            "editionalised": false
+          },
+          {
+            "title": "US politics",
+            "path": "/us-politics",
+            "editionalised": false
+          },
+          {
+            "title": "business",
+            "path": "/business",
+            "editionalised": true
+          },
+          {
+            "title": "science",
+            "path": "/science",
+            "editionalised": false
+          },
+          {
+            "title": "money",
+            "path": "/money",
+            "editionalised": true
+          },
+          {
+            "title": "tech",
+            "path": "/technology",
+            "editionalised": true
+          },
+          {
+            "title": "obituries",
+            "path": "/tone/obituries",
+            "editionalised": true
+          }
+        ],
+        "au" : [
+          {
+            "title": "australia",
+            "path": "/",
+            "editionalised": true
+          },
+          {
+            "title": "world",
+            "path": "/world",
+            "editionalised": false
+          },
+          {
+            "title": "AU Politics",
+            "path": "/australia-news/australian-politics",
+            "editionalised": false
+          },
+          {
+            "title": "football",
+            "path": "/football",
+            "editionalised": false
+          },
+          {
+            "title": "indigenous australia",
+            "path": "/australia-news/indigenous-australians",
+            "editionalised": false
+          },
+          {
+            "title": "immigration",
+            "path": "/australia-news/australian-immigration-and-asylum",
+            "editionalised": false
+          },
+          {
+            "title": "media",
+            "path": "/media",
+            "editionalised": true
+          }
+
+        ],
+        "international" : [
+          {
+            "title": "world",
+            "path": "/world",
+            "editionalised": false
+          },
+          {
+            "title": "UK news",
+            "path": "/uk-news",
+            "editionalised": false
+          },
+          {
+            "title": "science",
+            "path": "/science",
+            "editionalised": false
+          },
+          {
+            "title": "cities",
+            "path": "/cities",
+            "editionalised": false
+          }
+        ]
+      }
+    },
+    {
+      "title" : "opinion",
+      "path" : "/commentisfree",
+      "editionalised" : true,
+        "sections" : {
+          "uk": [
+            {
+              "title": "opinion",
+              "path": "/commentisfree",
+              "editionalised": true
+            },
+            {
+              "title": "the guardian view",
+              "path": "//profile/editorial",
+              "editionalised": false
+            },
+            {
+              "title": "columnists",
+              "path": "/index/contributors",
+              "editionalised": false
+            },
+            {
+              "title": "letters",
+              "path": "/tone/letters",
+              "editionalised": false
+            },
+            {
+              "title": "opinion videos",
+              "path": "/commentisfree/series/comment-is-free-weekly",
+              "editionalised": false
+            },
+            {
+              "title": "polly toynbee",
+              "path": "/profile/pollytoynbee",
+              "editionalised": false
+            },
+            {
+              "title": "owen jones",
+              "path": "/profile/owen-jones",
+              "editionalised": false
+            },
+            {
+              "title": "jonathan freedland",
+              "path": "/profile/jonathan freedland",
+              "editionalised": false
+            },
+            {
+              "title": "marina hyde",
+              "path": "/profile/marinahyde",
+              "editionalised": false
+            },
+            {
+              "title": "cartoons",
+              "path": "/cartoons/archive",
+              "editionalised": false
+            }
+          ],
+          "us": [
+            {
+              "title": "opinion",
+              "path": "/commentisfree",
+              "editionalised": true
+            },
+            {
+              "title": "the guardian view",
+              "path": "//profile/editorial",
+              "editionalised": false
+            },
+            {
+              "title": "columnists",
+              "path": "/index/columnists",
+              "editionalised": false
+            },
+            {
+              "title": "letters",
+              "path": "/tone/letters",
+              "editionalised": false
+            },
+            {
+              "title": "Jill Abramson",
+              "path": "/profile/jill-abranson",
+              "editionalised": false
+            },
+            {
+              "title": "Jessica Valenti",
+              "path": "/commentisfree/series/jessica-valenti-column",
+              "editionalised": false
+            },
+            {
+              "title": "Steven W. Thrasher",
+              "path": "/profile/steven-w-thrasher",
+              "editionalised": false
+            },
+            {
+              "title": "Richard Wolffe",
+              "path": "/profile/richard-wolffe",
+              "editionalised": false
+            },
+            {
+              "title": "opinion videos",
+              "path": "/commentisfree/series/comment-is-free-weekly",
+              "editionalised": false
+            },
+            {
+              "title": "cartoons",
+              "path": "/cartoons/archive",
+              "editionalised": false
+            }
+          ],
+          "au": [
+            {
+              "title": "opinion",
+              "path": "/commentisfree",
+              "editionalised": true
+            },
+            {
+              "title": "columnists",
+              "path": "/index/columnists",
+              "editionalised": true
+            },
+            {
+              "title": "cartoons",
+              "path": "/cartoons/archive",
+              "editionalised": false
+            },
+            {
+              "title": "indigenous",
+              "path": "/commentisfree/series/indigenousx",
+              "editionalised": false
+            },
+            {
+              "title": "editorials",
+              "path": "/profile/editorial",
+              "editionalised": false
+            },
+            {
+              "title": "Jill Abramson",
+              "path": "/profile/jill-abranson",
+              "editionalised": false
+            },
+            {
+              "title": "letters",
+              "path": "/tone/letters",
+              "editionalised": false
+            },
+            {
+              "title": "Katharine Murphy",
+              "path": "/profile/katharine-murphy",
+              "editionalised": false
+            }
+          ],
+          "international" : [
+              {
+                "title": "opinion",
+                "path": "/uk/commentisfree",
+                "editionalised": false
+              },
+              {
+                "title": "columnists",
+                "path": "/index/cotributors",
+                "editionalised": true
+              },
+              {
+                "title": "cartoons",
+                "path": "/cartoons/archive",
+                "editionalised": false
+              },
+              {
+                "title": "opinion videos",
+                "path": "/commentisfree/series/comment-is-free-weekly",
+                "editionalised": false
+              },
+              {
+                "title": "letters",
+                "path": "/tone/letters",
+                "editionalised": false
+              }
+            ]
+        }
+    },
+    {
+      "title": "sport",
+      "path": "/sport",
+      "editionalised" : true,
+      "sections" : {
+        "uk"
+      }
+    }
+
+  ]
+}
