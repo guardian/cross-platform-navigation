@@ -1,0 +1,52 @@
+{
+  "sections" : [
+    {
+      "title": "",
+      "path": "/",
+      "mobileOverride": "/home",
+      "editionalised": true,
+      "uk": {
+        "sections": [
+          {
+            "title": "UK",
+            "path": "/uk-news",
+            "editionalised": false,
+            "sections": [
+              { "title": "UK", "path": "/uk-news", "editionalised": false },
+              { "title": "UK politics", "path": "/politics", "editionalised": false },
+              { "title": "education", "path": "/education", "editionalised": false },
+              { "title": "media", "path": "/media", "editionalised": true },
+              { "title": "society", "path": "/society", "editionalised": false },
+              { "title": "scotland", "path": "/scotland", "mobileOverride" : true, "editionalised": true },
+              { "title": "wales", "path": "/wales", "mobileOverride" : true, "editionalised": true },
+              { "title": "northern ireland", "path": "/northern-ireland", "mobileOverride" : true, "editionalised": true }
+            ]
+          },
+          {
+            "title": "business",
+            "path": "/business",
+            "editionalised": true,
+            "sections": [
+              { "title": "business", "path": "/business", "editionalised": true },
+              { "title": "economics", "path": "/business/economics", "mobileOverride" : true, "editionalised": false },
+              { "title": "banking", "path": "/business/banking", "mobileOverride" : true, "editionalised": false },
+              { "title": "money", "path": "/money", "editionalised": true,
+                "sections": [
+                  { "title": "money", "path": "/money", "editionalised": true },
+                  { "title": "property", "path": "/money/property", "editionalised": false },
+                  { "title": "pensions", "path": "/money/pensions", "mobileOverride" : true, "editionalised": false },
+                  { "title": "savings", "path": "/money/savings", "mobileOverride" : true, "editionalised": false },
+                  { "title": "borrowing", "path": "/money/debt", "mobileOverride" : true, "editionalised": false },
+                  { "title": "careers", "path": "/money/work-and-careeers", "mobileOverride" : true, "editionalised": false }
+                ]
+              },
+              { "title": "markets", "path": "/business/stock-markets", "mobileOverride" : true, "editionalised": false },
+              { "title": "project syndicate", "path": "/business/series/project-syndicate-economists", "mobileOverride": true, "editionalised": false },
+              { "title": "b2b", "path": "/business-to-business", "editionalised": true }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}
