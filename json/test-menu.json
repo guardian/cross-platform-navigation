@@ -32,6 +32,7 @@
               { "title": "US", "path": "/us-news", "editionalised": false },
               { "title": "americas", "path": "/world/americas", "mobileOverride" : "/lists/tag/world/americas", "editionalised": false },
               { "title": "asia", "path": "/world/asia", "editionalised": false },
+              { "title": "asia", "path": "/world/asia", "editionalised": false },
               { "title": "australia", "path": "/world/australia-news", "mobileOverride" : "/australia-news", "editionalised": false },
               { "title": "middle east", "path": "/world/middleeast", "mobileOverride" : "/lists/tag/world/aftica", "editionalised": false },
               { "title": "africa", "path": "/world/africa", "mobileOverride" : "/lists/tag/world/aftica", "editionalised": false },

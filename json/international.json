@@ -1,0 +1,173 @@
+{
+  "pillars" : [
+    {
+      "title": "",
+      "path": "/",
+      "editionalised": true,
+      "sections" : [
+        { "title": "world", "path": "/world", "editionalised": false,
+          "sections" : [
+            { "title": "world", "path": "/world", "editionalised": false },
+            { "title": "europe", "path": "/world/europe-news", "editionalised": false },
+            { "title": "US", "path": "/us-news", "editionalised": false },
+            { "title": "americas", "path": "/world/americas", "editionalised": false },
+            { "title": "asia", "path": "/world/asia", "editionalised": false },
+            { "title": "australia", "path": "/world/australia-news", "editionalised": false },
+            { "title": "middle east", "path": "/world/middleeast", "editionalised": false },
+            { "title": "africa", "path": "/world/africa", "editionalised": false },
+            { "title": "cities", "path": "/cities", "editionalised": false },
+            { "title": "global development", "path": "/global-development", "editionalised": false }
+          ]
+        },
+        { "title": "UK news", "path": "/uk-news", "editionalised": false,
+          "sections": [
+            { "title": "UK", "path": "/uk-news", "editionalised": false },
+            { "title": "UK politics", "path": "/politics", "editionalised": false },
+            { "title": "education", "path": "/education", "editionalised": false },
+            { "title": "media", "path": "/media", "editionalised": true },
+            { "title": "society", "path": "/society", "editionalised": false },
+            { "title": "scotland", "path": "/scotland", "mobileOverride": true, "editionalised": true },
+            { "title": "wales", "path": "/wales", "mobileOverride": true, "editionalised": true },
+            { "title": "northern ireland", "path": "/northern-ireland", "mobileOverride": true, "editionalised": true }
+          ]
+        },
+        { "title": "science", "path": "/science", "editionalised": false },
+        { "title": "cities", "path": "/cities", "editionalised": false },
+        { "title": "global development", "path": "/global-development", "editionalised": false },
+        { "title": "football", "path": "/football", "editionalised": false,
+          "sections": [
+            { "title": "football", "path": "/football", "editionalised": false },
+            { "title": "live scores", "path": "/football/live", "editionalised": false },
+            { "title": "tables", "path": "/football/tables", "editionalised": false },
+            { "title": "competitions", "path": "/football/competitions", "editionalised": false },
+            { "title": "results", "path": "/football/results", "editionalised": false },
+            { "title": "fixtures", "path": "/football/fixtures", "editionalised": false },
+            { "title": "clubs", "path": "/football/teams", "editionalised": false }
+          ]
+        },
+        { "title": "tech", "path": "/technology", "editionalised": true },
+        {
+          "title": "business",
+          "path": "/business",
+          "editionalised": false,
+          "sections": [
+            { "title": "business", "path": "/uk/business", "editionalised": false },
+            { "title": "economics", "path": "/business/economics", "mobileOverride": true, "editionalised": false },
+            { "title": "banking", "path": "/business/banking", "mobileOverride": true, "editionalised": false },
+            { "title": "money", "path": "/uk/money", "editionalised": false,
+              "sections": [
+                { "title": "money", "path": "/money", "editionalised": true },
+                { "title": "property", "path": "/money/property", "editionalised": false },
+                { "title": "pensions", "path": "/money/pensions", "mobileOverride": true, "editionalised": false },
+                { "title": "savings", "path": "/money/savings", "mobileOverride": true, "editionalised": false },
+                { "title": "borrowing", "path": "/money/debt", "mobileOverride": true, "editionalised": false },
+                { "title": "careers", "path": "/money/work-and-careeers", "mobileOverride": true, "editionalised": false }
+              ]
+            },
+            { "title": "markets", "path": "/business/stock-markets", "mobileOverride": true, "editionalised": false },
+            { "title": "project syndicate", "path": "/business/series/project-syndicate-economists", "mobileOverride": true, "editionalised": false },
+            { "title": "b2b", "path": "/uk/business-to-business", "editionalised": false }
+          ]
+        },
+        {
+          "title": "environment",
+          "path": "/environment",
+          "editionalised": true,
+          "sections": [
+            {"title": "environment", "path": "/uk/environment", "editionalised": false},
+            {"title": "climate change", "path": "/environment/climate-change", "mobileOverride": true, "editionalised": false},
+            {"title": "wildlife", "path": "/environment/wildlife", "mobileOverride": true, "editionalised": false},
+            {"title": "energy", "path": "/environment/energy", "mobileOverride": true, "editionalised": false},
+            {"title": "pollution", "path": "/environment/pollution", "mobileOverride": true, "editionalised": false}
+          ]
+        },
+        {"title": "obituraries", "path": "/tone/obituraries", "editionalised": false}
+      ]
+    },
+    {
+      "title" : "opinion",
+      "path" : "/commentisfree",
+      "editionalised" : true,
+      "sections" : [
+        { "title": "the guardian view", "path": "/profile/editorial", "mobileOverride" : true, "editionalised": false },
+        { "title": "columnists", "path": "/index/cotributors", "editionalised": true },
+        { "title": "cartoons", "path": "/cartoons/archive", "editionalised": false },
+        { "title": "opinion videos", "path": "/commentisfree/series/comment-is-free-weekly", "editionalised": false },
+        { "title": "letters", "path": "/tone/letters", "editionalised": false }
+      ]
+    },
+    {
+      "title": "sport",
+      "path": "/sport",
+      "editionalised" : true,
+      "sections" : [
+        { "title": "football", "path": "/football", "editionalised": false,
+          "sections": [
+            { "title": "football", "path": "/football", "editionalised": false },
+            { "title": "live scores", "path": "/football/live", "editionalised": false },
+            { "title": "tables", "path": "/football/tables", "editionalised": false },
+            { "title": "competitions", "path": "/football/competitions", "editionalised": false },
+            { "title": "results", "path": "/football/results", "editionalised": false },
+            { "title": "fixtures", "path": "/football/fixtures", "editionalised": false },
+            { "title": "clubs", "path": "/football/teams", "editionalised": false }
+          ]
+        },
+        { "title": "rugby union", "path": "/sport/rugby-union", "editionalised": false },
+        { "title": "cricket", "path": "/sport/cricket", "editionalised": false },
+        { "title": "tennis", "path": "/sport/tennis", "editionalised": false },
+        { "title": "cycling", "path": "/sport/cycling", "editionalised": false },
+        { "title": "f1", "path": "/sport/formulaone", "editionalised": false },
+        { "title": "US sport", "path": "/sport/us-sport", "editionalised": false },
+        { "title": "golf", "path": "/sport/golf", "editionalised": false }
+      ]
+    },
+    {
+      "title" : "arts",
+      "path" : "/culture",
+      "editionalised" : true,
+      "sections" : [
+        { "title": "books", "path": "/books", "editionalised" : false },
+        { "title": "music", "path": "/music", "editionalised" : false },
+        { "title": "tv & radio", "path": "/uk/tv-and-radio", "editionalised" : false },
+        { "title": "art & design", "path": "/artanddesign", "editionalised" : false },
+        { "title": "film", "path": "/uk/film", "editionalised" : false },
+        { "title": "games", "path": "/games", "editionalised" : false },
+        { "title": "classical", "path": "/music/classical-music-and-opera", "editionalised" : false },
+        { "title": "stage", "path": "/stage", "editionalised" : false }
+      ]
+    },
+    {
+      "title" : "lifestyle",
+      "path" : "/lifeandstyle",
+      "editionalised" : true,
+      "sections" : [
+        { "title": "fashion", "path": "/fashion", "editionalised" : false },
+        { "title": "food", "path": "/lifeandstyle/food-and-drink", "editionalised" : false },
+        { "title": "recipes", "path": "/tone/recipes", "editionalised" : false },
+        { "title": "love & sex", "path": "/lifeandstyle/love-and-sex", "editionalised" : false },
+        { "title": "health & fitness", "path": "/lifeandstyle/health-and-wellbeing", "editionalised" : false },
+        { "title": "hone & garden", "path": "/lifeandstyle/home-and-garden", "editionalised" : false },
+        { "title": "women", "path": "/lifeandstyle/women", "editionalised" : false },
+        { "title": "family", "path": "/lifeandstyle/family", "editionalised" : false },
+        { "title": "travel", "path": "/uk/travel", "editionalised" : false,
+          "sections" : [
+            { "title": "travel", "path": "/uk/travel", "editionalised": false },
+            { "title": "US", "path": "/travel/usa", "editionalised": false },
+            { "title": "europe", "path": "/travel/europe", "editionalised": false },
+            { "title": "UK", "path": "/travel/uk", "editionalised": false }
+          ]
+        },
+        { "title": "money", "path": "/uk/money", "editionalised" : false,
+          "sections": [
+            { "title": "money", "path": "uk/money", "editionalised": false },
+            { "title": "property", "path": "/money/property", "editionalised": false },
+            { "title": "pensions", "path": "/money/pensions", "editionalised": false },
+            { "title": "savings", "path": "/money/savings", "editionalised": false },
+            { "title": "borrowing", "path": "/money/debt", "editionalised": false },
+            { "title": "careers", "path": "/money/work-and-careeers", "editionalised": false }
+          ]
+        }
+      ]
+    }
+  ]
+}
