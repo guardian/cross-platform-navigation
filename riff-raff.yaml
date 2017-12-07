@@ -1,0 +1,14 @@
+stacks: [mobile]
+regions: [eu-west-q]
+
+#Deploys the json to s3 only. To deploy functionality changes, update the version and publish to maven
+deployments:
+  cross-platform-navigation-s3:
+    type: aws-s3
+    parameters:
+      cacheControl: max-age=600
+      publicReadAcl: false
+      prefixPackage: false
+      prefixStack: false
+      prefixStage: true
+      bucket: navigation-dist

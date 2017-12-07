@@ -17,6 +17,31 @@ libraryDependencies ++= Seq(
 
 unmanagedResourceDirectories in Test += baseDirectory.value / "json"
 
+enablePlugins(RiffRaffArtifact)
+
+def listJsonFiles(file: File) : List[File] = {
+  if(file.isDirectory) {
+    file.listFiles().toList.flatMap(listJsonFiles)
+  } else {
+    List(file)
+  }
+}
+
+def listJsonFilesInJsonDir: List[(File, String)] = {
+
+  val jsonFilesDir = file("json")
+  val jsonDir = jsonFilesDir.getAbsoluteFile.toPath.getParent
+
+  listJsonFiles(jsonFilesDir).map {
+    file => file -> jsonDir.relativize(file.getAbsoluteFile.toPath).toString
+  }
+}
+
+riffRaffPackageType := file(".nope")
+riffRaffUploadArtifactBucket := Option("riffraff-artifact")
+riffRaffUploadManifestBucket := Option("riffraff-builds")
+riffRaffManifestProjectName := s"Mobile::${name.value}"
+riffRaffArtifactResources ++= listJsonFilesInJsonDir
 
 
 
