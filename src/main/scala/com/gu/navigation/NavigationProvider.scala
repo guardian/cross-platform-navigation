@@ -18,8 +18,8 @@ class GarnettNavigationProvider extends NavigationProvider {
     case JsSuccess(navigation, _) => navigation
     case JsError(errors) =>
       logger.error(s"Could not extract navigation from json. Errors: $errors ")
-      val errorPaths = errors flatMap { _._2 } mkString ","
-      throw new NavigationParseError(s"Could not extract navigation: Erros path(s) $errorPaths")
+      val errorPaths = errors map { error => error._1.toString()} mkString(",")
+      throw new NavigationParseError(s"Could not extract navigation: Error path(s) $errorPaths")
   }
 }
 

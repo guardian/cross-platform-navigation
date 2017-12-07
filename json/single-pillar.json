@@ -17,7 +17,7 @@
             { "title": "UK politics", "path": "/politics", "editionalised": false },
             { "title": "education", "path": "/education", "editionalised": false }          ]
         },
-        {"title": "obituraries", "path": "/tone/obituraries", "editionalised": false}
+        {"title": "obituraries", "path": "/tone/obituraries", "editionalised": false, "mobileOverride" : "totalGarnett"}
       ]
     }
   ]

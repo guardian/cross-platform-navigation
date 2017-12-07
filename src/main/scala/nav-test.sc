@@ -1,3 +1,4 @@
+import com.gu.navigation.NavigationParseError
 import play.api.libs.json._
 import play.api.libs.json.Reads._
 import play.api.libs.json.Writes._
@@ -66,8 +67,14 @@ slurp(path).flatMap { maybeJson =>
   Json.fromJson[Navigation](Json.parse(maybeJson)) match {
     case JsSuccess(nav, _) => Some(nav)
     case JsError(errors) =>
-      println(s"does not parse: $errors")
-      None
+      println(s"Could not extract navigation from json. Errors: $errors ")
+//      val errorPaths = errors flatMap { _._1 } mkString ","
+      val errorPaths = errors.map{
+        e =>
+          val p = e._1
+          p.toString
+      }.mkString(",")
+      throw new NavigationParseError(s"Could not extract navigation: Erros path(s) $errorPaths")
   }
 
 }
