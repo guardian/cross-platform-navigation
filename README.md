@@ -4,7 +4,7 @@ Cross Platform Navigation
 A library to provide define and provide scala representations of the navigation across [theguardian.com](https://theguardian.com)
 and the guardian's cohort of [mobile apps](https://theguardian.com/mobile)
 
-####Scala Usage
+##Scala Usage
 
 Add the following to your build.sbt file, setting the version number to the latest [version]
 
