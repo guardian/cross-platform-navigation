@@ -1,4 +1,3 @@
-import sbtrelease.ReleaseStateTransformations
 import sbtrelease.ReleaseStateTransformations._
 
 name:="cross-platform-navigation"
@@ -69,5 +68,3 @@ releaseProcess := Seq(
   releaseStepCommand("sonatypeReleaseAll"),
   pushChanges
 )
-
-
