@@ -3,64 +3,62 @@
     {
       "title": "",
       "path": "/",
-      "editionalised": true,
       "sections": [
-          {"title": "US", "path": "/us-news", "editionalised": true},
+          {"title": "US", "path": "/us-news"},
           {
-            "title": "world", "path": "/world", "editionalised": false,
+            "title": "world", "path": "/world",
             "sections": [
-              { "title": "world", "path": "/world", "editionalised": false },
-              { "title": "europe", "path": "/world/europe-news", "editionalised": false },
-              { "title": "US", "path": "/us-news", "editionalised": false },
-              { "title": "americas", "path": "/world/americas", "editionalised": false },
-              { "title": "asia", "path": "/world/asia", "editionalised": false },
-              { "title": "australia", "path": "/world/australia-news", "editionalised": false },
-              { "title": "middle east", "path": "/world/middleeast", "editionalised": false },
-              { "title": "africa", "path": "/world/africa", "editionalised": false },
-              { "title": "cities", "path": "/cities", "editionalised": false },
-              { "title": "global development", "path": "/global-development", "editionalised": false }
+              { "title": "world", "path": "/world" },
+              { "title": "europe", "path": "/world/europe-news", "mobileOverride" : true },
+              { "title": "US", "path": "/us-news" },
+              { "title": "americas", "path": "/world/americas", "mobileOverride" : true },
+              { "title": "asia", "path": "/world/asia" },
+              { "title": "australia", "path": "/world/australia-news" },
+              { "title": "middle east", "path": "/world/middleeast", "mobileOverride" : true },
+              { "title": "africa", "path": "/world/africa", "mobileOverride" : true },
+              { "title": "cities", "path": "/cities" },
+              { "title": "global development", "path": "/global-development" }
             ]
           },
           {
-            "title": "environment", "path": "/environment", "editionalised": true,
+            "title": "environment", "path": "/environment",
             "sections": [
-              { "title": "environment", "path": "/environment", "editionalised": true },
-              { "title": "climate change", "path": "/environment/climate-change", "editionalised": false },
-              { "title": "wildlife", "path": "/environment/wildlife", "editionalised": false },
-              { "title": "energy", "path": "/environment/energy", "editionalised": false },
-              { "title": "pollution", "path": "/environment/pollution", "editionalised": false }
+              { "title": "environment", "path": "/environment" },
+              { "title": "climate change", "path": "/environment/climate-change", "mobileOverride" : true },
+              { "title": "wildlife", "path": "/environment/wildlife", "mobileOverride" : true },
+              { "title": "energy", "path": "/environment/energy", "mobileOverride" : true },
+              { "title": "pollution", "path": "/environment/pollution", "mobileOverride" : true }
             ]
           },
           {
-            "title": "soccer", "path": "/football", "editionalised": false,
+            "title": "soccer", "path": "/football",
             "sections": [
-              { "title": "football", "path": "/football", "editionalised": false },
-              { "title": "live scores", "path": "/football/live", "editionalised": false },
-              { "title": "tables", "path": "/football/tables", "editionalised": false },
-              { "title": "competitions", "path": "/football/competitions", "editionalised": false },
-              { "title": "results", "path": "/football/results", "editionalised": false },
-              { "title": "fixtures", "path": "/football/fixtures", "editionalised": false },
-              { "title": "clubs", "path": "/football/teams", "editionalised": false }
+              { "title": "football", "path": "/football" },
+              { "title": "live scores", "path": "/football/live" },
+              { "title": "tables", "path": "/football/tables" },
+              { "title": "competitions", "path": "/football/competitions" },
+              { "title": "results", "path": "/football/results" },
+              { "title": "fixtures", "path": "/football/fixtures" },
+              { "title": "clubs", "path": "/football/teams" }
             ]
           },
-          { "title": "US politics", "path": "/us-politics", "editionalised": false },
-          { "title": "business", "path": "/business", "editionalised": true },
-          { "title": "science", "path": "/science", "editionalised": false },
-          { "title": "money", "path": "/money", "editionalised": true },
-          { "title": "tech", "path": "/technology", "editionalised": true },
-          { "title": "obituries", "path": "/tone/obituries", "editionalised": true }
+          { "title": "US politics", "path": "/us-news/us-politics" },
+          { "title": "business", "path": "/business" },
+          { "title": "science", "path": "/science" },
+          { "title": "money", "path": "/uk/money"},
+          { "title": "tech", "path": "/technology", "mobileOverride" : true },
+          { "title": "obituries", "path": "/tone/obituries", "mobileOverride" : true }
         ]
     },
     {
       "title" : "opinion",
       "path" : "/commentisfree",
-      "editionalised" : true,
       "sections": [
-        { "title": "opinion", "path": "/commentisfree", "editionalised": true },
-        { "title": "the guardian view", "path": "/profile/editorial", "editionalised": false },
-        { "title": "columnists", "path": "/index/columnists", "editionalised": false },
-        { "title": "letters", "path": "/tone/letters", "editionalised": false },
-        { "title": "cartoons", "path": "/cartoons/archive", "editionalised": false }
+        { "title": "opinion", "path":  "/commentisfree" },
+        { "title": "the guardian view", "path": "/profile/editorial","mobileOverride" : true },
+        { "title": "columnists", "path": "/index/columnists" },
+        { "title": "letters", "path": "/tone/letters", "mobileOverride" : true  },
+        { "title": "cartoons", "path": "/cartoons/archive" }
       ]
     },
     {
@@ -68,38 +66,37 @@
       "path": "/sport",
       "editionalised" : true,
       "sections": [
-        { "title": "soccer", "path": "/football", "editionalised": false,
+        { "title": "soccer", "path": "/football",
           "sections": [
-            { "title": "football", "path": "/football", "editionalised": false },
-            { "title": "live scores", "path": "/football/live", "editionalised": false },
-            { "title": "tables", "path": "/football/tables", "editionalised": false },
-            { "title": "competitions", "path": "/football/competitions", "editionalised": false },
-            { "title": "results", "path": "/football/results", "editionalised": false },
-            { "title": "fixtures", "path": "/football/fixtures", "editionalised": false },
-            { "title": "clubs", "path": "/football/teams", "editionalised": false }
+            { "title": "football", "path": "/football" },
+            { "title": "live scores", "path": "/football/live" },
+            { "title": "tables", "path": "/football/tables" },
+            { "title": "competitions", "path": "/football/competitions" },
+            { "title": "results", "path": "/football/results" },
+            { "title": "fixtures", "path": "/football/fixtures" },
+            { "title": "clubs", "path": "/football/teams" }
           ]
         },
-        { "title": "NFL", "path": "/sport/nfl", "editionalised": false },
-        { "title": "tennis", "path": "/sport/tennis", "editionalised": false },
-        { "title": "MLB", "path": "/sport/mlb", "editionalised": false },
-        { "title": "MLS", "path": "/football/mls", "editionalised": false },
-        { "title": "NBA", "path": "/sport/nba", "editionalised": false },
-        { "title": "NHL", "path": "/sport/nhl", "editionalised": false }
+        { "title": "NFL", "path": "/sport/nfl", "mobileOverride" : true  },
+        { "title": "tennis", "path": "/sport/tennis", "mobileOverride" : true  },
+        { "title": "MLB", "path": "/sport/mlb", "mobileOverride" : true  },
+        { "title": "MLS", "path": "/football/mls", "mobileOverride" : true  },
+        { "title": "NBA", "path": "/sport/nba", "mobileOverride" : true  },
+        { "title": "NHL", "path": "/sport/nhl", "mobileOverride" : true  }
       ]
     },
     {
       "title" : "arts",
       "path" : "/culture",
-      "editionalised" : true,
       "sections": [
-        { "title": "film", "path": "/film", "editionalised": true },
-        { "title": "books", "path": "/books", "editionalised": false },
-        { "title": "music", "path": "/music", "editionalised": false },
-        { "title": "art & design", "path": "/artanddesign", "editionalised": false },
-        { "title": "tv & radio", "path": "/tv-and-radio", "editionalised": true },
-        { "title": "stage", "path": "/stage", "editionalised": false },
-        { "title": "classical", "path": "/music/classical-music-and-opera", "editionalised": false },
-        { "title": "games", "path": "/games", "editionalised": false }
+        { "title": "film", "path": "/film" },
+        { "title": "books", "path": "/books" },
+        { "title": "music", "path": "/music" },
+        { "title": "art & design", "path": "/artanddesign" },
+        { "title": "tv & radio", "path": "/tv-and-radio" },
+        { "title": "stage", "path": "/stage" },
+        { "title": "classical", "path": "/music/classical-music-and-opera" },
+        { "title": "games", "path": "/games", "mobileOverride" : true }
       ]
     },
     {
@@ -107,22 +104,22 @@
       "path" : "/lifeandstyle",
       "editionalised" : true,
       "sections": [
-        { "title": "fashion", "path": "/fashion", "editionalised": false },
-        { "title": "food", "path": "/lifeandstyle/food-and-drink", "editionalised": false },
-        { "title": "recipes", "path": "/tone/recipes", "editionalised": false },
-        { "title": "love & sex", "path": "/lifeandstyle/love-and-sex", "editionalised": false },
-        { "title": "hone & garden", "path": "/lifeandstyle/home-and-garden", "editionalised": false },
-        { "title": "health & wellbeing", "path": "/lifeandstyle/health-and-wellbeing", "editionalised": false },
-        { "title": "family", "path": "/lifeandstyle/family", "editionalised": false },
-        { "title": "travel", "path": "/travel", "editionalised": true,
+        { "title": "fashion", "path": "/fashion" },
+        { "title": "food", "path": "/lifeandstyle/food-and-drink" },
+        { "title": "recipes", "path": "/tone/recipes", "mobileOverride" : true },
+        { "title": "love & sex", "path": "/lifeandstyle/love-and-sex" },
+        { "title": "hone & garden", "path": "/lifeandstyle/home-and-garden" },
+        { "title": "health & wellbeing", "path": "/lifeandstyle/health-and-wellbeing" },
+        { "title": "family", "path": "/lifeandstyle/family" },
+        { "title": "travel", "path": "/travel",
           "sections" : [
-            { "title": "travel", "path": "/travel", "editionalised": true },
-            { "title": "US", "path": "/travel/usa", "editionalised": false },
-            { "title": "europe", "path": "/travel/europe", "editionalised": false },
-            { "title": "UK", "path": "/travel/uk", "editionalised": false }
+            { "title": "travel", "path": "/travel" },
+            { "title": "US", "path": "/travel/usa" },
+            { "title": "europe", "path": "/travel/europe" },
+            { "title": "UK", "path": "/travel/uk" }
           ]
         },
-        { "title": "money", "path": "/money", "editionalised": true }
+        { "title": "money", "path": "/money" }
       ]
     }
   ]
