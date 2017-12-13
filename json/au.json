@@ -59,7 +59,7 @@
       "title": "sport",
       "path": "/sport",
       "sections": [
-        { "title": "football", "path": "/football",
+        { "title": "football", "path": "/football", "mobileOverride": "section", 
           "sections": [
             { "title": "football", "path": "/football" },
             { "title": "live scores", "path": "/football/live" },
