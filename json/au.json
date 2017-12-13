@@ -2,128 +2,118 @@
   "pillars" : [
     {
       "title": "",
-      "path": "/",
-      "editionalised": true,
+      "path": "/au",
       "sections": [
-        { "title": "australia", "path": "/australia-news", "editionalised": false },
-        { "title": "world", "path": "/world", "editionalised": false,
+        { "title": "australia", "path": "/australia-news" },
+        { "title": "world", "path": "/world",
           "sections" : [
-            { "title": "world", "path": "/world", "editionalised": false },
-            { "title": "europe", "path": "/world/europe-news", "editionalised": false },
-            { "title": "US", "path": "/us-news", "editionalised": false },
-            { "title": "americas", "path": "/world/americas", "editionalised": false },
-            { "title": "asia", "path": "/world/asia", "editionalised": false },
-            { "title": "australia", "path": "/world/australia-news", "editionalised": false },
-            { "title": "middle east", "path": "/world/middleeast", "editionalised": false },
-            { "title": "africa", "path": "/world/africa", "editionalised": false },
-            { "title": "cities", "path": "/cities", "editionalised": false },
-            { "title": "global development", "path": "/global-development", "editionalised": false }
+            { "title": "world", "path": "/world" },
+            { "title": "europe", "path": "/world/europe-news" },
+            { "title": "US", "path": "/us-news" },
+            { "title": "americas", "path": "/world/americas", "mobileOverride": "tag" },
+            { "title": "asia", "path": "/world/asia" },
+            { "title": "australia", "path": "/world/australia-news", "mobileOverride": "tag" },
+            { "title": "middle east", "path": "/world/middleeast", "mobileOverride": "tag" },
+            { "title": "africa", "path": "/world/africa", "mobileOverride": "tag" },
+            { "title": "cities", "path": "/cities" },
+            { "title": "global development", "path": "/global-development" }
           ]
         },
-        { "title": "AU Politics", "path": "/australia-news/australian-politics", "editionalised": false },
-        { "title": "environment", "path": "/environment", "editionalised": true,
+        { "title": "AU Politics", "path": "/australia-news/australian-politics" },
+        { "title": "environment", "path": "/au/environment", 
           "sections": [
-            { "title": "environment", "path": "/environment", "editionalised": true },
-            { "title": "cities", "path": "/cities", "editionalised": false },
-            { "title": "global-development", "path": "/global-development", "editionalised": false },
-            { "title": "sustainable-business", "path": "/us/sustainable-business", "editionalised": false }
+            { "title": "environment", "path": "/au/environment", "mobileOverride": "tag" },
+            { "title": "cities", "path": "/cities", "mobileOverride": "tag" },
+            { "title": "global-development", "path": "/global-development", "mobileOverride": "tag" },
+            { "title": "sustainable-business", "path": "/us/sustainable-business", "mobileOverride": "tag" }
           ]
         },
-        { "title": "football", "path": "/football", "editionalised": false,
+        { "title": "football", "path": "/football",
           "sections": [
-            { "title": "football", "path": "/football", "editionalised": false },
-            { "title": "live scores", "path": "/football/live", "editionalised": false },
-            { "title": "tables", "path": "/football/tables", "editionalised": false },
-            { "title": "competitions", "path": "/football/competitions", "editionalised": false },
-            { "title": "results", "path": "/football/results", "editionalised": false },
-            { "title": "fixtures", "path": "/football/fixtures", "editionalised": false },
-            { "title": "clubs", "path": "/football/teams", "editionalised": false }
+            { "title": "football", "path": "/football" },
+            { "title": "live scores", "path": "/football/live" },
+            { "title": "tables", "path": "/football/tables" },
+            { "title": "competitions", "path": "/football/competitions" },
+            { "title": "results", "path": "/football/results" },
+            { "title": "fixtures", "path": "/football/fixtures" },
+            { "title": "clubs", "path": "/football/teams" }
           ]
         },
-        { "title": "indigenous australia", "path": "/australia-news/indigenous-australians", "editionalised": false },
-        { "title": "immigration", "path": "/australia-news/australian-immigration-and-asylum", "editionalised": false },
-        { "title": "media", "path": "/media", "editionalised": true }
+        { "title": "indigenous australia", "path": "/australia-news/indigenous-australians" },
+        { "title": "immigration", "path": "/australia-news/australian-immigration-and-asylum" },
+        { "title": "media", "path": "/au/media" }
       ]
     },
     {
       "title" : "opinion",
       "path" : "/commentisfree",
-      "editionalised" : true,
       "sections": [
-        { "title": "opinion", "path": "/commentisfree", "editionalised": true },
-        { "title": "columnists", "path": "/index/columnists", "editionalised": true },
-        { "title": "cartoons", "path": "/cartoons/archive", "editionalised": false },
-        { "title": "indigenous", "path": "/commentisfree/series/indigenousx", "editionalised": false },
-        { "title": "editorials", "path": "/profile/editorial", "editionalised": false },
-        { "title": "Jill Abramson", "path": "/profile/jill-abranson", "editionalised": false },
-        { "title": "letters", "path": "/tone/letters", "editionalised": false },
-        { "title": "Katharine Murphy", "path": "/profile/katharine-murphy", "editionalised": false }
+        { "title": "columnists", "path": "/au/index/contributors" },
+        { "title": "cartoons", "path": "/cartoons/archive" },
+        { "title": "indigenous", "path": "/commentisfree/series/indigenousx" },
+        { "title": "editorials", "path": "/profile/editorial",  "mobileOverride": "tag" },
+        { "title": "letters", "path": "/tone/letters", "mobileOverride": "tag" }
       ]
     },
     {
       "title": "sport",
       "path": "/sport",
-      "editionalised" : true,
       "sections": [
-        { "title": "football", "path": "/football", "editionalised": false,
+        { "title": "football", "path": "/football",
           "sections": [
-            { "title": "football", "path": "/football", "editionalised": false },
-            { "title": "live scores", "path": "/football/live", "editionalised": false },
-            { "title": "tables", "path": "/football/tables", "editionalised": false },
-            { "title": "competitions", "path": "/football/competitions", "editionalised": false },
-            { "title": "results", "path": "/football/results", "editionalised": false },
-            { "title": "fixtures", "path": "/football/fixtures", "editionalised": false },
-            { "title": "clubs", "path": "/football/teams", "editionalised": false }
+            { "title": "football", "path": "/football" },
+            { "title": "live scores", "path": "/football/live" },
+            { "title": "tables", "path": "/football/tables" },
+            { "title": "competitions", "path": "/football/competitions" },
+            { "title": "results", "path": "/football/results" },
+            { "title": "fixtures", "path": "/football/fixtures" },
+            { "title": "clubs", "path": "/football/teams" }
           ]
         },
-        { "title": "AFL", "path": "/sport/afl", "editionalised": false },
-        { "title": "NRL", "path": "/sport/nrl", "editionalised": false },
-        { "title": "a-league", "path": "/football/a-league", "editionalised": false },
-        { "title": "cricket", "path": "/sport/cricket", "editionalised": false },
-        { "title": "rugby union", "path": "/sport/rugby-union", "editionalised": false },
-        { "title": "tennis", "path": "/sport/tennis", "editionalised": false }
+        { "title": "AFL", "path": "/sport/afl",  "mobileOverride": "tag" },
+        { "title": "NRL", "path": "/sport/nrl", "mobileOverride": "tag" },
+        { "title": "a-league", "path": "/football/a-league", "mobileOverride": "tag" },
+        { "title": "cricket", "path": "/sport/cricket", "mobileOverride": "tag" },
+        { "title": "rugby union", "path": "/sport/rugby-union", "mobileOverride": "tag" },
+        { "title": "tennis", "path": "/sport/tennis", "mobileOverride": "tag" }
       ]
     },
     {
       "title" : "arts",
       "path" : "/culture",
-      "editionalised" : true,
       "sections": [
-        { "title": "film", "path": "/film", "editionalised": true },
-        { "title": "music", "path": "/music", "editionalised": false },
-        { "title": "books", "path": "/books", "editionalised": false },
-        { "title": "tv & radio", "path": "/tv-and-radio", "editionalised": true },
-        { "title": "art & design", "path": "/artanddesign", "editionalised": false },
-        { "title": "stage", "path": "/stage", "editionalised": false },
-        { "title": "games", "path": "/games", "editionalised": false },
-        { "title": "classical", "path": "/music/classical-music-and-opera", "editionalised": false }
+        { "title": "film", "path": "/au/film" },
+        { "title": "music", "path": "/music" },
+        { "title": "books", "path": "/books" },
+        { "title": "tv & radio", "path": "/au/tv-and-radio" },
+        { "title": "art & design", "path": "/artanddesign" },
+        { "title": "stage", "path": "/stage" },
+        { "title": "games", "path": "/games" },
+        { "title": "classical", "path": "/music/classical-music-and-opera" }
       ]
     },
     {
       "title" : "lifestyle",
       "path" : "/lifeandstyle",
-      "editionalised" : true,
-      "au" : {
-        "sections": [
-          { "title": "travel", "path": "/travel", "editionalised": true,
-            "sections" : [
-              { "title": "travel", "path": "/travel", "editionalised": true },
-              { "title": "australasia", "path": "/travel/australasia", "editionalised": false },
-              { "title": "asia", "path": "/travel/asia", "editionalised": false },
-              { "title": "UK", "path": "/travel/uk", "editionalised": false },
-              { "title": "europe", "path": "/travel/europe", "editionalised": false },
-              { "title": "US", "path": "/travel/usa", "editionalised": false }
-            ]
-          },
-          { "title": "food", "path": "/lifeandstyle/food-and-drink", "editionalised": true },
-          { "title": "relationshps", "path": "/lifeandstyle/relationships", "editionalised": true },
-          { "title": "fashion", "path": "/lifeandstyle/fashion", "editionalised": true },
-          { "title": "health & fitness", "path": "/lifeandstyle/health-and-wellbeing", "editionalised": true },
-          { "title": "love & sex", "path": "/lifeandstyle/love-and-sex", "editionalised": false },
-          { "title": "family", "path": "/lifeandstyle/family", "editionalised": false },
-          { "title": "hone & garden", "path": "/lifeandstyle/home-and-garden", "editionalised": false }
-        ]
-      }
-    }     
+      "sections": [
+        { "title": "travel", "path": "/au/travel",
+          "sections" : [
+            { "title": "travel", "path": "/au/travel" },
+            { "title": "australasia", "path": "/travel/australasia" },
+            { "title": "asia", "path": "/travel/asia" },
+            { "title": "UK", "path": "/travel/uk" },
+            { "title": "europe", "path": "/travel/europe" },
+            { "title": "US", "path": "/travel/usa" }
+          ]
+        },
+        { "title": "food", "path": "/au/lifeandstyle/food-and-drink" },
+        { "title": "relationshps", "path": "/au/lifeandstyle/relationships" },
+        { "title": "fashion", "path": "/au/lifeandstyle/fashion" },
+        { "title": "health & fitness", "path": "/au/lifeandstyle/health-and-wellbeing" },
+        { "title": "love & sex", "path": "/lifeandstyle/love-and-sex" },
+        { "title": "family", "path": "/lifeandstyle/family" },
+        { "title": "hone & garden", "path": "/lifeandstyle/home-and-garden" }
+      ]
+    }
   ]
 }
