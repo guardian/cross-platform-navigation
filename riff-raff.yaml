@@ -8,6 +8,6 @@ deployments:
       cacheControl: max-age=600
       publicReadAcl: false
       prefixPackage: false
-      prefixStack: false
+      prefixStack: true
       prefixStage: true
       bucket: navigation-dist
