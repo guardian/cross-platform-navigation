@@ -8,24 +8,23 @@ import play.api.libs.functional.syntax._
 case class NavigationSection(
   title: String,
   path: String,
-  mobileOverride: Option[Boolean] = None,
+  mobileOverride: Option[String] = None,
   sections: Option[List[NavigationSection]] = None
 )
 
 object NavigationSection  {
 
-
   implicit val navigationSectionReads: Reads[NavigationSection] = (
     (__ \ "title").read[String] and
       (__ \ "path").read[String] and
-      (__ \ "mobileOverride").readNullable[Boolean] and
+      (__ \ "mobileOverride").readNullable[String] and
       (__ \ "sections").lazyReadNullable(implicitly[Reads[List[NavigationSection]]])
     )(NavigationSection.apply _)
 
   implicit val navigationSectionWrites: Writes[NavigationSection] = (
     (__ \ "title").write[String] and
       (__ \ "path").write[String] and
-      (__ \ "mobileOverride").writeNullable[Boolean] and
+      (__ \ "mobileOverride").writeNullable[String] and
       (__ \ "sections").lazyWriteNullable(implicitly[Writes[List[NavigationSection]]])
     )(unlift(NavigationSection.unapply _))
 

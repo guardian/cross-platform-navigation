@@ -13,6 +13,7 @@ class NavigationIntegrationTest extends Specification with ResourcesHelper {
        navigationProvider.navigation(json) must not (throwA[NavigationParseError])
     }
 
+
     "parse the us menu ok" in {
        val json = slurpOrDie("us.json")
       navigationProvider.navigation(json) must not (throwA[NavigationParseError])
@@ -25,7 +26,7 @@ class NavigationIntegrationTest extends Specification with ResourcesHelper {
     }
 
     "parse the international edition" in {
-       val json = slurpOrDie("international.json")
+      val json = slurpOrDie("international.json")
       navigationProvider.navigation(json) must not (throwA[NavigationParseError])
     }
   }

@@ -27,7 +27,7 @@ class NavigationProviderTest extends Specification {
       |            { "title": "UK politics", "path": "/politics" },
       |            { "title": "education", "path": "/education" }          ]
       |        },
-      |        {"title": "obituraries", "path": "/tone/obituraries"}
+      |        {"title": "obituraries", "path": "/tone/obituraries", "mobileOverride" : "tag"}
       |      ]
       |    }
       |  ]
@@ -84,7 +84,7 @@ class NavigationProviderTest extends Specification {
                           )
                         )
               ),
-            NavigationSection(title = "obituraries", path = "/tone/obituraries")
+            NavigationSection(title = "obituraries", path = "/tone/obituraries", mobileOverride = Some("tag") )
           )
         )
       )
