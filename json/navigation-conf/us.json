@@ -2,138 +2,138 @@
   "pillars" : [
     {
       "title": "",
-      "path": "/us",
+      "path": "us",
       "sections": [
-        {"title": "US", "path": "/us-news"},
+        {"title": "US", "path": "us-news"},
         {
-          "title": "world", "path": "/world",
+          "title": "world", "path": "world",
           "sections": [
-            { "title": "world", "path": "/world" },
-            { "title": "europe", "path": "/world/europe-news" },
-            { "title": "US", "path": "/us-news" },
-            { "title": "americas", "path": "/world/americas", "mobileOverride": "tag" },
-            { "title": "asia", "path": "/world/asia" },
-            { "title": "australia", "path": "/world/australia-news", "mobileOverride": "tag" },
-            { "title": "middle east", "path": "/world/middleeast", "mobileOverride": "tag" },
-            { "title": "africa", "path": "/world/africa", "mobileOverride": "tag" },
-            { "title": "cities", "path": "/cities" },
-            { "title": "global development", "path": "/global-development" }
-          ]
-        },
-        {
-          "title": "environment", "path": "/us/environment",
-          "sections": [
-            { "title": "environment", "path": "/us/environment" },
-            { "title": "climate change", "path": "/environment/climate-change", "mobileOverride": "tag" },
-            { "title": "wildlife", "path": "/environment/wildlife", "mobileOverride": "tag" },
-            { "title": "energy", "path": "/environment/energy", "mobileOverride": "tag" },
-            { "title": "pollution", "path": "/environment/pollution", "mobileOverride": "tag" }
+            { "title": "world", "path": "world" },
+            { "title": "europe", "path": "world/europe-news" },
+            { "title": "US", "path": "us-news" },
+            { "title": "americas", "path": "world/americas", "mobileOverride": "tag" },
+            { "title": "asia", "path": "world/asia" },
+            { "title": "australia", "path": "world/australia-news", "mobileOverride": "tag" },
+            { "title": "middle east", "path": "world/middleeast", "mobileOverride": "tag" },
+            { "title": "africa", "path": "world/africa", "mobileOverride": "tag" },
+            { "title": "cities", "path": "cities" },
+            { "title": "global development", "path": "global-development" }
           ]
         },
         {
-          "title": "soccer", "path": "/football",
+          "title": "environment", "path": "us/environment",
           "sections": [
-            { "title": "soccer", "path": "/football", "mobileOverride": "section" },
-            { "title": "live scores", "path": "/football/live" },
-            { "title": "tables", "path": "/football/tables" },
-            { "title": "competitions", "path": "/football/competitions" },
-            { "title": "results", "path": "/football/results" },
-            { "title": "fixtures", "path": "/football/fixtures" },
-            { "title": "clubs", "path": "/football/teams" }
+            { "title": "environment", "path": "us/environment" },
+            { "title": "climate change", "path": "environment/climate-change", "mobileOverride": "tag" },
+            { "title": "wildlife", "path": "environment/wildlife", "mobileOverride": "tag" },
+            { "title": "energy", "path": "environment/energy", "mobileOverride": "tag" },
+            { "title": "pollution", "path": "environment/pollution", "mobileOverride": "tag" }
           ]
         },
-        { "title": "US politics", "path": "/us-politics" },
-        { "title": "business", "path": "/us/business" },
-        { "title": "science", "path": "/science" },
-        { "title": "money", "path": "/uk/money",
+        {
+          "title": "soccer", "path": "football",
           "sections": [
-            { "title": "money", "path": "/uk/money"  },
-            { "title": "property", "path": "/money/property" },
-            { "title": "pensions", "path": "/money/pensions", "mobileOverride" : "tag" },
-            { "title": "savings", "path": "/money/savings", "mobileOverride" : "tag" },
-            { "title": "borrowing", "path": "/money/debt", "mobileOverride" : "tag" },
-            { "title": "careers", "path": "/money/work-and-careeers", "mobileOverride" : "tag" }
+            { "title": "soccer", "path": "football", "mobileOverride": "section" },
+            { "title": "live scores", "path": "football/live" },
+            { "title": "tables", "path": "football/tables" },
+            { "title": "competitions", "path": "football/competitions" },
+            { "title": "results", "path": "football/results" },
+            { "title": "fixtures", "path": "football/fixtures" },
+            { "title": "clubs", "path": "football/teams" }
           ]
         },
-        { "title": "tech", "path": "/us/technology" },
-        { "title": "obituries", "path": "/tone/obituries" }
+        { "title": "US politics", "path": "us-politics" },
+        { "title": "business", "path": "us/business" },
+        { "title": "science", "path": "science" },
+        { "title": "money", "path": "uk/money",
+          "sections": [
+            { "title": "money", "path": "uk/money"  },
+            { "title": "property", "path": "money/property" },
+            { "title": "pensions", "path": "money/pensions", "mobileOverride" : "tag" },
+            { "title": "savings", "path": "money/savings", "mobileOverride" : "tag" },
+            { "title": "borrowing", "path": "money/debt", "mobileOverride" : "tag" },
+            { "title": "careers", "path": "money/work-and-careeers", "mobileOverride" : "tag" }
+          ]
+        },
+        { "title": "tech", "path": "us/technology" },
+        { "title": "obituries", "path": "tone/obituries" }
       ]
     },
     {
       "title" : "opinion",
       "path" : "/commentisfree",
       "sections": [
-        { "title": "opinion", "path": "/us/commentisfree" },
-        { "title": "the guardian view", "path": "/profile/editorial", "mobileOverride": "tag" },
-        { "title": "columnists", "path": "/index/columnists" },
-        { "title": "letters", "path": "/tone/letters", "mobileOverride": "tag" },
-        { "title": "cartoons", "path": "/cartoons/archive" }
+        { "title": "opinion", "path": "us/commentisfree" },
+        { "title": "the guardian view", "path": "profile/editorial", "mobileOverride": "tag" },
+        { "title": "columnists", "path": "index/columnists" },
+        { "title": "letters", "path": "tone/letters", "mobileOverride": "tag" },
+        { "title": "cartoons", "path": "cartoons/archive" }
       ]
     },
     {
       "title": "sport",
-      "path": "/sport",
+      "path": "sport",
       "sections": [
-        { "title": "soccer", "path": "/football",
+        { "title": "soccer", "path": "football",
           "sections": [
-            { "title": "football", "path": "/football" },
-            { "title": "live scores", "path": "/football/live" },
-            { "title": "tables", "path": "/football/tables" },
-            { "title": "competitions", "path": "/football/competitions" },
-            { "title": "results", "path": "/football/results" },
-            { "title": "fixtures", "path": "/football/fixtures" },
-            { "title": "clubs", "path": "/football/teams" }
+            { "title": "football", "path": "football" },
+            { "title": "live scores", "path": "football/live" },
+            { "title": "tables", "path": "football/tables" },
+            { "title": "competitions", "path": "football/competitions" },
+            { "title": "results", "path": "football/results" },
+            { "title": "fixtures", "path": "football/fixtures" },
+            { "title": "clubs", "path": "football/teams" }
           ]
         },
-        { "title": "NFL", "path": "/sport/nfl", "mobileOverride": "tag" },
-        { "title": "tennis", "path": "/sport/tennis", "mobileOverride": "tag" },
-        { "title": "MLB", "path": "/sport/mlb", "mobileOverride": "tag" },
-        { "title": "MLS", "path": "/football/mls", "mobileOverride": "tag" },
-        { "title": "NBA", "path": "/sport/nba", "mobileOverride": "tag" },
-        { "title": "NHL", "path": "/sport/nhl", "mobileOverride": "tag" }
+        { "title": "NFL", "path": "sport/nfl", "mobileOverride": "tag" },
+        { "title": "tennis", "path": "sport/tennis", "mobileOverride": "tag" },
+        { "title": "MLB", "path": "sport/mlb", "mobileOverride": "tag" },
+        { "title": "MLS", "path": "football/mls", "mobileOverride": "tag" },
+        { "title": "NBA", "path": "sport/nba", "mobileOverride": "tag" },
+        { "title": "NHL", "path": "sport/nhl", "mobileOverride": "tag" }
       ]
     },
     {
       "title" : "arts",
       "path" : "/culture",
       "sections": [
-        { "title": "film", "path": "/us/film" },
-        { "title": "books", "path": "/books" },
-        { "title": "music", "path": "/music" },
-        { "title": "art & design", "path": "/artanddesign" },
-        { "title": "tv & radio", "path": "/us/tv-and-radio" },
-        { "title": "stage", "path": "/stage" },
-        { "title": "classical", "path": "/music/classical-music-and-opera" },
-        { "title": "games", "path": "/games" }
+        { "title": "film", "path": "us/film" },
+        { "title": "books", "path": "books" },
+        { "title": "music", "path": "music" },
+        { "title": "art & design", "path": "artanddesign" },
+        { "title": "tv & radio", "path": "us/tv-and-radio" },
+        { "title": "stage", "path": "stage" },
+        { "title": "classical", "path": "music/classical-music-and-opera" },
+        { "title": "games", "path": "games" }
       ]
     },
     {
       "title" : "lifestyle",
       "path" : "/lifeandstyle",
       "sections": [
-        { "title": "fashion", "path": "/fashion" },
-        { "title": "food", "path": "/lifeandstyle/food-and-drink" },
-        { "title": "recipes", "path": "/tone/recipes" },
-        { "title": "love & sex", "path": "/lifeandstyle/love-and-sex" },
-        { "title": "hone & garden", "path": "/lifeandstyle/home-and-garden" },
-        { "title": "health & wellbeing", "path": "/lifeandstyle/health-and-wellbeing" },
-        { "title": "family", "path": "/lifeandstyle/family" },
-        { "title": "travel", "path": "/us/travel",
+        { "title": "fashion", "path": "fashion" },
+        { "title": "food", "path": "lifeandstyle/food-and-drink" },
+        { "title": "recipes", "path": "tone/recipes" },
+        { "title": "love & sex", "path": "lifeandstyle/love-and-sex" },
+        { "title": "hone & garden", "path": "lifeandstyle/home-and-garden" },
+        { "title": "health & wellbeing", "path": "lifeandstyle/health-and-wellbeing" },
+        { "title": "family", "path": "lifeandstyle/family" },
+        { "title": "travel", "path": "us/travel",
           "sections" : [
-            { "title": "travel", "path": "/us/travel" },
-            { "title": "US", "path": "/travel/usa" },
-            { "title": "europe", "path": "/travel/europe" },
-            { "title": "UK", "path": "/travel/uk" }
+            { "title": "travel", "path": "us/travel" },
+            { "title": "US", "path": "travel/usa" },
+            { "title": "europe", "path": "travel/europe" },
+            { "title": "UK", "path": "travel/uk" }
           ]
         },
-        { "title": "money", "path": "/us/money",
+        { "title": "money", "path": "us/money",
           "sections": [
-            { "title": "money", "path": "/us/money"  },
-            { "title": "property", "path": "/money/property" },
-            { "title": "pensions", "path": "/money/pensions", "mobileOverride" : "tag" },
-            { "title": "savings", "path": "/money/savings", "mobileOverride" : "tag" },
-            { "title": "borrowing", "path": "/money/debt", "mobileOverride" : "tag" },
-            { "title": "careers", "path": "/money/work-and-careeers", "mobileOverride" : "tag" }
+            { "title": "money", "path": "us/money"  },
+            { "title": "property", "path": "money/property" },
+            { "title": "pensions", "path": "money/pensions", "mobileOverride" : "tag" },
+            { "title": "savings", "path": "money/savings", "mobileOverride" : "tag" },
+            { "title": "borrowing", "path": "money/debt", "mobileOverride" : "tag" },
+            { "title": "careers", "path": "money/work-and-careeers", "mobileOverride" : "tag" }
           ]
         }
       ]

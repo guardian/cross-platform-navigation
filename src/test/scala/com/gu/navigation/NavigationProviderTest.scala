@@ -12,22 +12,22 @@ class NavigationProviderTest extends Specification {
       |  "pillars" : [
       |    {
       |      "title": "",
-      |      "path": "/",
+      |      "path": "",
       |      "editionalised": true,
       |      "sections" : [
-      |        { "title": "world", "path": "/world",
+      |        { "title": "world", "path": "world",
       |          "sections" : [
-      |            { "title": "world", "path": "/world" },
-      |            { "title": "europe", "path": "/world/europe-news" }
+      |            { "title": "world", "path": "world" },
+      |            { "title": "europe", "path": "world/europe-news" }
       |          ]
       |        },
-      |        { "title": "UK news", "path": "/uk-news",
+      |        { "title": "UK news", "path": "uk-news",
       |          "sections": [
-      |            { "title": "UK", "path": "/uk-news" },
-      |            { "title": "UK politics", "path": "/politics" },
-      |            { "title": "education", "path": "/education" }          ]
+      |            { "title": "UK", "path": "uk-news" },
+      |            { "title": "UK politics", "path": "politics" },
+      |            { "title": "education", "path": "education" }          ]
       |        },
-      |        {"title": "obituraries", "path": "/tone/obituraries", "mobileOverride" : "tag"}
+      |        {"title": "obituraries", "path": "tone/obituraries", "mobileOverride" : "tag"}
       |      ]
       |    }
       |  ]
@@ -44,19 +44,19 @@ class NavigationProviderTest extends Specification {
       |      "path": [false, true],
       |      "editionalised": true,
       |      "sections" : [
-      |        { "title": "world", "path": "/world",
+      |        { "title": "world", "path": "world",
       |          "sections" : [
-      |            { "title": "world", "path": "/world" },
-      |            { "title": "europe", "path": "/world/europe-news" }
+      |            { "title": "world", "path": "world" },
+      |            { "title": "europe", "path": "world/europe-news" }
       |          ]
       |        },
-      |        { "title": "UK news", "path": "/uk-news",
+      |        { "title": "UK news", "path": "uk-news",
       |          "sections": [
-      |            { "title": 12312, "path": "/uk-news" },
-      |            { "title": "UK politics", "path": "/politics" },
-      |            { "title": "education", "path": "/education" }          ]
+      |            { "title": 12312, "path": "uk-news" },
+      |            { "title": "UK politics", "path": "politics" },
+      |            { "title": "education", "path": "education" }          ]
       |        },
-      |        {"title": "obituraries", "path": "/tone/obituraries", "mobileOverride" : "totalGarnett"}
+      |        {"title": "obituraries", "path": "tone/obituraries", "mobileOverride" : "totalGarnett"}
       |      ]
       |    }
       |  ]
@@ -68,23 +68,23 @@ class NavigationProviderTest extends Specification {
 
   val expectedNav =
     Navigation(List(
-      NavigationSection(title = "", path ="/",
+      NavigationSection(title = "", path = "",
         sections = Some(
           List(
-            NavigationSection(title = "world",path = "/world",
-              sections = Some(List(NavigationSection(title = "world", path = "/world"),
-                                   NavigationSection(title = "europe", path = "/world/europe-news")
+            NavigationSection(title = "world",path = "world",
+              sections = Some(List(NavigationSection(title = "world", path = "world"),
+                                   NavigationSection(title = "europe", path = "world/europe-news")
                               )
                           )
                ),
-            NavigationSection(title = "UK news", path = "/uk-news",
-              sections = Some(List(NavigationSection(title = "UK", path = "/uk-news"),
-                                   NavigationSection(title = "UK politics", path = "/politics"),
-                                   NavigationSection(title = "education", path = "/education")
+            NavigationSection(title = "UK news", path = "uk-news",
+              sections = Some(List(NavigationSection(title = "UK", path = "uk-news"),
+                                   NavigationSection(title = "UK politics", path = "politics"),
+                                   NavigationSection(title = "education", path = "education")
                           )
                         )
               ),
-            NavigationSection(title = "obituraries", path = "/tone/obituraries", mobileOverride = Some("tag") )
+            NavigationSection(title = "obituraries", path = "tone/obituraries", mobileOverride = Some("tag") )
           )
         )
       )
