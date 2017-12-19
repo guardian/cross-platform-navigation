@@ -46,7 +46,7 @@
     },
     {
       "title" : "opinion",
-      "path" : "/commentisfree",
+      "path": "commentisfree",
       "sections": [
         { "title": "columnists", "path": "au/index/contributors" },
         { "title": "cartoons", "path": "cartoons/archive" },
@@ -80,7 +80,7 @@
     },
     {
       "title" : "arts",
-      "path" : "/culture",
+      "path" : "culture",
       "sections": [
         { "title": "film", "path": "au/film" },
         { "title": "music", "path": "music" },
@@ -94,7 +94,7 @@
     },
     {
       "title" : "lifestyle",
-      "path" : "/lifeandstyle",
+      "path" : "lifeandstyle",
       "sections": [
         { "title": "travel", "path": "au/travel",
           "sections" : [

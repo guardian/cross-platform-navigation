@@ -83,7 +83,7 @@
     },
     {
       "title" : "opinion",
-      "path" : "/uk/commentisfree",
+      "path" : "uk/commentisfree",
       "sections" : [
         { "title": "the guardian view", "path": "profile/editorial", "mobileOverride" : "tag" },
         { "title": "columnists", "path": "index/cotributors" },
@@ -118,7 +118,7 @@
     },
     {
       "title" : "arts",
-      "path" : "/uk/culture",
+      "path" : "uk/culture",
       "sections" : [
         { "title": "books", "path": "books" },
         { "title": "music", "path": "music" },
@@ -132,7 +132,7 @@
     },
     {
       "title" : "lifestyle",
-      "path" : "/lifeandstyle",
+      "path" : "lifeandstyle",
       "sections" : [
         { "title": "fashion", "path": "fashion" },
         { "title": "food", "path": "lifeandstyle/food-and-drink" },
