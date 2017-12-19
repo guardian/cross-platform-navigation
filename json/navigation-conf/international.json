@@ -4,80 +4,15 @@
       "title": "news",
       "path": "international",
       "sections" : [
-        { "title": "world", "path": "world",
-          "sections" : [
-            { "title": "world", "path": "world" },
-            { "title": "europe", "path": "world/europe-news" },
-            { "title": "US", "path": "us-news" },
-            { "title": "americas", "path": "world/americas" },
-            { "title": "asia", "path": "world/asia" },
-            { "title": "australia", "path": "world/australia-news" },
-            { "title": "middle east", "path": "world/middleeast" },
-            { "title": "africa", "path": "world/africa" },
-            { "title": "cities", "path": "cities" },
-            { "title": "global development", "path": "global-development" }
-          ]
-        },
-        { "title": "UK news", "path": "uk-news",
-          "sections": [
-            { "title": "UK", "path": "uk-news" },
-            { "title": "UK politics", "path": "politics" },
-            { "title": "education", "path": "education" },
-            { "title": "media", "path": "media" },
-            { "title": "society", "path": "society" },
-            { "title": "scotland", "path": "uk/scotland", "mobileOverride": "tag" },
-            { "title": "wales", "path": "uk/wales", "mobileOverride": "tag" },
-            { "title": "northern ireland", "path": "northern-ireland", "mobileOverride": "tag" }
-          ]
-        },
+        { "title": "world", "path": "world"},
+        { "title": "UK news", "path": "uk-news"},
         { "title": "science", "path": "science" },
         { "title": "cities", "path": "cities" },
         { "title": "global development", "path": "global-development" },
-        { "title": "football", "path": "football",
-          "sections": [
-            { "title": "football", "path": "football" },
-            { "title": "live scores", "path": "football/live" },
-            { "title": "tables", "path": "football/tables" },
-            { "title": "competitions", "path": "football/competitions" },
-            { "title": "results", "path": "football/results" },
-            { "title": "fixtures", "path": "football/fixtures" },
-            { "title": "clubs", "path": "football/teams" }
-          ]
-        },
+        { "title": "football", "path": "football"},
         { "title": "tech", "path": "uk/technology" },
-        {
-          "title": "business",
-          "path": "business",
-          "sections": [
-            { "title": "business", "path": "uk/business" },
-            { "title": "economics", "path": "business/economics", "mobileOverride": "tag" },
-            { "title": "banking", "path": "business/banking", "mobileOverride": "tag" },
-            { "title": "money", "path": "uk/money",
-              "sections": [
-                { "title": "money", "path": "uk/money"},
-                { "title": "property", "path": "money/property" },
-                { "title": "pensions", "path": "money/pensions", "mobileOverride": "tag" },
-                { "title": "savings", "path": "money/savings", "mobileOverride": "tag" },
-                { "title": "borrowing", "path": "money/debt", "mobileOverride": "tag" },
-                { "title": "careers", "path": "money/work-and-careeers", "mobileOverride": "tag" }
-              ]
-            },
-            { "title": "markets", "path": "business/stock-markets", "mobileOverride": "tag" },
-            { "title": "project syndicate", "path": "business/series/project-syndicate-economists", "mobileOverride": "tag" },
-            { "title": "b2b", "path": "uk/business-to-business" }
-          ]
-        },
-        {
-          "title": "environment",
-          "path": "uk/environment",
-          "sections": [
-            {"title": "environment", "path": "uk/environment"},
-            {"title": "climate change", "path": "environment/climate-change", "mobileOverride": "tag"},
-            {"title": "wildlife", "path": "environment/wildlife", "mobileOverride": "tag"},
-            {"title": "energy", "path": "environment/energy", "mobileOverride": "tag"},
-            {"title": "pollution", "path": "environment/pollution", "mobileOverride": "tag"}
-          ]
-        },
+        { "title": "business", "path": "business"},
+        { "title": "environment", "path": "uk/environment"},
         {"title": "obituraries", "path": "tone/obituraries"}
       ]
     },
@@ -96,17 +31,7 @@
       "title": "sport",
       "path": "uk/sport",
       "sections" : [
-        { "title": "football", "path": "football",
-          "sections": [
-            { "title": "live scores", "path": "football/live" },
-            { "title": "football", "path": "football" },
-            { "title": "tables", "path": "football/tables" },
-            { "title": "competitions", "path": "football/competitions" },
-            { "title": "results", "path": "football/results" },
-            { "title": "fixtures", "path": "football/fixtures" },
-            { "title": "clubs", "path": "football/teams" }
-          ]
-        },
+        { "title": "football", "path": "football"},
         { "title": "rugby union", "path": "sport/rugby-union", "mobileOverride": "tag" },
         { "title": "cricket", "path": "sport/cricket", "mobileOverride": "tag"  },
         { "title": "tennis", "path": "sport/tennis", "mobileOverride": "tag" },
@@ -142,25 +67,9 @@
         { "title": "hone & garden", "path": "lifeandstyle/home-and-garden" },
         { "title": "women", "path": "lifeandstyle/women" },
         { "title": "family", "path": "lifeandstyle/family" },
-        { "title": "travel", "path": "uk/travel",
-          "sections" : [
-            { "title": "travel", "path": "uk/travel" },
-            { "title": "US", "path": "travel/usa" },
-            { "title": "europe", "path": "travel/europe" },
-            { "title": "UK", "path": "travel/uk" }
-          ]
-        },
-        { "title": "money", "path": "uk/money",
-          "sections": [
-            { "title": "money", "path": "uk/money" },
-            { "title": "property", "path": "money/property" },
-            { "title": "pensions", "path": "money/pensions", "mobileOverride": "tag" },
-            { "title": "savings", "path": "money/savings", "mobileOverride": "tag" },
-            { "title": "borrowing", "path": "money/debt", "mobileOverride": "tag" },
-            { "title": "careers", "path": "money/work-and-careeers", "mobileOverride": "tag" }
-          ]
-        }
+        { "title": "travel", "path": "uk/travel"},
+        { "title": "money", "path": "uk/money"}
       ]
     }
   ]
-}76
+}
