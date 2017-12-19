@@ -1,9 +1,21 @@
 {
   "pillars" : [
     {
-      "title": "",
-      "path": "international",
+      "title": "news",
+      "path": "uk",
       "sections" : [
+        { "title": "UK", "path": "uk-news",
+          "sections": [
+            { "title": "UK", "path": "uk-news" },
+            { "title": "UK politics", "path": "politics" },
+            { "title": "education", "path": "education" },
+            { "title": "media", "path": "media" },
+            { "title": "society", "path": "society" },
+            { "title": "scotland", "path": "uk/scotland", "mobileOverride": "tag" },
+            { "title": "wales", "path": "uk/wales", "mobileOverride": "tag" },
+            { "title": "northern ireland", "path": "northern-ireland", "mobileOverride": "tag" }
+          ]
+        },
         { "title": "world", "path": "world",
           "sections" : [
             { "title": "world", "path": "world" },
@@ -16,18 +28,6 @@
             { "title": "africa", "path": "world/africa" },
             { "title": "cities", "path": "cities" },
             { "title": "global development", "path": "global-development" }
-          ]
-        },
-        { "title": "UK news", "path": "uk-news",
-          "sections": [
-            { "title": "UK", "path": "uk-news" },
-            { "title": "UK politics", "path": "politics" },
-            { "title": "education", "path": "education" },
-            { "title": "media", "path": "media" },
-            { "title": "society", "path": "society" },
-            { "title": "scotland", "path": "uk/scotland", "mobileOverride": "tag" },
-            { "title": "wales", "path": "uk/wales", "mobileOverride": "tag" },
-            { "title": "northern ireland", "path": "northern-ireland", "mobileOverride": "tag" }
           ]
         },
         { "title": "science", "path": "science" },

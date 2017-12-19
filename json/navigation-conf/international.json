@@ -1,7 +1,7 @@
 {
   "pillars" : [
     {
-      "title": "",
+      "title": "news",
       "path": "international",
       "sections" : [
         { "title": "world", "path": "world",

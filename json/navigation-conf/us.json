@@ -1,7 +1,7 @@
 {
   "pillars" : [
     {
-      "title": "",
+      "title": "news",
       "path": "us",
       "sections": [
         {"title": "US", "path": "us-news"},
