@@ -10,11 +10,11 @@
             { "title": "world", "path": "world" },
             { "title": "europe", "path": "world/europe-news" },
             { "title": "US", "path": "us-news" },
-            { "title": "americas", "path": "world/americas", "mobileOverride": "tag" },
+            { "title": "americas", "path": "world/americas" },
             { "title": "asia", "path": "world/asia" },
-            { "title": "australia", "path": "world/australia-news", "mobileOverride": "tag" },
-            { "title": "middle east", "path": "world/middleeast", "mobileOverride": "tag" },
-            { "title": "africa", "path": "world/africa", "mobileOverride": "tag" },
+            { "title": "australia", "path": "world/australia-news" },
+            { "title": "middle east", "path": "world/middleeast" },
+            { "title": "africa", "path": "world/africa" },
             { "title": "cities", "path": "cities" },
             { "title": "global development", "path": "global-development" }
           ]
@@ -22,10 +22,10 @@
         { "title": "AU Politics", "path": "australia-news/australian-politics" },
         { "title": "environment", "path": "au/environment",
           "sections": [
-            { "title": "environment", "path": "au/environment", "mobileOverride": "tag" },
-            { "title": "cities", "path": "cities", "mobileOverride": "tag" },
-            { "title": "global-development", "path": "global-development", "mobileOverride": "tag" },
-            { "title": "sustainable-business", "path": "us/sustainable-business", "mobileOverride": "tag" }
+            { "title": "environment", "path": "au/environment" },
+            { "title": "cities", "path": "cities" },
+            { "title": "global-development", "path": "global-development" },
+            { "title": "sustainable-business", "path": "us/sustainable-business" }
           ]
         },
         { "title": "football", "path": "football",
@@ -51,15 +51,15 @@
         { "title": "columnists", "path": "au/index/contributors" },
         { "title": "cartoons", "path": "cartoons/archive" },
         { "title": "indigenous", "path": "commentisfree/series/indigenousx" },
-        { "title": "editorials", "path": "profile/editorial",  "mobileOverride": "tag" },
-        { "title": "letters", "path": "tone/letters", "mobileOverride": "tag" }
+        { "title": "editorials", "path": "profile/editorial" },
+        { "title": "letters", "path": "tone/letters" }
       ]
     },
     {
       "title": "sport",
       "path": "sport",
       "sections": [
-        { "title": "football", "path": "football", "mobileOverride": "section",
+        { "title": "football", "path": "football",
           "sections": [
             { "title": "football", "path": "football" },
             { "title": "live scores", "path": "football/live" },
@@ -70,12 +70,12 @@
             { "title": "clubs", "path": "football/teams" }
           ]
         },
-        { "title": "AFL", "path": "sport/afl",  "mobileOverride": "tag" },
-        { "title": "NRL", "path": "sport/nrl", "mobileOverride": "tag" },
-        { "title": "a-league", "path": "football/a-league", "mobileOverride": "tag" },
-        { "title": "cricket", "path": "sport/cricket", "mobileOverride": "tag" },
-        { "title": "rugby union", "path": "sport/rugby-union", "mobileOverride": "tag" },
-        { "title": "tennis", "path": "sport/tennis", "mobileOverride": "tag" }
+        { "title": "AFL", "path": "sport/afl" },
+        { "title": "NRL", "path": "sport/nrl" },
+        { "title": "a-league", "path": "football/a-league" },
+        { "title": "cricket", "path": "sport/cricket" },
+        { "title": "rugby union", "path": "sport/rugby-union" },
+        { "title": "tennis", "path": "sport/tennis" }
       ]
     },
     {

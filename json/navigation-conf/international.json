@@ -25,9 +25,9 @@
             { "title": "education", "path": "education" },
             { "title": "media", "path": "media" },
             { "title": "society", "path": "society" },
-            { "title": "scotland", "path": "uk/scotland", "mobileOverride": "tag" },
-            { "title": "wales", "path": "uk/wales", "mobileOverride": "tag" },
-            { "title": "northern ireland", "path": "northern-ireland", "mobileOverride": "tag" }
+            { "title": "scotland", "path": "uk/scotland" },
+            { "title": "wales", "path": "uk/wales" },
+            { "title": "northern ireland", "path": "northern-ireland" }
           ]
         },
         { "title": "science", "path": "science" },
@@ -50,20 +50,20 @@
           "path": "business",
           "sections": [
             { "title": "business", "path": "uk/business" },
-            { "title": "economics", "path": "business/economics", "mobileOverride": "tag" },
-            { "title": "banking", "path": "business/banking", "mobileOverride": "tag" },
+            { "title": "economics", "path": "business/economics" },
+            { "title": "banking", "path": "business/banking" },
             { "title": "money", "path": "uk/money",
               "sections": [
                 { "title": "money", "path": "uk/money"},
                 { "title": "property", "path": "money/property" },
-                { "title": "pensions", "path": "money/pensions", "mobileOverride": "tag" },
-                { "title": "savings", "path": "money/savings", "mobileOverride": "tag" },
-                { "title": "borrowing", "path": "money/debt", "mobileOverride": "tag" },
-                { "title": "careers", "path": "money/work-and-careeers", "mobileOverride": "tag" }
+                { "title": "pensions", "path": "money/pensions" },
+                { "title": "savings", "path": "money/savings" },
+                { "title": "borrowing", "path": "money/debt" },
+                { "title": "careers", "path": "money/work-and-careeers" }
               ]
             },
-            { "title": "markets", "path": "business/stock-markets", "mobileOverride": "tag" },
-            { "title": "project syndicate", "path": "business/series/project-syndicate-economists", "mobileOverride": "tag" },
+            { "title": "markets", "path": "business/stock-markets" },
+            { "title": "project syndicate", "path": "business/series/project-syndicate-economists" },
             { "title": "b2b", "path": "uk/business-to-business" }
           ]
         },
@@ -72,10 +72,10 @@
           "path": "uk/environment",
           "sections": [
             {"title": "environment", "path": "uk/environment"},
-            {"title": "climate change", "path": "environment/climate-change", "mobileOverride": "tag"},
-            {"title": "wildlife", "path": "environment/wildlife", "mobileOverride": "tag"},
-            {"title": "energy", "path": "environment/energy", "mobileOverride": "tag"},
-            {"title": "pollution", "path": "environment/pollution", "mobileOverride": "tag"}
+            {"title": "climate change", "path": "environment/climate-change"},
+            {"title": "wildlife", "path": "environment/wildlife"},
+            {"title": "energy", "path": "environment/energy"},
+            {"title": "pollution", "path": "environment/pollution"}
           ]
         },
         {"title": "obituraries", "path": "tone/obituraries"}
@@ -85,7 +85,7 @@
       "title" : "opinion",
       "path": "uk/commentisfree",
       "sections" : [
-        { "title": "the guardian view", "path": "profile/editorial", "mobileOverride" : "tag" },
+        { "title": "the guardian view", "path": "profile/editorial" },
         { "title": "columnists", "path": "index/cotributors" },
         { "title": "cartoons", "path": "cartoons/archive" },
         { "title": "opinion videos", "path": "commentisfree/series/comment-is-free-weekly" },
@@ -107,13 +107,13 @@
             { "title": "clubs", "path": "football/teams" }
           ]
         },
-        { "title": "rugby union", "path": "sport/rugby-union", "mobileOverride": "tag" },
-        { "title": "cricket", "path": "sport/cricket", "mobileOverride": "tag"  },
-        { "title": "tennis", "path": "sport/tennis", "mobileOverride": "tag" },
-        { "title": "cycling", "path": "sport/cycling", "mobileOverride": "tag" },
-        { "title": "f1", "path": "sport/formulaone", "mobileOverride": "tag" },
-        { "title": "US sport", "path": "sport/us-sport", "mobileOverride": "tag" },
-        { "title": "golf", "path": "sport/golf", "mobileOverride": "tag" }
+        { "title": "rugby union", "path": "sport/rugby-union" },
+        { "title": "cricket", "path": "sport/cricket"  },
+        { "title": "tennis", "path": "sport/tennis" },
+        { "title": "cycling", "path": "sport/cycling" },
+        { "title": "f1", "path": "sport/formulaone" },
+        { "title": "US sport", "path": "sport/us-sport" },
+        { "title": "golf", "path": "sport/golf" }
       ]
     },
     {
