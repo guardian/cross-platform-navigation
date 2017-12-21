@@ -1,0 +1,11 @@
+stacks: [mobile]
+regions: [eu-west-1]
+
+deployments:
+  json:
+    type: aws-s3
+    parameters:
+      cacheControl: max-age=600
+      publicReadAcl: false
+      prefixPackage: false
+      bucket: navigation-dist

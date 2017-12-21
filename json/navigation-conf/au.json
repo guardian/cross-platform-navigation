@@ -1,0 +1,119 @@
+{
+  "pillars" : [
+    {
+      "title": "news",
+      "path": "au",
+      "sections": [
+        { "title": "australia", "path": "australia-news" },
+        { "title": "world", "path": "world",
+          "sections" : [
+            { "title": "world", "path": "world" },
+            { "title": "europe", "path": "world/europe-news" },
+            { "title": "US", "path": "us-news" },
+            { "title": "americas", "path": "world/americas" },
+            { "title": "asia", "path": "world/asia" },
+            { "title": "australia", "path": "world/australia-news" },
+            { "title": "middle east", "path": "world/middleeast" },
+            { "title": "africa", "path": "world/africa" },
+            { "title": "cities", "path": "cities" },
+            { "title": "global development", "path": "global-development" }
+          ]
+        },
+        { "title": "AU Politics", "path": "australia-news/australian-politics" },
+        { "title": "environment", "path": "au/environment",
+          "sections": [
+            { "title": "environment", "path": "au/environment" },
+            { "title": "cities", "path": "cities" },
+            { "title": "global-development", "path": "global-development" },
+            { "title": "sustainable-business", "path": "us/sustainable-business" }
+          ]
+        },
+        { "title": "football", "path": "football", "mobileOverride" : "section-list",
+          "sections": [
+            { "title": "football", "path": "football", "mobileOverride" : "section-list" },
+            { "title": "live scores", "path": "football/live" },
+            { "title": "tables", "path": "football/tables" },
+            { "title": "competitions", "path": "football/competitions" },
+            { "title": "results", "path": "football/results" },
+            { "title": "fixtures", "path": "football/fixtures" },
+            { "title": "clubs", "path": "football/teams" }
+          ]
+        },
+        { "title": "indigenous australia", "path": "australia-news/indigenous-australians" },
+        { "title": "immigration", "path": "australia-news/australian-immigration-and-asylum" },
+        { "title": "media", "path": "au/media" }
+      ]
+    },
+    {
+      "title" : "opinion",
+      "path": "commentisfree",
+      "sections": [
+        { "title": "columnists", "path": "au/index/contributors" },
+        { "title": "cartoons", "path": "cartoons/archive" },
+        { "title": "indigenous", "path": "commentisfree/series/indigenousx" },
+        { "title": "editorials", "path": "profile/editorial" },
+        { "title": "letters", "path": "tone/letters" }
+      ]
+    },
+    {
+      "title": "sport",
+      "path": "sport",
+      "sections": [
+        { "title": "football", "path": "football", "mobileOverride": "section-list",
+          "sections": [
+            { "title": "football", "path": "football", "mobileOverride": "section-list" },
+            { "title": "live scores", "path": "football/live" },
+            { "title": "tables", "path": "football/tables" },
+            { "title": "competitions", "path": "football/competitions" },
+            { "title": "results", "path": "football/results" },
+            { "title": "fixtures", "path": "football/fixtures" },
+            { "title": "clubs", "path": "football/teams" }
+          ]
+        },
+        { "title": "AFL", "path": "sport/afl" },
+        { "title": "NRL", "path": "sport/nrl" },
+        { "title": "a-league", "path": "football/a-league" },
+        { "title": "cricket", "path": "sport/cricket" },
+        { "title": "rugby union", "path": "sport/rugby-union" },
+        { "title": "tennis", "path": "sport/tennis" }
+      ]
+    },
+    {
+      "title" : "arts",
+      "path" : "culture",
+      "sections": [
+        { "title": "film", "path": "au/film" },
+        { "title": "music", "path": "music" },
+        { "title": "books", "path": "books" },
+        { "title": "tv & radio", "path": "au/tv-and-radio" },
+        { "title": "art & design", "path": "artanddesign" },
+        { "title": "stage", "path": "stage" },
+        { "title": "games", "path": "games" },
+        { "title": "classical", "path": "music/classical-music-and-opera" }
+      ]
+    },
+    {
+      "title" : "lifestyle",
+      "path" : "lifeandstyle",
+      "sections": [
+        { "title": "travel", "path": "au/travel",
+          "sections" : [
+            { "title": "travel", "path": "au/travel" },
+            { "title": "australasia", "path": "travel/australasia" },
+            { "title": "asia", "path": "travel/asia", "mobileOverride" : "tag-list" },
+            { "title": "UK", "path": "travel/uk" },
+            { "title": "europe", "path": "travel/europe" },
+            { "title": "US", "path": "travel/usa" }
+          ]
+        },
+        { "title": "food", "path": "au/lifeandstyle/food-and-drink" },
+        { "title": "relationshps", "path": "au/lifeandstyle/relationships" },
+        { "title": "fashion", "path": "au/lifeandstyle/fashion" },
+        { "title": "health & fitness", "path": "au/lifeandstyle/health-and-wellbeing" },
+        { "title": "love & sex", "path": "lifeandstyle/love-and-sex" },
+        { "title": "family", "path": "lifeandstyle/family" },
+        { "title": "hone & garden", "path": "lifeandstyle/home-and-garden" }
+      ]
+    }
+  ]
+}
