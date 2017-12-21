@@ -87,6 +87,4 @@ releaseProcess := Seq(
   tagRelease,
   setNextVersion,
   commitNextVersion,
-  releaseStepCommand("sonatypeReleaseAll"),
-  pushChanges
-)
+  releaseStepCommand("sonatypeReleaseAll"))
