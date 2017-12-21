@@ -45,6 +45,17 @@ publishArtifact in Test := false
 pomIncludeRepository := {_ => false}
 description := "Provides scala representation of the navigation menus for the www.theguardian.com and guardian apps"
 
+pomExtra in Global := {
+  <url>https://github.com/guardian/mobile-notifications-api-client</url>
+    <developers>
+      <developer>
+        <id>@guardian</id>
+        <name>The guardian</name>
+        <url>https://github.com/guardian</url>
+      </developer>
+    </developers>
+}
+
 //TODO scala version, cross scala version
 /*
 
