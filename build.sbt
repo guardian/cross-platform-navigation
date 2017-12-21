@@ -46,7 +46,7 @@ pomIncludeRepository := {_ => false}
 description := "Provides scala representation of the navigation menus for the www.theguardian.com and guardian apps"
 
 pomExtra in Global := {
-  <url>https://github.com/guardian/mobile-notifications-api-client</url>
+  <url>https://github.com/guardian/cross-platform-navigation</url>
     <developers>
       <developer>
         <id>@guardian</id>
