@@ -1,3 +1,4 @@
+import sbtrelease._
 import sbtrelease.ReleaseStateTransformations._
 
 name:="cross-platform-navigation"
@@ -45,6 +46,16 @@ pomIncludeRepository := {_ => false}
 description := "Provides scala representation of the navigation menus for the www.theguardian.com and guardian apps"
 
 //TODO scala version, cross scala version
+/*
+
+publishTo := {
+  val nexus = "https://oss.sonatype.org/"
+  if (version.value.trim.endsWith("SNAPSHOT"))
+    Some("snapshots" at nexus + "content/repositories/snapshots")
+  else
+    Some("releases"  at nexus + "service/local/staging/deploy/maven2")
+}
+*/
 
 //PgpPublis
 organization := "com.gu"
