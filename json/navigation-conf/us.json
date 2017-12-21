@@ -31,9 +31,9 @@
           ]
         },
         {
-          "title": "soccer", "path": "football",
+          "title": "soccer", "path": "football", "mobileOverride": "section-list",
           "sections": [
-            { "title": "soccer", "path": "football" },
+            { "title": "soccer", "path": "football", "mobileOverride": "section-list" },
             { "title": "live scores", "path": "football/live" },
             { "title": "tables", "path": "football/tables" },
             { "title": "competitions", "path": "football/competitions" },
@@ -74,7 +74,7 @@
       "title": "sport",
       "path": "sport",
       "sections": [
-        { "title": "soccer", "path": "football",
+        { "title": "soccer", "path": "football", "mobileOverride": "section-list",
           "sections": [
             { "title": "football", "path": "football" },
             { "title": "live scores", "path": "football/live" },
@@ -88,7 +88,7 @@
         { "title": "NFL", "path": "sport/nfl" },
         { "title": "tennis", "path": "sport/tennis" },
         { "title": "MLB", "path": "sport/mlb" },
-        { "title": "MLS", "path": "football/mls" },
+        { "title": "MLS", "path": "football/mls", "mobileOverride": "tag-list" },
         { "title": "NBA", "path": "sport/nba" },
         { "title": "NHL", "path": "sport/nhl" }
       ]

@@ -28,9 +28,9 @@
             { "title": "sustainable-business", "path": "us/sustainable-business" }
           ]
         },
-        { "title": "football", "path": "football",
+        { "title": "football", "path": "football", "mobileOverride" : "section-list",
           "sections": [
-            { "title": "football", "path": "football" },
+            { "title": "football", "path": "football", "mobileOverride" : "section-list" },
             { "title": "live scores", "path": "football/live" },
             { "title": "tables", "path": "football/tables" },
             { "title": "competitions", "path": "football/competitions" },
@@ -59,9 +59,9 @@
       "title": "sport",
       "path": "sport",
       "sections": [
-        { "title": "football", "path": "football",
+        { "title": "football", "path": "football", "mobileOverride": "section-list",
           "sections": [
-            { "title": "football", "path": "football" },
+            { "title": "football", "path": "football", "mobileOverride": "section-list" },
             { "title": "live scores", "path": "football/live" },
             { "title": "tables", "path": "football/tables" },
             { "title": "competitions", "path": "football/competitions" },
@@ -100,7 +100,7 @@
           "sections" : [
             { "title": "travel", "path": "au/travel" },
             { "title": "australasia", "path": "travel/australasia" },
-            { "title": "asia", "path": "travel/asia" },
+            { "title": "asia", "path": "travel/asia", "mobileOverride" : "tag-list" },
             { "title": "UK", "path": "travel/uk" },
             { "title": "europe", "path": "travel/europe" },
             { "title": "US", "path": "travel/usa" }
