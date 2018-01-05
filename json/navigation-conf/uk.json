@@ -30,21 +30,6 @@
             { "title": "global development", "path": "global-development" }
           ]
         },
-        { "title": "science", "path": "science" },
-        { "title": "cities", "path": "cities" },
-        { "title": "global development", "path": "global-development" },
-        { "title": "football", "path": "football",
-          "sections": [
-            { "title": "football", "path": "football" },
-            { "title": "live scores", "path": "football/live" },
-            { "title": "tables", "path": "football/tables" },
-            { "title": "competitions", "path": "football/competitions" },
-            { "title": "results", "path": "football/results" },
-            { "title": "fixtures", "path": "football/fixtures" },
-            { "title": "clubs", "path": "football/teams" }
-          ]
-        },
-        { "title": "tech", "path": "uk/technology" },
         {
           "title": "business",
           "path": "business",
@@ -67,6 +52,18 @@
             { "title": "b2b", "path": "uk/business-to-business" }
           ]
         },
+        { "title": "football", "path": "football",
+          "sections": [
+            { "title": "football", "path": "football" },
+            { "title": "live scores", "path": "football/live" },
+            { "title": "tables", "path": "football/tables" },
+            { "title": "competitions", "path": "football/competitions" },
+            { "title": "results", "path": "football/results" },
+            { "title": "fixtures", "path": "football/fixtures" },
+            { "title": "clubs", "path": "football/teams" }
+          ]
+        },
+        { "title": "tech", "path": "uk/technology" },
         {
           "title": "environment",
           "path": "uk/environment",
@@ -78,6 +75,10 @@
             {"title": "pollution", "path": "environment/pollution"}
           ]
         },
+        { "title": "UK politics", "path": "politics" },
+        { "title": "science", "path": "science" },
+        { "title": "global development", "path": "global-development" },
+        { "title": "cities", "path": "cities" },
         {"title": "obituraries", "path": "tone/obituraries"}
       ]
     },
@@ -112,6 +113,8 @@
         { "title": "tennis", "path": "sport/tennis" },
         { "title": "cycling", "path": "sport/cycling" },
         { "title": "f1", "path": "sport/formulaone" },
+        { "title": "rugby league", "path": "sport/rugby-league" },
+        { "title": "racing", "path": "sport/racing" },
         { "title": "US sport", "path": "sport/us-sport" },
         { "title": "golf", "path": "sport/golf" }
       ]
@@ -120,14 +123,14 @@
       "title" : "arts",
       "path" : "uk/culture",
       "sections" : [
-        { "title": "books", "path": "books" },
-        { "title": "music", "path": "music" },
         { "title": "tv & radio", "path": "uk/tv-and-radio" },
-        { "title": "art & design", "path": "artanddesign" },
+        { "title": "music", "path": "music" },
         { "title": "film", "path": "uk/film" },
+        { "title": "stage", "path": "stage" },
+        { "title": "books", "path": "books" },
         { "title": "games", "path": "games" },
-        { "title": "classical", "path": "music/classical-music-and-opera" },
-        { "title": "stage", "path": "stage" }
+        { "title": "art & design", "path": "artanddesign" },
+        { "title": "classical", "path": "music/classical-music-and-opera" }
       ]
     },
     {
@@ -137,11 +140,6 @@
         { "title": "fashion", "path": "fashion" },
         { "title": "food", "path": "lifeandstyle/food-and-drink" },
         { "title": "recipes", "path": "tone/recipes" },
-        { "title": "love & sex", "path": "lifeandstyle/love-and-sex" },
-        { "title": "health & fitness", "path": "lifeandstyle/health-and-wellbeing" },
-        { "title": "hone & garden", "path": "lifeandstyle/home-and-garden" },
-        { "title": "women", "path": "lifeandstyle/women" },
-        { "title": "family", "path": "lifeandstyle/family" },
         { "title": "travel", "path": "uk/travel",
           "sections" : [
             { "title": "travel", "path": "uk/travel" },
@@ -150,6 +148,11 @@
             { "title": "UK", "path": "travel/uk" }
           ]
         },
+        { "title": "love & sex", "path": "lifeandstyle/love-and-sex" },
+        { "title": "beauty", "path": "lifeandstyle/fashionn/beauty" },
+        { "title": "hone & garden", "path": "lifeandstyle/home-and-garden" },
+        { "title": "health & fitness", "path": "lifeandstyle/health-and-wellbeing" },
+        { "title": "women", "path": "lifeandstyle/women" },
         { "title": "money", "path": "uk/money",
           "sections": [
             { "title": "money", "path": "uk/money" },
@@ -159,7 +162,8 @@
             { "title": "borrowing", "path": "money/debt" },
             { "title": "careers", "path": "money/work-and-careeers" }
           ]
-        }
+        },
+        { "title": "cars", "path": "technology/motoring" }
       ]
     }
   ]
