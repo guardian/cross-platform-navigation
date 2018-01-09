@@ -7,7 +7,6 @@
         { "title": "australia", "path": "australia-news" },
         { "title": "world", "path": "world",
           "sections" : [
-            { "title": "world", "path": "world" },
             { "title": "europe", "path": "world/europe-news" },
             { "title": "US", "path": "us-news" },
             { "title": "americas", "path": "world/americas" },
@@ -22,7 +21,6 @@
         { "title": "AU Politics", "path": "australia-news/australian-politics" },
         { "title": "environment", "path": "au/environment",
           "sections": [
-            { "title": "environment", "path": "au/environment" },
             { "title": "cities", "path": "cities" },
             { "title": "global-development", "path": "global-development" },
             { "title": "sustainable-business", "path": "us/sustainable-business" }
@@ -30,7 +28,6 @@
         },
         { "title": "football", "path": "football", "mobileOverride" : "section-list",
           "sections": [
-            { "title": "football", "path": "football", "mobileOverride" : "section-list" },
             { "title": "live scores", "path": "football/live" },
             { "title": "tables", "path": "football/tables" },
             { "title": "competitions", "path": "football/competitions" },
@@ -61,7 +58,6 @@
       "sections": [
         { "title": "football", "path": "football", "mobileOverride": "section-list",
           "sections": [
-            { "title": "football", "path": "football", "mobileOverride": "section-list" },
             { "title": "live scores", "path": "football/live" },
             { "title": "tables", "path": "football/tables" },
             { "title": "competitions", "path": "football/competitions" },
@@ -98,7 +94,6 @@
       "sections": [
         { "title": "travel", "path": "au/travel",
           "sections" : [
-            { "title": "travel", "path": "au/travel" },
             { "title": "australasia", "path": "travel/australasia" },
             { "title": "asia", "path": "travel/asia", "mobileOverride" : "tag-list" },
             { "title": "UK", "path": "travel/uk" },

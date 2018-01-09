@@ -4,11 +4,9 @@
       "title": "news",
       "path": "us",
       "sections": [
-        {"title": "US", "path": "us-news"},
         {
           "title": "world", "path": "world",
           "sections": [
-            { "title": "world", "path": "world" },
             { "title": "europe", "path": "world/europe-news" },
             { "title": "US", "path": "us-news" },
             { "title": "americas", "path": "world/americas" },
@@ -23,7 +21,6 @@
         {
           "title": "environment", "path": "us/environment",
           "sections": [
-            { "title": "environment", "path": "us/environment" },
             { "title": "climate change", "path": "environment/climate-change" },
             { "title": "wildlife", "path": "environment/wildlife" },
             { "title": "energy", "path": "environment/energy" },
@@ -33,7 +30,6 @@
         {
           "title": "soccer", "path": "football", "mobileOverride": "section-list",
           "sections": [
-            { "title": "soccer", "path": "football", "mobileOverride": "section-list" },
             { "title": "live scores", "path": "football/live" },
             { "title": "tables", "path": "football/tables" },
             { "title": "competitions", "path": "football/competitions" },
@@ -45,9 +41,8 @@
         { "title": "US politics", "path": "us-politics" },
         { "title": "business", "path": "us/business" },
         { "title": "science", "path": "science" },
-        { "title": "money", "path": "uk/money",
+        { "title": "money", "path": "us/money",
           "sections": [
-            { "title": "money", "path": "uk/money"  },
             { "title": "property", "path": "money/property" },
             { "title": "pensions", "path": "money/pensions" },
             { "title": "savings", "path": "money/savings" },
@@ -61,18 +56,17 @@
     },
     {
       "title" : "opinion",
-      "path" : "commentisfree",
+      "path" : "us/commentisfree",
       "sections": [
-        { "title": "opinion", "path": "us/commentisfree" },
         { "title": "the guardian view", "path": "profile/editorial" },
         { "title": "columnists", "path": "index/columnists" },
         { "title": "letters", "path": "tone/letters" },
         { "title": "cartoons", "path": "cartoons/archive" }
       ]
     },
-    {
+   {
       "title": "sport",
-      "path": "sport",
+      "path": "us/sport",
       "sections": [
         { "title": "soccer", "path": "football", "mobileOverride": "section-list",
           "sections": [
@@ -95,7 +89,7 @@
     },
     {
       "title" : "arts",
-      "path" : "culture",
+      "path" : "us/culture",
       "sections": [
         { "title": "film", "path": "us/film" },
         { "title": "books", "path": "books" },
@@ -109,7 +103,7 @@
     },
     {
       "title" : "lifestyle",
-      "path" : "lifeandstyle",
+      "path" : "us/lifeandstyle",
       "sections": [
         { "title": "fashion", "path": "fashion" },
         { "title": "food", "path": "lifeandstyle/food-and-drink" },
@@ -120,7 +114,6 @@
         { "title": "family", "path": "lifeandstyle/family" },
         { "title": "travel", "path": "us/travel",
           "sections" : [
-            { "title": "travel", "path": "us/travel" },
             { "title": "US", "path": "travel/usa" },
             { "title": "europe", "path": "travel/europe" },
             { "title": "UK", "path": "travel/uk" }
@@ -128,7 +121,6 @@
         },
         { "title": "money", "path": "us/money",
           "sections": [
-            { "title": "money", "path": "us/money"  },
             { "title": "property", "path": "money/property" },
             { "title": "pensions", "path": "money/pensions" },
             { "title": "savings", "path": "money/savings" },

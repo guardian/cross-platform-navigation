@@ -6,7 +6,6 @@
       "sections" : [
         { "title": "UK", "path": "uk-news",
           "sections": [
-            { "title": "UK", "path": "uk-news" },
             { "title": "UK politics", "path": "politics" },
             { "title": "education", "path": "education" },
             { "title": "media", "path": "media" },
@@ -18,7 +17,6 @@
         },
         { "title": "world", "path": "world",
           "sections" : [
-            { "title": "world", "path": "world" },
             { "title": "europe", "path": "world/europe-news" },
             { "title": "US", "path": "us-news" },
             { "title": "americas", "path": "world/americas" },
@@ -32,14 +30,12 @@
         },
         {
           "title": "business",
-          "path": "business",
+          "path": "uk/business",
           "sections": [
-            { "title": "business", "path": "uk/business" },
             { "title": "economics", "path": "business/economics" },
             { "title": "banking", "path": "business/banking" },
             { "title": "money", "path": "uk/money",
               "sections": [
-                { "title": "money", "path": "uk/money"},
                 { "title": "property", "path": "money/property" },
                 { "title": "pensions", "path": "money/pensions" },
                 { "title": "savings", "path": "money/savings" },
@@ -54,7 +50,6 @@
         },
         { "title": "football", "path": "football",
           "sections": [
-            { "title": "football", "path": "football" },
             { "title": "live scores", "path": "football/live" },
             { "title": "tables", "path": "football/tables" },
             { "title": "competitions", "path": "football/competitions" },
@@ -68,7 +63,6 @@
           "title": "environment",
           "path": "uk/environment",
           "sections": [
-            {"title": "environment", "path": "uk/environment"},
             {"title": "climate change", "path": "environment/climate-change"},
             {"title": "wildlife", "path": "environment/wildlife"},
             {"title": "energy", "path": "environment/energy"},
@@ -155,7 +149,6 @@
         { "title": "women", "path": "lifeandstyle/women" },
         { "title": "money", "path": "uk/money",
           "sections": [
-            { "title": "money", "path": "uk/money" },
             { "title": "property", "path": "money/property" },
             { "title": "pensions", "path": "money/pensions" },
             { "title": "savings", "path": "money/savings" },
