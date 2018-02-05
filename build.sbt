@@ -2,12 +2,12 @@ import sbtrelease.ReleaseStateTransformations._
 
 name:="cross-platform-navigation"
 
-scalaVersion in ThisBuild := "2.11.8"
+scalaVersion in ThisBuild := "2.12.4"
 
 resolvers += Resolver.sonatypeRepo("releases")
 
 libraryDependencies ++= Seq(
-  "com.typesafe.play" %% "play-json" % "2.6.6",
+  "com.typesafe.play" %% "play-json" % "2.6.8",
   "org.slf4j" % "slf4j-api" % "1.7.25",
   "org.specs2" %% "specs2-core" % "3.8.6" % "test"
 )
