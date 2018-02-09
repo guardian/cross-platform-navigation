@@ -1,144 +1,449 @@
 {
-  "pillars" : [
+  "pillars": [
     {
-      "title": "news",
-      "path": "international",
-      "sections" : [
-        { "title": "world", "path": "world",
-          "sections" : [
-            { "title": "europe", "path": "world/europe-news" },
-            { "title": "US", "path": "us-news" },
-            { "title": "americas", "path": "world/americas" },
-            { "title": "asia", "path": "world/asia" },
-            { "title": "australia", "path": "world/australia-news" },
-            { "title": "middle east", "path": "world/middleeast" },
-            { "title": "africa", "path": "world/africa" },
-            { "title": "cities", "path": "cities" },
-            { "title": "global development", "path": "global-development" }
-          ]
-        },
-        { "title": "UK news", "path": "uk-news",
-          "sections": [
-            { "title": "UK politics", "path": "politics" },
-            { "title": "education", "path": "education" },
-            { "title": "media", "path": "media" },
-            { "title": "society", "path": "society" },
-            { "title": "scotland", "path": "uk/scotland" },
-            { "title": "wales", "path": "uk/wales" },
-            { "title": "northern ireland", "path": "northern-ireland" }
-          ]
-        },
-        { "title": "science", "path": "science" },
-        { "title": "cities", "path": "cities" },
-        { "title": "global development", "path": "global-development" },
-        { "title": "football", "path": "football",
-          "sections": [
-            { "title": "live scores", "path": "football/live" },
-            { "title": "tables", "path": "football/tables" },
-            { "title": "competitions", "path": "football/competitions" },
-            { "title": "results", "path": "football/results" },
-            { "title": "fixtures", "path": "football/fixtures" },
-            { "title": "clubs", "path": "football/teams" }
-          ]
-        },
-        { "title": "tech", "path": "uk/technology" },
+      "title": "UK",
+      "path": "uk-news",
+      "sections": [
         {
-          "title": "business",
-          "path": "business",
-          "sections": [
-            { "title": "economics", "path": "business/economics" },
-            { "title": "banking", "path": "business/banking" },
-            { "title": "money", "path": "uk/money",
-              "sections": [
-                { "title": "property", "path": "money/property" },
-                { "title": "pensions", "path": "money/pensions" },
-                { "title": "savings", "path": "money/savings" },
-                { "title": "borrowing", "path": "money/debt" },
-                { "title": "careers", "path": "money/work-and-careeers" }
-              ]
-            },
-            { "title": "markets", "path": "business/stock-markets" },
-            { "title": "project syndicate", "path": "business/series/project-syndicate-economists" },
-            { "title": "b2b", "path": "uk/business-to-business" }
-          ]
+          "title": "Politics",
+          "path": "politics"
         },
         {
-          "title": "environment",
-          "path": "uk/environment",
-          "sections": [
-            {"title": "climate change", "path": "environment/climate-change"},
-            {"title": "wildlife", "path": "environment/wildlife"},
-            {"title": "energy", "path": "environment/energy"},
-            {"title": "pollution", "path": "environment/pollution"}
-          ]
+          "title": "Education",
+          "path": "education"
         },
-        {"title": "obituraries", "path": "tone/obituraries"}
-      ]
-    },
-    {
-      "title" : "opinion",
-      "path": "uk/commentisfree",
-      "sections" : [
-        { "title": "the guardian view", "path": "profile/editorial" },
-        { "title": "columnists", "path": "index/cotributors" },
-        { "title": "cartoons", "path": "cartoons/archive" },
-        { "title": "opinion videos", "path": "commentisfree/series/comment-is-free-weekly" },
-        { "title": "letters", "path": "tone/letters" }
-      ]
-    },
-    {
-      "title": "sport",
-      "path": "uk/sport",
-      "sections" : [
-        { "title": "football", "path": "football",
-          "sections": [
-            { "title": "live scores", "path": "football/live" },
-            { "title": "football", "path": "football" },
-            { "title": "tables", "path": "football/tables" },
-            { "title": "competitions", "path": "football/competitions" },
-            { "title": "results", "path": "football/results" },
-            { "title": "fixtures", "path": "football/fixtures" },
-            { "title": "clubs", "path": "football/teams" }
-          ]
+        {
+          "title": "Media",
+          "path": "media"
         },
-        { "title": "rugby union", "path": "sport/rugby-union" },
-        { "title": "cricket", "path": "sport/cricket"  },
-        { "title": "tennis", "path": "sport/tennis" },
-        { "title": "cycling", "path": "sport/cycling" },
-        { "title": "f1", "path": "sport/formulaone" },
-        { "title": "US sport", "path": "sport/us-sport" },
-        { "title": "golf", "path": "sport/golf" }
+        {
+          "title": "Society",
+          "path": "society"
+        },
+        {
+          "title": "Law",
+          "path": "law",
+          "mobileOverride": "section-list"
+        },
+        {
+          "title": "Scotland",
+          "path": "uk/scotland"
+        },
+        {
+          "title": "Wales",
+          "path": "uk/wales"
+        },
+        {
+          "title": "Northern Ireland",
+          "path": "uk/northernireland"
+        }
       ]
     },
     {
-      "title" : "arts",
-      "path" : "uk/culture",
-      "sections" : [
-        { "title": "books", "path": "books" },
-        { "title": "music", "path": "music" },
-        { "title": "tv & radio", "path": "uk/tv-and-radio" },
-        { "title": "art & design", "path": "artanddesign" },
-        { "title": "film", "path": "uk/film" },
-        { "title": "games", "path": "games" },
-        { "title": "classical", "path": "music/classical-music-and-opera" },
-        { "title": "stage", "path": "stage" }
+      "title": "World",
+      "path": "world",
+      "sections": [
+        {
+          "title": "Europe",
+          "path": "world/europe-news"
+        },
+        {
+          "title": "US",
+          "path": "us-news"
+        },
+        {
+          "title": "Americas",
+          "path": "world/americas"
+        },
+        {
+          "title": "Asia",
+          "path": "world/asia"
+        },
+        {
+          "title": "Australia",
+          "path": "australia-news"
+        },
+        {
+          "title": "Africa",
+          "path": "world/africa"
+        },
+        {
+          "title": "Middle East",
+          "path": "world/middleeast"
+        },
+        {
+          "title": "Cities",
+          "path": "cities"
+        },
+        {
+          "title": "Development",
+          "path": "global-development"
+        }
       ]
     },
     {
-      "title" : "lifestyle",
-      "path" : "lifeandstyle",
-      "sections" : [
-        { "title": "fashion", "path": "fashion" },
-        { "title": "food", "path": "lifeandstyle/food-and-drink" },
-        { "title": "recipes", "path": "tone/recipes" },
-        { "title": "love & sex", "path": "lifeandstyle/love-and-sex" },
-        { "title": "health & fitness", "path": "lifeandstyle/health-and-wellbeing" },
-        { "title": "hone & garden", "path": "lifeandstyle/home-and-garden" },
-        { "title": "women", "path": "lifeandstyle/women" },
-        { "title": "family", "path": "lifeandstyle/family" },
-        { "title": "travel", "path": "uk/travel"},
-        { "title": "money", "path": "uk/money"}
+      "title": "Sport",
+      "path": "sport",
+      "sections": [
+        {
+          "title": "Football",
+          "path": "football"
+        },
+        {
+          "title": "Cricket",
+          "path": "sport/cricket"
+        },
+        {
+          "title": "Rugby union",
+          "path": "sport/rugby-union"
+        },
+        {
+          "title": "F1",
+          "path": "sport/formulaone"
+        },
+        {
+          "title": "Tennis",
+          "path": "sport/tennis"
+        },
+        {
+          "title": "Golf",
+          "path": "sport/golf"
+        },
+        {
+          "title": "Cycling",
+          "path": "sport/cycling"
+        },
+        {
+          "title": "Boxing",
+          "path": "sport/boxing"
+        },
+        {
+          "title": "Racing",
+          "path": "sport/horse-racing"
+        },
+        {
+          "title": "Rugby league",
+          "path": "sport/rugbyleague"
+        },
+        {
+          "title": "US sports",
+          "path": "sport/us-sport"
+        }
       ]
+    },
+    {
+      "title": "Football",
+      "path": "football",
+      "sections": []
+    },
+    {
+      "title": "Opinion",
+      "path": "commentisfree",
+      "sections": []
+    },
+    {
+      "title": "Culture",
+      "path": "culture",
+      "sections": [
+        {
+          "title": "Film",
+          "path": "film"
+        },
+        {
+          "title": "TV & radio",
+          "path": "tv-and-radio"
+        },
+        {
+          "title": "Music",
+          "path": "music"
+        },
+        {
+          "title": "Games",
+          "path": "games/games"
+        },
+        {
+          "title": "Books",
+          "path": "books"
+        },
+        {
+          "title": "Art & design",
+          "path": "artanddesign"
+        },
+        {
+          "title": "Stage",
+          "path": "stage"
+        },
+        {
+          "title": "Classical",
+          "path": "music/classical-music-and-opera"
+        }
+      ]
+    },
+    {
+      "title": "Business",
+      "path": "business",
+      "sections": [
+        {
+          "title": "Economics",
+          "path": "business/economics"
+        },
+        {
+          "title": "Banking",
+          "path": "business/banking"
+        },
+        {
+          "title": "Retail",
+          "path": "business/retail"
+        },
+        {
+          "title": "Markets",
+          "path": "business/stock-markets"
+        },
+        {
+          "title": "Eurozone",
+          "path": "business/eurozone"
+        }
+      ]
+    },
+    {
+      "title": "Lifestyle",
+      "path": "lifeandstyle",
+      "sections": [
+        {
+          "title": "Food",
+          "path": "lifeandstyle/food-and-drink"
+        },
+        {
+          "title": "Health & fitness",
+          "path": "lifeandstyle/health-and-wellbeing"
+        },
+        {
+          "title": "Love & sex",
+          "path": "lifeandstyle/love-and-sex"
+        },
+        {
+          "title": "Beauty",
+          "path": "fashion/beauty"
+        },
+        {
+          "title": "Cars",
+          "path": "technology/motoring"
+        },
+        {
+          "title": "Women",
+          "path": "lifeandstyle/women"
+        },
+        {
+          "title": "Home & garden",
+          "path": "lifeandstyle/home-and-garden"
+        }
+      ]
+    },
+    {
+      "title": "Fashion",
+      "path": "fashion",
+      "sections": []
+    },
+    {
+      "title": "Environment",
+      "path": "environment",
+      "sections": [
+        {
+          "title": "Climate change",
+          "path": "environment/climate-change"
+        },
+        {
+          "title": "Wildlife",
+          "path": "environment/wildlife"
+        },
+        {
+          "title": "Energy",
+          "path": "environment/energy"
+        },
+        {
+          "title": "Pollution",
+          "path": "environment/pollution"
+        }
+      ]
+    },
+    {
+      "title": "Tech",
+      "path": "technology",
+      "sections": []
+    },
+    {
+      "title": "Travel",
+      "path": "travel",
+      "sections": [
+        {
+          "title": "UK",
+          "path": "travel/uk"
+        },
+        {
+          "title": "Europe",
+          "path": "travel/europe"
+        },
+        {
+          "title": "US",
+          "path": "travel/usa"
+        },
+        {
+          "title": "Skiing",
+          "path": "travel/skiing"
+        }
+      ]
+    },
+    {
+      "title": "Money",
+      "path": "money",
+      "sections": [
+        {
+          "title": "Property",
+          "path": "money/property"
+        },
+        {
+          "title": "Savings",
+          "path": "money/savings"
+        },
+        {
+          "title": "Pensions",
+          "path": "money/pensions"
+        },
+        {
+          "title": "Borrowing",
+          "path": "money/debt"
+        },
+        {
+          "title": "Careers",
+          "path": "money/work-and-careers"
+        }
+      ]
+    },
+    {
+      "title": "Science",
+      "path": "science",
+      "sections": []
+    },
+    {
+      "title": "Education",
+      "path": "education",
+      "sections": [
+        {
+          "title": "Students",
+          "path": "education/students"
+        }
+      ]
+    },
+    {
+      "title": "Media",
+      "path": "media",
+      "sections": []
+    },
+    {
+      "title": "Video",
+      "path": "video",
+      "sections": []
+    },
+    {
+      "title": "Podcasts",
+      "path": "podcasts",
+      "sections": [
+        {
+          "title": "Football",
+          "path": "football/series/footballweekly",
+          "sections": []
+        },
+        {
+          "title": "Science",
+          "path": "science/series/science",
+          "sections": []
+        },
+        {
+          "title": "UK politics",
+          "path": "politics/series/politicsweekly",
+          "sections": []
+        },
+        {
+          "title": "Aus politics",
+          "path": "australia-news/series/politics-live-with-katharine-murphy",
+          "sections": []
+        },
+        {
+          "title": "US politics",
+          "path": "us-news/series/politics-for-humans",
+          "sections": []
+        },
+        {
+          "title": "Tech",
+          "path": "technology/series/chips-with-everything",
+          "sections": []
+        },
+        {
+          "title": "Books",
+          "path": "books/series/books",
+          "sections": []
+        },
+        {
+          "title": "Long reads",
+          "path": "news/series/the-audio-long-read",
+          "sections": []
+        },
+        {
+          "title": "The story",
+          "path": "news/series/the-story",
+          "sections": []
+        },
+        {
+          "title": "The citadel",
+          "path": "tv-and-radio/series/game-of-thrones-the-citadel-podcast",
+          "sections": []
+        },
+        {
+          "title": "Feminism",
+          "path": "commentisfree/series/what-would-a-feminist-do",
+          "sections": []
+        },
+        {
+          "title": "Token",
+          "path": "society/series/token",
+          "sections": []
+        },
+        {
+          "title": "Behind the lines",
+          "path": "australia-news/series/behind-the-lines-podcast",
+          "sections": []
+        },
+        {
+          "title": "Aus culture",
+          "path": "artanddesign/series/guardian-australia-culture-podcast",
+          "sections": []
+        },
+        {
+          "title": "Guardian live",
+          "path": "membership/series/guardian-live-podcast",
+          "sections": []
+        },
+        {
+          "title": "Global development",
+          "path": "global-development/series/global-development-podcast",
+          "sections": []
+        },
+        {
+          "title": "Close encounters",
+          "path": "lifeandstyle/series/close-encounters",
+          "sections": []
+        }
+      ]
+    },
+    {
+      "title": "The Observer",
+      "path": "observer",
+      "sections": []
+    },
+    {
+      "title": "Membership",
+      "path": "membership",
+      "sections": []
     }
   ]
 }
