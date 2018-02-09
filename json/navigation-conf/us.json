@@ -1,134 +1,328 @@
 {
-  "pillars" : [
+  "pillars": [
     {
-      "title": "news",
-      "path": "us",
+      "title": "US",
+      "path": "us-news",
+      "sections": []
+    },
+    {
+      "title": "Politics",
+      "path": "us-news/us-politics",
+      "sections": []
+    },
+    {
+      "title": "World",
+      "path": "world",
       "sections": [
         {
-          "title": "world", "path": "world",
-          "sections": [
-            { "title": "europe", "path": "world/europe-news" },
-            { "title": "US", "path": "us-news" },
-            { "title": "americas", "path": "world/americas" },
-            { "title": "asia", "path": "world/asia" },
-            { "title": "australia", "path": "world/australia-news" },
-            { "title": "middle east", "path": "world/middleeast" },
-            { "title": "africa", "path": "world/africa" },
-            { "title": "cities", "path": "cities" },
-            { "title": "global development", "path": "global-development" }
-          ]
+          "title": "UK",
+          "path": "uk-news"
         },
         {
-          "title": "environment", "path": "us/environment",
-          "sections": [
-            { "title": "climate change", "path": "environment/climate-change" },
-            { "title": "wildlife", "path": "environment/wildlife" },
-            { "title": "energy", "path": "environment/energy" },
-            { "title": "pollution", "path": "environment/pollution" }
-          ]
+          "title": "Europe",
+          "path": "world/europe-news"
         },
         {
-          "title": "soccer", "path": "football", "mobileOverride": "section-list",
-          "sections": [
-            { "title": "live scores", "path": "football/live" },
-            { "title": "tables", "path": "football/tables" },
-            { "title": "competitions", "path": "football/competitions" },
-            { "title": "results", "path": "football/results" },
-            { "title": "fixtures", "path": "football/fixtures" },
-            { "title": "clubs", "path": "football/teams" }
-          ]
+          "title": "Americas",
+          "path": "world/americas"
         },
-        { "title": "US politics", "path": "us-politics" },
-        { "title": "business", "path": "us/business" },
-        { "title": "science", "path": "science" },
-        { "title": "money", "path": "us/money",
-          "sections": [
-            { "title": "property", "path": "money/property" },
-            { "title": "pensions", "path": "money/pensions" },
-            { "title": "savings", "path": "money/savings" },
-            { "title": "borrowing", "path": "money/debt" },
-            { "title": "careers", "path": "money/work-and-careeers" }
-          ]
+        {
+          "title": "Asia",
+          "path": "world/asia"
         },
-        { "title": "tech", "path": "us/technology" },
-        { "title": "obituries", "path": "tone/obituries" }
-      ]
-    },
-    {
-      "title" : "opinion",
-      "path" : "us/commentisfree",
-      "sections": [
-        { "title": "the guardian view", "path": "profile/editorial" },
-        { "title": "columnists", "path": "index/columnists" },
-        { "title": "letters", "path": "tone/letters" },
-        { "title": "cartoons", "path": "cartoons/archive" }
-      ]
-    },
-   {
-      "title": "sport",
-      "path": "us/sport",
-      "sections": [
-        { "title": "soccer", "path": "football", "mobileOverride": "section-list",
-          "sections": [
-            { "title": "football", "path": "football" },
-            { "title": "live scores", "path": "football/live" },
-            { "title": "tables", "path": "football/tables" },
-            { "title": "competitions", "path": "football/competitions" },
-            { "title": "results", "path": "football/results" },
-            { "title": "fixtures", "path": "football/fixtures" },
-            { "title": "clubs", "path": "football/teams" }
-          ]
+        {
+          "title": "Middle East",
+          "path": "world/middleeast"
         },
-        { "title": "NFL", "path": "sport/nfl" },
-        { "title": "tennis", "path": "sport/tennis" },
-        { "title": "MLB", "path": "sport/mlb" },
-        { "title": "MLS", "path": "football/mls", "mobileOverride": "tag-list" },
-        { "title": "NBA", "path": "sport/nba" },
-        { "title": "NHL", "path": "sport/nhl" }
-      ]
-    },
-    {
-      "title" : "arts",
-      "path" : "us/culture",
-      "sections": [
-        { "title": "film", "path": "us/film" },
-        { "title": "books", "path": "books" },
-        { "title": "music", "path": "music" },
-        { "title": "art & design", "path": "artanddesign" },
-        { "title": "tv & radio", "path": "us/tv-and-radio" },
-        { "title": "stage", "path": "stage" },
-        { "title": "classical", "path": "music/classical-music-and-opera" },
-        { "title": "games", "path": "games" }
-      ]
-    },
-    {
-      "title" : "lifestyle",
-      "path" : "us/lifeandstyle",
-      "sections": [
-        { "title": "fashion", "path": "fashion" },
-        { "title": "food", "path": "lifeandstyle/food-and-drink" },
-        { "title": "recipes", "path": "tone/recipes" },
-        { "title": "love & sex", "path": "lifeandstyle/love-and-sex" },
-        { "title": "hone & garden", "path": "lifeandstyle/home-and-garden" },
-        { "title": "health & wellbeing", "path": "lifeandstyle/health-and-wellbeing" },
-        { "title": "family", "path": "lifeandstyle/family" },
-        { "title": "travel", "path": "us/travel",
-          "sections" : [
-            { "title": "US", "path": "travel/usa" },
-            { "title": "europe", "path": "travel/europe" },
-            { "title": "UK", "path": "travel/uk" }
-          ]
+        {
+          "title": "Africa",
+          "path": "world/africa"
         },
-        { "title": "money", "path": "us/money",
-          "sections": [
-            { "title": "property", "path": "money/property" },
-            { "title": "pensions", "path": "money/pensions" },
-            { "title": "savings", "path": "money/savings" },
-            { "title": "borrowing", "path": "money/debt" },
-            { "title": "careers", "path": "money/work-and-careeers" }
-          ]
+        {
+          "title": "Australia",
+          "path": "australia-news"
+        },
+        {
+          "title": "Cities",
+          "path": "cities"
+        },
+        {
+          "title": "Development",
+          "path": "global-development"
         }
       ]
+    },
+    {
+      "title": "Opinion",
+      "path": "us/commentisfree",
+      "sections": []
+    },
+    {
+      "title": "Sports",
+      "path": "us/sport",
+      "sections": [
+        {
+          "title": "Soccer",
+          "path": "football",
+          "mobileOverride": "section-list"
+        },
+        {
+          "title": "MLS",
+          "path": "football/mls",
+          "mobileOverride": "tag-list"
+        },
+        {
+          "title": "NFL",
+          "path": "sport/nfl"
+        },
+        {
+          "title": "MLB",
+          "path": "sport/mlb"
+        },
+        {
+          "title": "NBA",
+          "path": "sport/nba"
+        },
+        {
+          "title": "NHL",
+          "path": "sport/nhl"
+        }
+      ]
+    },
+    {
+      "title": "Soccer",
+      "path": "football",
+      "sections": []
+    },
+    {
+      "title": "Tech",
+      "path": "us/technology",
+      "sections": []
+    },
+    {
+      "title": "Arts",
+      "path": "us/culture",
+      "sections": [
+        {
+          "title": "Movies",
+          "path": "us/film"
+        },
+        {
+          "title": "TV & radio",
+          "path": "tv-and-radio"
+        },
+        {
+          "title": "Music",
+          "path": "music"
+        },
+        {
+          "title": "Games",
+          "path": "games/games"
+        },
+        {
+          "title": "Books",
+          "path": "books"
+        },
+        {
+          "title": "Art & design",
+          "path": "artanddesign"
+        },
+        {
+          "title": "Stage",
+          "path": "stage"
+        },
+        {
+          "title": "Classical",
+          "path": "music/classical-music-and-opera"
+        }
+      ]
+    },
+    {
+      "title": "Lifestyle",
+      "path": "lifeandstyle",
+      "sections": [
+        {
+          "title": "Food",
+          "path": "lifeandstyle/food-and-drink"
+        },
+        {
+          "title": "Health & fitness",
+          "path": "lifeandstyle/health-and-wellbeing"
+        },
+        {
+          "title": "Love & sex",
+          "path": "lifeandstyle/love-and-sex"
+        },
+        {
+          "title": "Beauty",
+          "path": "fashion/beauty"
+        },
+        {
+          "title": "Cars",
+          "path": "technology/motoring"
+        },
+        {
+          "title": "Women",
+          "path": "lifeandstyle/women"
+        },
+        {
+          "title": "Home & garden",
+          "path": "lifeandstyle/home-and-garden"
+        }
+      ]
+    },
+    {
+      "title": "Fashion",
+      "path": "fashion",
+      "sections": []
+    },
+    {
+      "title": "Business",
+      "path": "us/business",
+      "sections": [
+        {
+          "title": "Economics",
+          "path": "business/economics"
+        },
+        {
+          "title": "Sustainable business",
+          "path": "uk/sustainable-business"
+        },
+        {
+          "title": "Diversity & equality",
+          "path": "business/diversity-and-equality"
+        },
+        {
+          "title": "Small business",
+          "path": "business/us-small-business"
+        }
+      ]
+    },
+    {
+      "title": "Travel",
+      "path": "travel",
+      "sections": [
+        {
+          "title": "US",
+          "path": "travel/usa"
+        },
+        {
+          "title": "Europe",
+          "path": "travel/europe"
+        },
+        {
+          "title": "UK",
+          "path": "travel/uk"
+        },
+        {
+          "title": "Skiing",
+          "path": "travel/skiing"
+        }
+      ]
+    },
+    {
+      "title": "Environment",
+      "path": "us/environment",
+      "sections": [
+        {
+          "title": "Climate change",
+          "path": "environment/climate-change"
+        },
+        {
+          "title": "Wildlife",
+          "path": "environment/wildlife"
+        },
+        {
+          "title": "Energy",
+          "path": "environment/energy"
+        },
+        {
+          "title": "Pollution",
+          "path": "environment/pollution"
+        }
+      ]
+    },
+    {
+      "title": "Science",
+      "path": "science",
+      "sections": []
+    },
+    {
+      "title": "Media",
+      "path": "us/media",
+      "mobileOverride": "section-list",
+      "sections": []
+    },
+    {
+      "title": "Video",
+      "path": "video",
+      "sections": []
+    },
+    {
+      "title": "Podcasts",
+      "path": "podcasts",
+      "sections": [
+        {
+          "title": "Football",
+          "path": "football/series/footballweekly",
+          "sections": []
+        },
+        {
+          "title": "Feminism",
+          "path": "commentisfree/series/what-would-a-feminist-do",
+          "sections": []
+        },
+        {
+          "title": "Tech",
+          "path": "technology/series/chips-with-everything",
+          "sections": []
+        },
+        {
+          "title": "Science",
+          "path": "science/series/science",
+          "sections": []
+        },
+        {
+          "title": "Books",
+          "path": "books/series/books",
+          "sections": []
+        },
+        {
+          "title": "Politics",
+          "path": "us-news/series/politics-for-humans",
+          "sections": []
+        },
+        {
+          "title": "The story",
+          "path": "news/series/the-story",
+          "sections": []
+        },
+        {
+          "title": "Audio long reads",
+          "path": "news/series/the-audio-long-read",
+          "sections": []
+        },
+        {
+          "title": "Global development",
+          "path": "global-development/series/global-development-podcast",
+          "sections": []
+        },
+        {
+          "title": "Token",
+          "path": "society/series/token",
+          "sections": []
+        },
+        {
+          "title": "Close encounters",
+          "path": "lifeandstyle/series/close-encounters",
+          "sections": []
+        }
+      ]
+    },
+    {
+      "title": "Membership",
+      "path": "membership",
+      "sections": []
     }
   ]
 }
