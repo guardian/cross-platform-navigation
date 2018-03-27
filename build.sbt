@@ -56,6 +56,8 @@ pomExtra in Global := {
     </developers>
 }
 
+
+//Kick team city
 //TODO scala version, cross scala version
 /*
 
