@@ -102,11 +102,6 @@
       "sections": []
     },
     {
-      "title": "World Cup 2018",
-      "path": "football/world-cup-2018",
-      "sections": []
-    },
-    {
       "title": "Tech",
       "path": "au/technology",
       "sections": []
@@ -155,7 +150,7 @@
       "sections": [
         {
           "title": "Food",
-          "path": "lifeandstyle/food-and-drink"
+          "path": "food"
         },
         {
           "title": "Relationships",
