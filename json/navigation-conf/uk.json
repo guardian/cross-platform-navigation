@@ -344,6 +344,11 @@
       ]
     },
     {
+      "title": "Society",
+      "path": "society",
+      "sections" : []
+    },
+    {
       "title": "Media",
       "path": "uk/media",
       "sections": []
