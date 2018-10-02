@@ -267,13 +267,13 @@
           "sections": []
         },
         {
-          "title": "Politics",
-          "path": "australia-news/series/australian-politics-live",
+          "title": "Audio long reads",
+          "path": "news/series/the-audio-long-read",
           "sections": []
         },
         {
-          "title": "Culture",
-          "path": "artanddesign/series/guardian-australia-culture-podcast",
+          "title": "Politics",
+          "path": "australia-news/series/australian-politics-live",
           "sections": []
         },
         {
@@ -307,8 +307,8 @@
           "sections": []
         },
         {
-          "title": "Audio long reads",
-          "path": "news/series/the-audio-long-read",
+          "title": "Culture",
+          "path": "artanddesign/series/guardian-australia-culture-podcast",
           "sections": []
         },
         {

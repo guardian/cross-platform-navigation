@@ -263,13 +263,23 @@
       "path": "podcasts",
       "sections": [
         {
+          "title": "Long reads",
+          "path": "news/series/the-audio-long-read",
+          "sections": []
+        },
+        {
           "title": "Football",
           "path": "football/series/footballweekly",
           "sections": []
         },
         {
-          "title": "Feminism",
-          "path": "commentisfree/series/what-would-a-feminist-do",
+          "title": "UK politics",
+          "path": "politics/series/politicsweekly",
+          "sections": []
+        },
+        {
+          "title": "Books",
+          "path": "books/series/books",
           "sections": []
         },
         {
@@ -283,23 +293,8 @@
           "sections": []
         },
         {
-          "title": "Books",
-          "path": "books/series/books",
-          "sections": []
-        },
-        {
-          "title": "Politics",
-          "path": "us-news/series/politics-for-humans",
-          "sections": []
-        },
-        {
           "title": "The story",
           "path": "news/series/the-story",
-          "sections": []
-        },
-        {
-          "title": "Audio long reads",
-          "path": "news/series/the-audio-long-read",
           "sections": []
         },
         {
@@ -315,6 +310,16 @@
         {
           "title": "Close encounters",
           "path": "lifeandstyle/series/close-encounters",
+          "sections": []
+        },
+        {
+          "title": "Politics",
+          "path": "us-news/series/politics-for-humans",
+          "sections": []
+        },
+        {
+          "title": "Feminism",
+          "path": "commentisfree/series/what-would-a-feminist-do",
           "sections": []
         }
       ]

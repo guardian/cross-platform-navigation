@@ -354,8 +354,8 @@
           "sections": []
         },
         {
-          "title": "Science",
-          "path": "science/series/science",
+          "title": "Long reads",
+          "path": "news/series/the-audio-long-read",
           "sections": []
         },
         {
@@ -369,8 +369,13 @@
           "sections": []
         },
         {
-          "title": "US politics",
-          "path": "us-news/series/politics-for-humans",
+          "title": "Books",
+          "path": "books/series/books",
+          "sections": []
+        },
+        {
+          "title": "Science",
+          "path": "science/series/science",
           "sections": []
         },
         {
@@ -379,48 +384,8 @@
           "sections": []
         },
         {
-          "title": "Books",
-          "path": "books/series/books",
-          "sections": []
-        },
-        {
-          "title": "Long reads",
-          "path": "news/series/the-audio-long-read",
-          "sections": []
-        },
-        {
           "title": "The story",
           "path": "news/series/the-story",
-          "sections": []
-        },
-        {
-          "title": "The citadel",
-          "path": "tv-and-radio/series/game-of-thrones-the-citadel-podcast",
-          "sections": []
-        },
-        {
-          "title": "Feminism",
-          "path": "commentisfree/series/what-would-a-feminist-do",
-          "sections": []
-        },
-        {
-          "title": "Token",
-          "path": "society/series/token",
-          "sections": []
-        },
-        {
-          "title": "Behind the lines",
-          "path": "australia-news/series/behind-the-lines-podcast",
-          "sections": []
-        },
-        {
-          "title": "Aus culture",
-          "path": "artanddesign/series/guardian-australia-culture-podcast",
-          "sections": []
-        },
-        {
-          "title": "Guardian live",
-          "path": "membership/series/guardian-live-podcast",
           "sections": []
         },
         {
@@ -431,6 +396,16 @@
         {
           "title": "Close encounters",
           "path": "lifeandstyle/series/close-encounters",
+          "sections": []
+        },
+        {
+          "title": "Politics",
+          "path": "us-news/series/politics-for-humans",
+          "sections": []
+        },
+        {
+          "title": "Feminism",
+          "path": "commentisfree/series/what-would-a-feminist-do",
           "sections": []
         }
       ]

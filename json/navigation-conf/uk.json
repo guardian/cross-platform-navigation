@@ -363,15 +363,15 @@
       "path": "podcasts",
       "sections": [
         {
-          "title": "Football Weekly",
+          "title": "Football weekly",
           "path": "football/series/footballweekly"
         },
         {
-          "title": "Audio Long Reads",
+          "title": "Long reads",
           "path": "news/series/the-audio-long-read"
         },
         {
-          "title": "The Guardian UK: Politics Weekly",
+          "title": "Politics weekly",
           "path": "politics/series/politicsweekly"
         },
         {
@@ -379,7 +379,7 @@
           "path": "membership/series/beyond-the-blade"
         },
         {
-          "title": "The Guardian Books podcast",
+          "title": "Guardian books",
           "path": "books/series/books"
         },
         {
@@ -387,23 +387,23 @@
           "path": "technology/series/chips-with-everything"
         },
         {
-          "title": "Australian politics live podcast",
+          "title": "Australian politics",
           "path": "australia-news/series/australian-politics-live"
         },
         {
-          "title": "Small Changes",
+          "title": "Small changes",
           "path": "global-development/series/global-development-podcast"
         },
         {
-          "title": "The Guardian's Brexit Means...",
+          "title": "Brexit means...",
           "path": "politics/series/brexit-means"
         },
         {
-          "title": "We Need to Talk About...",
+          "title": "Guardian live",
           "path": "membership/series/we-need-to-talk-about"
         },
         {
-          "title": "A Neuroscientist Explains",
+          "title": "Neuroscientist explains",
           "path": "science/series/a-neuroscientist-explains-podcast"
         }
       ]
