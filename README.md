@@ -14,7 +14,7 @@ libraryDepencies += "com.gu" %% "cross-platform navigation" % "z,y"
 ````
 
 Use whatever method you wish to retrieve the desired json file to s3 and pass the content as a string to get a [Navigation](https://github.com/guardian/cross-platform-navigation/blob/nb-MSS-166-create-navigation/src/main/scala/com/gu/navigation/model/NavigationSection.scala#L39) object. This will contain the content and structure of the navigation.
-You can den do something like
+You can then do something like
 
 ````scala
     val navigationProvider = new GarnettNavigationProvider
@@ -28,9 +28,9 @@ The directory [json](https://github.com/guardian/cross-platform-navigation/tree/
 
 #### Json Format
 
-There is a json file for each edition of [theguardian.com](https://www.theguardian.com). Each one describes the navigation structure as a series of 'pillars', each of which contains one or more sections( which can, themselves contain further sections). Here is a cut down example containing two cut-down pllars
+There is a json file for each edition of [theguardian.com](https://www.theguardian.com). Each one describes the navigation structure as a series of 'pillars', each of which contains one or more sections (which can, themselves contain further sections). Here is a cut down example containing two cut-down pillars
 
-Here, there are only two pillars, with a cut down set of sections to indicate how the json is structured. Each section contains to flag values, along with a title and path. The ````editionalised```` flag indicated that the path shuld be suffixed with the correct edition. Here, the 'politics' section in the 'News' pillar should have a path that resolves as '/uk/politics' for the uk edition. The ````mobileOverride```` value is to indicate to [Mapi](https://mobile.guardianapis.com/uk/navigation) (old nav) whether this section should be a link to a front or a tag list
+Here, there are only two pillars, with a cut down set of sections to indicate how the json is structured. Each section contains to flag values, along with a title and path. The ````editionalised```` flag indicated that the path should be suffixed with the correct edition. Here, the 'politics' section in the 'News' pillar should have a path that resolves as '/uk/politics' for the uk edition. The ````mobileOverride```` value is to indicate to [Mapi](https://mobile.guardianapis.com/uk/navigation) (old nav) whether this section should be a link to a front or a tag list
 ````json
 {
   "pillars" : [
