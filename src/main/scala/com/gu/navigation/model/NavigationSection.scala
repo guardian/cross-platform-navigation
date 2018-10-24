@@ -9,7 +9,8 @@ case class NavigationSection(
   title: String,
   path: String,
   mobileOverride: Option[String] = None,
-  sections: Option[List[NavigationSection]] = None
+  sections: Option[List[NavigationSection]] = None,
+  editionOverride: Option[String] = None
 )
 
 object NavigationSection  {
@@ -18,14 +19,16 @@ object NavigationSection  {
     (__ \ "title").read[String] and
       (__ \ "path").read[String] and
       (__ \ "mobileOverride").readNullable[String] and
-      (__ \ "sections").lazyReadNullable(implicitly[Reads[List[NavigationSection]]])
+      (__ \ "sections").lazyReadNullable(implicitly[Reads[List[NavigationSection]]]) and
+      (__ \ "editionOverride").readNullable[String]
     )(NavigationSection.apply _)
 
   implicit val navigationSectionWrites: Writes[NavigationSection] = (
     (__ \ "title").write[String] and
       (__ \ "path").write[String] and
       (__ \ "mobileOverride").writeNullable[String] and
-      (__ \ "sections").lazyWriteNullable(implicitly[Writes[List[NavigationSection]]])
+      (__ \ "sections").lazyWriteNullable(implicitly[Writes[List[NavigationSection]]]) and
+      (__ \ "editionOverride").writeNullable[String]
     )(unlift(NavigationSection.unapply _))
 
   implicit lazy val disNavigationSectionFormat: Format[NavigationSection] = Format(navigationSectionReads, navigationSectionWrites)

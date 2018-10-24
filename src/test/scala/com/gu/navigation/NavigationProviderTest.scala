@@ -16,6 +16,7 @@ class NavigationProviderTest extends Specification {
       |      "editionalised": true,
       |      "sections" : [
       |        { "title": "world", "path": "world",
+  |              "editionOverride": "au",
       |          "sections" : [
       |            { "title": "world", "path": "world" },
       |            { "title": "europe", "path": "world/europe-news" }
@@ -71,7 +72,7 @@ class NavigationProviderTest extends Specification {
       NavigationSection(title = "", path = "",
         sections = Some(
           List(
-            NavigationSection(title = "world",path = "world",
+            NavigationSection(title = "world",path = "world",editionOverride = Some("au") ,
               sections = Some(List(NavigationSection(title = "world", path = "world"),
                                    NavigationSection(title = "europe", path = "world/europe-news")
                               )
