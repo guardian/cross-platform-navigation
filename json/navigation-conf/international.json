@@ -350,6 +350,11 @@
       "path": "podcasts",
       "sections": [
         {
+          "title": "Today in focus",
+          "path": "news/series/todayinfocus",
+          "sections": []
+        },
+        {
           "title": "Football",
           "path": "football/series/footballweekly",
           "sections": []
@@ -402,11 +407,6 @@
         {
           "title": "Politics",
           "path": "us-news/series/politics-for-humans",
-          "sections": []
-        },
-        {
-          "title": "Feminism",
-          "path": "commentisfree/series/what-would-a-feminist-do",
           "sections": []
         }
       ]

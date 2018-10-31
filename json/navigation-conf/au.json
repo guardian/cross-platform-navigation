@@ -262,6 +262,11 @@
       "path": "podcasts",
       "sections": [
         {
+          "title": "Today in focus",
+          "path": "news/series/todayinfocus",
+          "sections": []
+        },
+        {
           "title": "Football",
           "path": "football/series/footballweekly",
           "sections": []
@@ -314,11 +319,6 @@
         {
           "title": "Global development",
           "path": "global-development/series/global-development-podcast",
-          "sections": []
-        },
-        {
-          "title": "Close encounters",
-          "path": "lifeandstyle/series/close-encounters",
           "sections": []
         }
       ]

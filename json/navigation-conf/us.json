@@ -263,6 +263,11 @@
       "path": "podcasts",
       "sections": [
         {
+          "title": "Today in focus",
+          "path": "news/series/todayinfocus",
+          "sections": []
+        },
+        {
           "title": "Long reads",
           "path": "news/series/the-audio-long-read",
           "sections": []
@@ -315,11 +320,6 @@
         {
           "title": "Politics",
           "path": "us-news/series/politics-for-humans",
-          "sections": []
-        },
-        {
-          "title": "Feminism",
-          "path": "commentisfree/series/what-would-a-feminist-do",
           "sections": []
         }
       ]

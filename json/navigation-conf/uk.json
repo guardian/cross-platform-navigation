@@ -363,6 +363,10 @@
       "path": "podcasts",
       "sections": [
         {
+          "title": "Today in focus",
+          "path": "news/series/todayinfocus"
+        },
+        {
           "title": "Football weekly",
           "path": "football/series/footballweekly"
         },
@@ -373,10 +377,6 @@
         {
           "title": "Politics weekly",
           "path": "politics/series/politicsweekly"
-        },
-        {
-          "title": "Beyond the blade",
-          "path": "membership/series/beyond-the-blade"
         },
         {
           "title": "Guardian books",
