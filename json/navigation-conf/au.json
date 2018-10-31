@@ -262,7 +262,7 @@
       "path": "podcasts",
       "sections": [
         {
-          "title": "Today in focus",
+          "title": "Today in Focus",
           "path": "news/series/todayinfocus",
           "sections": []
         },
@@ -272,7 +272,7 @@
           "sections": []
         },
         {
-          "title": "Audio long reads",
+          "title": "Audio Long Reads",
           "path": "news/series/the-audio-long-read",
           "sections": []
         },
@@ -282,7 +282,7 @@
           "sections": []
         },
         {
-          "title": "Behind the lines",
+          "title": "Behind the Lines",
           "path": "australia-news/series/behind-the-lines-podcast",
           "sections": []
         },
@@ -307,7 +307,7 @@
           "sections": []
         },
         {
-          "title": "The story",
+          "title": "The Story",
           "path": "news/series/the-story",
           "sections": []
         },

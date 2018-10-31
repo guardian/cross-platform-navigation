@@ -350,7 +350,7 @@
       "path": "podcasts",
       "sections": [
         {
-          "title": "Today in focus",
+          "title": "Today in Focus",
           "path": "news/series/todayinfocus",
           "sections": []
         },
@@ -360,17 +360,17 @@
           "sections": []
         },
         {
-          "title": "Long reads",
+          "title": "Long Reads",
           "path": "news/series/the-audio-long-read",
           "sections": []
         },
         {
-          "title": "UK politics",
+          "title": "UK Politics",
           "path": "politics/series/politicsweekly",
           "sections": []
         },
         {
-          "title": "Aus politics",
+          "title": "Aus Politics",
           "path": "australia-news/series/politics-live-with-katharine-murphy",
           "sections": []
         },
@@ -390,17 +390,17 @@
           "sections": []
         },
         {
-          "title": "The story",
+          "title": "The Story",
           "path": "news/series/the-story",
           "sections": []
         },
         {
-          "title": "Global development",
+          "title": "Global Development",
           "path": "global-development/series/global-development-podcast",
           "sections": []
         },
         {
-          "title": "Close encounters",
+          "title": "Close Encounters",
           "path": "lifeandstyle/series/close-encounters",
           "sections": []
         },

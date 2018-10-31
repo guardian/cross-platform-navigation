@@ -363,41 +363,42 @@
       "path": "podcasts",
       "sections": [
         {
-          "title": "Today in focus",
-          "path": "news/series/todayinfocus"
+          "title": "Today in Focus",
+          "path": "news/series/todayinfocus",
+          "sections": []
         },
         {
-          "title": "Football weekly",
+          "title": "Football Weekly",
           "path": "football/series/footballweekly",
           "sections": []
         },
         {
-          "title": "Audio long reads",
+          "title": "Audio Long Reads",
           "path": "news/series/the-audio-long-read",
           "sections": []
         },
         {
-          "title": "Politics weekly",
+          "title": "Politics Weekly",
           "path": "politics/series/politicsweekly",
           "sections": []
         },
         {
-          "title": "Guardian books",
+          "title": "Guardian Books",
           "path": "books/series/books",
           "sections": []
         },
         {
-          "title": "Chips with everything",
+          "title": "Chips with Everything",
           "path": "technology/series/chips-with-everything",
           "sections": []
         },
         {
-          "title": "Australian politics",
+          "title": "Australian Politics",
           "path": "australia-news/series/australian-politics-live",
           "sections": []
         },
         {
-          "title": "Small changes",
+          "title": "Small Changes",
           "path": "global-development/series/global-development-podcast",
           "sections": []
         },
@@ -407,12 +408,12 @@
           "sections": []
         },
         {
-          "title": "Guardian live",
+          "title": "Guardian Live",
           "path": "membership/series/we-need-to-talk-about",
           "sections": []
         },
         {
-          "title": "Neuroscientist explains",
+          "title": "Neuroscientist Explains",
           "path": "science/series/a-neuroscientist-explains-podcast",
           "sections": []
         }

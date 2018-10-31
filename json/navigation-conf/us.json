@@ -263,12 +263,12 @@
       "path": "podcasts",
       "sections": [
         {
-          "title": "Today in focus",
+          "title": "Today in Focus",
           "path": "news/series/todayinfocus",
           "sections": []
         },
         {
-          "title": "Long reads",
+          "title": "Long Reads",
           "path": "news/series/the-audio-long-read",
           "sections": []
         },
@@ -278,7 +278,7 @@
           "sections": []
         },
         {
-          "title": "UK politics",
+          "title": "UK Politics",
           "path": "politics/series/politicsweekly",
           "sections": []
         },
@@ -303,7 +303,7 @@
           "sections": []
         },
         {
-          "title": "Global development",
+          "title": "Global Development",
           "path": "global-development/series/global-development-podcast",
           "sections": []
         },
@@ -313,7 +313,7 @@
           "sections": []
         },
         {
-          "title": "Close encounters",
+          "title": "Close Encounters",
           "path": "lifeandstyle/series/close-encounters",
           "sections": []
         },
