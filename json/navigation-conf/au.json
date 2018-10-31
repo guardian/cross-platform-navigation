@@ -262,8 +262,18 @@
       "path": "podcasts",
       "sections": [
         {
+          "title": "Today in Focus",
+          "path": "news/series/todayinfocus",
+          "sections": []
+        },
+        {
           "title": "Football",
           "path": "football/series/footballweekly",
+          "sections": []
+        },
+        {
+          "title": "Audio Long Reads",
+          "path": "news/series/the-audio-long-read",
           "sections": []
         },
         {
@@ -272,12 +282,7 @@
           "sections": []
         },
         {
-          "title": "Culture",
-          "path": "artanddesign/series/guardian-australia-culture-podcast",
-          "sections": []
-        },
-        {
-          "title": "Behind the lines",
+          "title": "Behind the Lines",
           "path": "australia-news/series/behind-the-lines-podcast",
           "sections": []
         },
@@ -302,23 +307,18 @@
           "sections": []
         },
         {
-          "title": "The story",
+          "title": "The Story",
           "path": "news/series/the-story",
           "sections": []
         },
         {
-          "title": "Audio long reads",
-          "path": "news/series/the-audio-long-read",
+          "title": "Culture",
+          "path": "artanddesign/series/guardian-australia-culture-podcast",
           "sections": []
         },
         {
           "title": "Global development",
           "path": "global-development/series/global-development-podcast",
-          "sections": []
-        },
-        {
-          "title": "Close encounters",
-          "path": "lifeandstyle/series/close-encounters",
           "sections": []
         }
       ]

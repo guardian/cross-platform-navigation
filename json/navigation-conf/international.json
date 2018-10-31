@@ -350,33 +350,28 @@
       "path": "podcasts",
       "sections": [
         {
+          "title": "Today in Focus",
+          "path": "news/series/todayinfocus",
+          "sections": []
+        },
+        {
           "title": "Football",
           "path": "football/series/footballweekly",
           "sections": []
         },
         {
-          "title": "Science",
-          "path": "science/series/science",
+          "title": "Long Reads",
+          "path": "news/series/the-audio-long-read",
           "sections": []
         },
         {
-          "title": "UK politics",
+          "title": "UK Politics",
           "path": "politics/series/politicsweekly",
           "sections": []
         },
         {
-          "title": "Aus politics",
+          "title": "Aus Politics",
           "path": "australia-news/series/politics-live-with-katharine-murphy",
-          "sections": []
-        },
-        {
-          "title": "US politics",
-          "path": "us-news/series/politics-for-humans",
-          "sections": []
-        },
-        {
-          "title": "Tech",
-          "path": "technology/series/chips-with-everything",
           "sections": []
         },
         {
@@ -385,53 +380,28 @@
           "sections": []
         },
         {
-          "title": "Long reads",
-          "path": "news/series/the-audio-long-read",
+          "title": "Science",
+          "path": "science/series/science",
           "sections": []
         },
         {
-          "title": "The story",
+          "title": "Tech",
+          "path": "technology/series/chips-with-everything",
+          "sections": []
+        },
+        {
+          "title": "The Story",
           "path": "news/series/the-story",
           "sections": []
         },
         {
-          "title": "The citadel",
-          "path": "tv-and-radio/series/game-of-thrones-the-citadel-podcast",
-          "sections": []
-        },
-        {
-          "title": "Feminism",
-          "path": "commentisfree/series/what-would-a-feminist-do",
-          "sections": []
-        },
-        {
-          "title": "Token",
-          "path": "society/series/token",
-          "sections": []
-        },
-        {
-          "title": "Behind the lines",
-          "path": "australia-news/series/behind-the-lines-podcast",
-          "sections": []
-        },
-        {
-          "title": "Aus culture",
-          "path": "artanddesign/series/guardian-australia-culture-podcast",
-          "sections": []
-        },
-        {
-          "title": "Guardian live",
-          "path": "membership/series/guardian-live-podcast",
-          "sections": []
-        },
-        {
-          "title": "Global development",
+          "title": "Global Development",
           "path": "global-development/series/global-development-podcast",
           "sections": []
         },
         {
-          "title": "Close encounters",
-          "path": "lifeandstyle/series/close-encounters",
+          "title": "Politics",
+          "path": "us-news/series/politics-for-humans",
           "sections": []
         }
       ]
