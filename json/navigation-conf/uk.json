@@ -368,43 +368,53 @@
         },
         {
           "title": "Football weekly",
-          "path": "football/series/footballweekly"
+          "path": "football/series/footballweekly",
+          "sections": []
         },
         {
-          "title": "Long reads",
-          "path": "news/series/the-audio-long-read"
+          "title": "Audio long reads",
+          "path": "news/series/the-audio-long-read",
+          "sections": []
         },
         {
           "title": "Politics weekly",
-          "path": "politics/series/politicsweekly"
+          "path": "politics/series/politicsweekly",
+          "sections": []
         },
         {
           "title": "Guardian books",
-          "path": "books/series/books"
+          "path": "books/series/books",
+          "sections": []
         },
         {
           "title": "Chips with everything",
-          "path": "technology/series/chips-with-everything"
+          "path": "technology/series/chips-with-everything",
+          "sections": []
         },
         {
           "title": "Australian politics",
-          "path": "australia-news/series/australian-politics-live"
+          "path": "australia-news/series/australian-politics-live",
+          "sections": []
         },
         {
           "title": "Small changes",
-          "path": "global-development/series/global-development-podcast"
+          "path": "global-development/series/global-development-podcast",
+          "sections": []
         },
         {
           "title": "Brexit means...",
-          "path": "politics/series/brexit-means"
+          "path": "politics/series/brexit-means",
+          "sections": []
         },
         {
           "title": "Guardian live",
-          "path": "membership/series/we-need-to-talk-about"
+          "path": "membership/series/we-need-to-talk-about",
+          "sections": []
         },
         {
           "title": "Neuroscientist explains",
-          "path": "science/series/a-neuroscientist-explains-podcast"
+          "path": "science/series/a-neuroscientist-explains-podcast",
+          "sections": []
         }
       ]
     },
