@@ -14,7 +14,28 @@
             },
             {
               "title": "Education",
-              "path": "education"
+              "path": "education",
+              "sections" : [
+                {
+                  "title": "schools",
+                  "path": "education/schools",
+                  "mobileOverride" : "tag-list"
+                },
+                {
+                  "title": "teachers",
+                  "path": "teacher network"
+                },
+                {
+                  "title": "universities",
+                  "path": "education/universities",
+                  "mobileOverride" : "tag-list"
+                },
+                {
+                  "title": "students",
+                  "path": "education/students",
+                  "mobileOverride" : "tag-list"
+                }
+              ]
             },
             {
               "title": "Media",
@@ -22,7 +43,7 @@
             },
             {
               "title": "Society",
-              "path": "society"
+              "path": "uk/society"
             },
             {
               "title": "Law",
@@ -102,16 +123,39 @@
               "path": "business/banking"
             },
             {
-              "title": "Retail",
-              "path": "business/retail"
+              "title": "Money",
+              "path": "uk/money",
+              "sections": [
+                {
+                  "title": "Property",
+                  "path": "money/property"
+                },
+                {
+                  "title": "Savings",
+                  "path": "money/savings"
+                },
+                {
+                  "title": "Pensions",
+                  "path": "money/pensions"
+                },
+                {
+                  "title": "Borrowing",
+                  "path": "money/debt"
+                },
+                {
+                  "title": "Careers",
+                  "path": "money/work-and-careers"
+                }
+              ]
             },
             {
               "title": "Markets",
               "path": "business/stock-markets"
             },
             {
-              "title": "Eurozone",
-              "path": "business/eurozone"
+              "title": "project syndicate",
+              "path": "business/series/project-syndicate-economists",
+              "mobileOverride": "tag-list"
             },
             {
               "title": "B2B",
@@ -153,11 +197,42 @@
         },
         {
           "title": "Education",
-          "path": "education"
+          "path": "education",
+          "sections" : [
+            {
+              "title": "schools",
+              "path": "education/schools",
+              "mobileOverride" : "tag-list"
+            },
+            {
+              "title": "teachers",
+              "path": "teacher network"
+            },
+            {
+              "title": "universities",
+              "path": "education/universities",
+              "mobileOverride" : "tag-list"
+            },
+            {
+              "title": "students",
+              "path": "education/students",
+              "mobileOverride" : "tag-list"
+            }
+          ]
+        },
+        {
+          "title": "Society",
+          "path": "uk/society",
+          "sections": []
         },
         {
           "title": "Tech",
           "path": "uk/technology",
+          "sections": []
+        },
+        {
+          "title": "Science",
+          "path": "uk/science",
           "sections": []
         },
         {
@@ -167,13 +242,41 @@
         {
           "title": "Cities",
           "path": "cities"
+        },
+        {
+          "title":  "obituaries",
+          "path": "obituaries"
         }
       ]
     },
     {
       "title": "Opinion",
       "path": "uk/commentisfree",
-      "sections": []
+      "sections": [
+        {
+          "title": "The Guardian View",
+          "path": "profile/editorial",
+          "mobileOverride": "tag-list"
+        },
+        {
+          "title": "Columnists",
+          "path": "columnists"
+        },
+        {
+          "title": "Cartoons",
+          "path": "cartoons/archive"
+        },
+        {
+          "title": "Opinion videos",
+          "path": "opinions-videos"
+        },
+        {
+          "title": "Letters",
+          "path": "tone/letters",
+          "mobileOverride": "tag-list"
+        }
+
+      ]
     },
     {
       "title": "Sport",
@@ -363,8 +466,7 @@
      "sections": [
        {
          "title": "Video",
-         "path": "video",
-         "sections": []
+         "path": "video"
        },
        {
          "title": "Podcasts",
