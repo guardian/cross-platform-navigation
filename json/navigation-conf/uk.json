@@ -65,7 +65,7 @@
           ]
         },
         {
-          "title": "The World",
+          "title": "world",
           "path": "world",
           "sections": [
             {
@@ -164,7 +164,7 @@
           ]
         },
         {
-          "title": "ball",
+          "title": "Football",
           "path": "football",
           "sections": []
         },
@@ -226,13 +226,13 @@
           "sections": []
         },
         {
-          "title": "Tech",
-          "path": "uk/technology",
+          "title": "Science",
+          "path": "uk/science",
           "sections": []
         },
         {
-          "title": "Science",
-          "path": "uk/science",
+          "title": "Tech",
+          "path": "uk/technology",
           "sections": []
         },
         {
@@ -254,7 +254,7 @@
       "path": "uk/commentisfree",
       "sections": [
         {
-          "title": "The Guardian View",
+          "title": "The Guardian view",
           "path": "profile/editorial",
           "mobileOverride": "tag-list"
         },
@@ -295,32 +295,32 @@
           "path": "sport/rugby-union"
         },
         {
-          "title": "F1",
-          "path": "sport/formulaone"
-        },
-        {
           "title": "Tennis",
           "path": "sport/tennis"
-        },
-        {
-          "title": "Golf",
-          "path": "sport/golf"
         },
         {
           "title": "Cycling",
           "path": "sport/cycling"
         },
         {
+          "title": "F1",
+          "path": "sport/formulaone"
+        },
+        {
+          "title": "Golf",
+          "path": "sport/golf"
+        },
+        {
           "title": "Boxing",
           "path": "sport/boxing"
         },
         {
-          "title": "Racing",
-          "path": "sport/horse-racing"
-        },
-        {
           "title": "Rugby league",
           "path": "sport/rugbyleague"
+        },
+        {
+          "title": "Racing",
+          "path": "sport/horse-racing"
         },
         {
           "title": "US sports",
@@ -413,8 +413,8 @@
           "path": "lifeandstyle/women"
         },
         {
-          "title": "Women",
-          "path": "lifeandstyle/women",
+          "title": "Men",
+          "path": "lifeandstyle/men",
           "mobileOverride": "tag-list"
         },
         {
