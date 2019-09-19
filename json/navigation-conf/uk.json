@@ -1,199 +1,192 @@
 {
-  "pillars": [
-    {
-      "title": "News",
-      "path": "uk",
-      "sections": [
-        {
-          "title": "UK",
-          "path": "uk-news",
-          "sections": [
-            {
-              "title": "Politics",
-              "path": "politics"
-            },
-            {
-              "title": "Education",
-              "path": "education"
-            },
-            {
-              "title": "Media",
-              "path": "uk/media"
-            },
-            {
-              "title": "Society",
-              "path": "uk/society"
-            },
-            {
-              "title": "Law",
-              "path": "law",
-              "mobileOverride": "section-list"
-            },
-            {
-              "title": "Scotland",
-              "path": "uk/scotland"
-            },
-            {
-              "title": "Wales",
-              "path": "uk/wales"
-            },
-            {
-              "title": "Northern Ireland",
-              "path": "uk/northernireland"
-            }
-          ]
-        },
-        {
-          "title": "world",
-          "path": "world",
-          "sections": [
-            {
-              "title": "Europe",
-              "path": "world/europe-news"
-            },
-            {
-              "title": "US",
-              "path": "us-news"
-            },
-            {
-              "title": "Americas",
-              "path": "world/americas"
-            },
-            {
-              "title": "Asia",
-              "path": "world/asia"
-            },
-            {
-              "title": "Australia",
-              "path": "australia-news"
-            },
-            {
-              "title": "Africa",
-              "path": "world/africa"
-            },
-            {
-              "title": "Middle East",
-              "path": "world/middleeast"
-            },
-            {
-              "title": "Inequality",
-              "path": "inequality"
-            },
-            {
-              "title": "Cities",
-              "path": "cities"
-            },
-            {
-              "title": "Global Development",
-              "path": "global-development"
-            }
-          ]
-        },
-        {
-          "title": "Business",
-          "path": "uk/business",
-          "sections": [
-            {
-              "title": "Economics",
-              "path": "business/economics"
-            },
-            {
-              "title": "Banking",
-              "path": "business/banking"
-            },
-            {
-              "title": "Money",
-              "path": "uk/money"
-            },
-            {
-              "title": "Markets",
-              "path": "business/stock-markets"
-            },
-            {
-              "title": "project syndicate",
-              "path": "business/series/project-syndicate-economists",
-              "mobileOverride": "tag-list"
-            },
-            {
-              "title": "B2B",
-              "path": "business-to-business"
-            }
-          ]
-        },
-        {
-          "title": "football",
-          "path": "football",
-          "sections": []
-        },
-        {
-          "title": "UK Politics",
-          "path": "politics",
-          "sections": []
-        },
-        {
-          "title": "Environment",
-          "path": "uk/environment",
-          "sections": [
-            {
-              "title": "Climate change",
-              "path": "environment/climate-change"
-            },
-            {
-              "title": "Wildlife",
-              "path": "environment/wildlife"
-            },
-            {
-              "title": "Energy",
-              "path": "environment/energy"
-            },
-            {
-              "title": "Pollution",
-              "path": "environment/pollution"
-            }
-          ]
-        },
+  "pillars": [{
+    "title": "News",
+    "path": "uk",
+    "sections": [{
+      "title": "UK",
+      "path": "uk-news",
+      "sections": [{
+        "title": "Politics",
+        "path": "politics"
+      },
         {
           "title": "Education",
           "path": "education"
         },
         {
+          "title": "Media",
+          "path": "uk/media"
+        },
+        {
           "title": "Society",
-          "path": "uk/society",
-          "sections": []
+          "path": "uk/society"
         },
         {
-          "title": "Science",
-          "path": "uk/science",
-          "sections": []
+          "title": "Law",
+          "path": "law",
+          "mobileOverride": "section-list"
         },
         {
-          "title": "Tech",
-          "path": "uk/technology",
-          "sections": []
+          "title": "Scotland",
+          "path": "uk/scotland"
         },
         {
-          "title": "Global Development",
-          "path": "global-development"
+          "title": "Wales",
+          "path": "uk/wales"
         },
         {
-          "title": "Cities",
-          "path": "cities"
-        },
-        {
-          "title":  "obituaries",
-          "path": "obituaries"
+          "title": "Northern Ireland",
+          "path": "uk/northernireland"
         }
       ]
     },
+      {
+        "title": "world",
+        "path": "world",
+        "sections": [{
+          "title": "Europe",
+          "path": "world/europe-news"
+        },
+          {
+            "title": "US",
+            "path": "us-news"
+          },
+          {
+            "title": "Americas",
+            "path": "world/americas"
+          },
+          {
+            "title": "Asia",
+            "path": "world/asia"
+          },
+          {
+            "title": "Australia",
+            "path": "australia-news"
+          },
+          {
+            "title": "Africa",
+            "path": "world/africa"
+          },
+          {
+            "title": "Middle East",
+            "path": "world/middleeast"
+          },
+          {
+            "title": "Inequality",
+            "path": "inequality"
+          },
+          {
+            "title": "Cities",
+            "path": "cities"
+          },
+          {
+            "title": "Global Development",
+            "path": "global-development"
+          }
+        ]
+      },
+      {
+        "title": "Business",
+        "path": "uk/business",
+        "sections": [{
+          "title": "Economics",
+          "path": "business/economics"
+        },
+          {
+            "title": "Banking",
+            "path": "business/banking"
+          },
+          {
+            "title": "Money",
+            "path": "uk/money"
+          },
+          {
+            "title": "Markets",
+            "path": "business/stock-markets"
+          },
+          {
+            "title": "project syndicate",
+            "path": "business/series/project-syndicate-economists",
+            "mobileOverride": "tag-list"
+          },
+          {
+            "title": "B2B",
+            "path": "business-to-business"
+          }
+        ]
+      },
+      {
+        "title": "football",
+        "path": "football",
+        "sections": []
+      },
+      {
+        "title": "UK Politics",
+        "path": "politics",
+        "sections": []
+      },
+      {
+        "title": "Environment",
+        "path": "uk/environment",
+        "sections": [{
+          "title": "Climate change",
+          "path": "environment/climate-change"
+        },
+          {
+            "title": "Wildlife",
+            "path": "environment/wildlife"
+          },
+          {
+            "title": "Energy",
+            "path": "environment/energy"
+          },
+          {
+            "title": "Pollution",
+            "path": "environment/pollution"
+          }
+        ]
+      },
+      {
+        "title": "Education",
+        "path": "education"
+      },
+      {
+        "title": "Society",
+        "path": "uk/society",
+        "sections": []
+      },
+      {
+        "title": "Science",
+        "path": "uk/science",
+        "sections": []
+      },
+      {
+        "title": "Tech",
+        "path": "uk/technology",
+        "sections": []
+      },
+      {
+        "title": "Global Development",
+        "path": "global-development"
+      },
+      {
+        "title": "Cities",
+        "path": "cities"
+      },
+      {
+        "title": "obituaries",
+        "path": "obituaries"
+      }
+    ]
+  },
     {
       "title": "Opinion",
       "path": "uk/commentisfree",
-      "sections": [
-        {
-          "title": "The Guardian view",
-          "path": "profile/editorial",
-          "mobileOverride": "tag-list"
-        },
+      "sections": [{
+        "title": "The Guardian view",
+        "path": "profile/editorial",
+        "mobileOverride": "tag-list"
+      },
         {
           "title": "Columnists",
           "path": "columnists"
@@ -217,11 +210,10 @@
     {
       "title": "Sport",
       "path": "uk/sport",
-      "sections": [
-        {
-          "title": "Football",
-          "path": "football"
-        },
+      "sections": [{
+        "title": "Football",
+        "path": "football"
+      },
         {
           "title": "Cricket",
           "path": "sport/cricket"
@@ -271,11 +263,10 @@
     {
       "title": "Culture",
       "path": "uk/culture",
-      "sections": [
-        {
-          "title": "Film",
-          "path": "uk/film"
-        },
+      "sections": [{
+        "title": "Film",
+        "path": "uk/film"
+      },
         {
           "title": "Music",
           "path": "music"
@@ -309,11 +300,10 @@
     {
       "title": "Lifestyle",
       "path": "lifeandstyle",
-      "sections": [
-        {
-          "title": "Fashion",
-          "path": "fashion"
-        },
+      "sections": [{
+        "title": "Fashion",
+        "path": "fashion"
+      },
         {
           "title": "Food",
           "path": "food"
@@ -324,7 +314,7 @@
         },
         {
           "title": "Travel",
-          "path": "travel",
+          "path": "travel"
         },
         {
           "title": "Health & fitness",
@@ -353,7 +343,7 @@
         },
         {
           "title": "Money",
-          "path": "uk/money",
+          "path": "uk/money"
         },
         {
           "title": "Cars",
@@ -361,54 +351,54 @@
         }
       ]
     },
-    {"title":  "more",
-     "path": "uk",
-     "sections": [
-       {
-         "title": "Video",
-         "path": "video"
-       },
-       {
-         "title": "Podcasts",
-         "path": "podcasts",
-         "sections": []
-       },
-       {
-         "title": "Pictures",
-         "path": "pictures",
-         "sections": []
-       },
-       {
-         "title": "Newsletters",
-         "path": "newsletters",
-         "sections": []
-       },
-       {
-         "title": "Today's paper",
-         "path": "todays-paper",
-         "sections": []
-       },
-       {
-         "title": "Inside the guardian",
-         "path": "inside-the-guardian",
-         "sections": []
-       },
-       {
-         "title": "The Observer",
-         "path": "observer",
-         "sections": []
-       },
-       {
-         "title": "Guardian Weekly",
-         "path": "guardian-weekly",
-         "sections": []
-       },
-       {
-         "title": "Professional netweorks",
-         "path": "professional-networks",
-         "sections": []
-       }
-     ]
+    {
+      "title": "more",
+      "path": "uk",
+      "sections": [{
+        "title": "Video",
+        "path": "video"
+      },
+        {
+          "title": "Podcasts",
+          "path": "podcasts",
+          "sections": []
+        },
+        {
+          "title": "Pictures",
+          "path": "pictures",
+          "sections": []
+        },
+        {
+          "title": "Newsletters",
+          "path": "newsletters",
+          "sections": []
+        },
+        {
+          "title": "Today's paper",
+          "path": "todays-paper",
+          "sections": []
+        },
+        {
+          "title": "Inside the guardian",
+          "path": "inside-the-guardian",
+          "sections": []
+        },
+        {
+          "title": "The Observer",
+          "path": "observer",
+          "sections": []
+        },
+        {
+          "title": "Guardian Weekly",
+          "path": "guardian-weekly",
+          "sections": []
+        },
+        {
+          "title": "Professional netweorks",
+          "path": "professional-networks",
+          "sections": []
+        }
+      ]
     }
   ]
 }
