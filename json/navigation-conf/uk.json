@@ -8,7 +8,7 @@
       "sections": [{
         "title": "Politics",
         "path": "politics"
-      },
+        },
         {
           "title": "Education",
           "path": "education"
@@ -41,12 +41,12 @@
       ]
     },
       {
-        "title": "world",
+        "title": "World",
         "path": "world",
         "sections": [{
           "title": "Europe",
           "path": "world/europe-news"
-        },
+          },
           {
             "title": "US",
             "path": "us-news"
@@ -116,7 +116,7 @@
         ]
       },
       {
-        "title": "football",
+        "title": "Football",
         "path": "football",
         "sections": []
       },
