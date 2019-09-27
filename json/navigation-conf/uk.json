@@ -152,12 +152,12 @@
       },
       {
         "title": "Society",
-        "path": "uk/society",
+        "path": "society",
         "sections": []
       },
       {
         "title": "Science",
-        "path": "uk/science",
+        "path": "science",
         "sections": []
       },
       {
@@ -175,7 +175,8 @@
       },
       {
         "title": "Obituaries",
-        "path": "obituaries"
+        "path": "tone/obituaries",
+        "mobileOverride": "tag-list"
       }
     ]
   },
@@ -183,10 +184,10 @@
       "title": "Opinion",
       "path": "uk/commentisfree",
       "sections": [{
-        "title": "The Guardian view",
-        "path": "profile/editorial",
-        "mobileOverride": "tag-list"
-      },
+          "title": "The Guardian view",
+          "path": "profile/editorial",
+          "mobileOverride": "tag-list"
+        },
         {
           "title": "Columnists",
           "path": "columnists"
@@ -204,7 +205,6 @@
           "path": "tone/letters",
           "mobileOverride": "tag-list"
         }
-
       ]
     },
     {
@@ -310,7 +310,8 @@
         },
         {
           "title": "Recipes",
-          "path": "recipes"
+          "path": "tone/recipes",
+          "mobileOverride": "tag-list"
         },
         {
           "title": "Travel",
@@ -351,7 +352,7 @@
         }
       ]
     },
-    {
+    {           H
       "title": "more",
       "path": "uk",
       "sections": [{
