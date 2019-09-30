@@ -116,11 +116,6 @@
         ]
       },
       {
-        "title": "Football",
-        "path": "football",
-        "sections": []
-      },
-      {
         "title": "UK Politics",
         "path": "politics",
         "sections": []
@@ -189,16 +184,8 @@
           "mobileOverride": "tag-list"
         },
         {
-          "title": "Columnists",
-          "path": "columnists"
-        },
-        {
           "title": "Cartoons",
           "path": "cartoons/archive"
-        },
-        {
-          "title": "Opinion videos",
-          "path": "opinions-videos"
         },
         {
           "title": "Letters",
@@ -352,6 +339,68 @@
         }
       ]
     },
+    {
+      "title": "Video",
+      "path": "video",
+      "sections": []
+    },
+    {
+      "title": "Podcasts",
+      "path": "podcasts",
+      "sections": [
+        {
+          "title": "Today in Focus",
+          "path": "news/series/todayinfocus",
+          "sections": []
+        },
+        {
+          "title": "Football Weekly",
+          "path": "football/series/footballweekly",
+          "sections": []
+        },
+        {
+          "title": "Audio Long Reads",
+          "path": "news/series/the-audio-long-read",
+          "sections": []
+        },
+        {
+          "title": "Politics Weekly",
+          "path": "politics/series/politicsweekly",
+          "sections": []
+        },
+        {
+          "title": "Guardian Books",
+          "path": "books/series/books",
+          "sections": []
+        },
+        {
+          "title": "Chips with Everything",
+          "path": "technology/series/chips-with-everything",
+          "sections": []
+        },
+        {
+          "title": "Australian Politics",
+          "path": "australia-news/series/australian-politics-live",
+          "sections": []
+        },
+        {
+          "title": "Small Changes",
+          "path": "global-development/series/global-development-podcast",
+          "sections": []
+        },
+        {
+          "title": "Brexit means...",
+          "path": "politics/series/brexit-means",
+          "sections": []
+        },
+        {
+          "title": "Neuroscientist Explains",
+          "path": "science/series/a-neuroscientist-explains-podcast",
+          "sections": []
+        }
+      ]
+    },
+
     {           
       "title": "more",
       "path": "uk",
