@@ -399,56 +399,6 @@
           "sections": []
         }
       ]
-    },
-
-    {           
-      "title": "more",
-      "path": "uk",
-      "sections": [{
-        "title": "Video",
-        "path": "video"
-      },
-        {
-          "title": "Podcasts",
-          "path": "podcasts",
-          "sections": []
-        },
-        {
-          "title": "Pictures",
-          "path": "pictures",
-          "sections": []
-        },
-        {
-          "title": "Newsletters",
-          "path": "newsletters",
-          "sections": []
-        },
-        {
-          "title": "Today's paper",
-          "path": "todays-paper",
-          "sections": []
-        },
-        {
-          "title": "Inside the guardian",
-          "path": "inside-the-guardian",
-          "sections": []
-        },
-        {
-          "title": "The Observer",
-          "path": "observer",
-          "sections": []
-        },
-        {
-          "title": "Guardian Weekly",
-          "path": "guardian-weekly",
-          "sections": []
-        },
-        {
-          "title": "Professional netweorks",
-          "path": "professional-networks",
-          "sections": []
-        }
-      ]
     }
-  ]
+ ]
 }
