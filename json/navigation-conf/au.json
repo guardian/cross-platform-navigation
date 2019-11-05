@@ -262,6 +262,16 @@
       "path": "podcasts",
       "sections": [
         {
+          "title": "Full Story",
+          "path": "australia-news/series/full-story",
+          "sections": []
+        },
+        {
+          "title": "Politics",
+          "path": "australia-news/series/australian-politics-live",
+          "sections": []
+        },
+        {
           "title": "Today in Focus",
           "path": "news/series/todayinfocus",
           "sections": []
@@ -274,21 +284,6 @@
         {
           "title": "Audio Long Reads",
           "path": "news/series/the-audio-long-read",
-          "sections": []
-        },
-        {
-          "title": "Politics",
-          "path": "australia-news/series/australian-politics-live",
-          "sections": []
-        },
-        {
-          "title": "Behind the Lines",
-          "path": "australia-news/series/behind-the-lines-podcast",
-          "sections": []
-        },
-        {
-          "title": "Token",
-          "path": "society/series/token",
           "sections": []
         },
         {
@@ -309,16 +304,6 @@
         {
           "title": "The Story",
           "path": "news/series/the-story",
-          "sections": []
-        },
-        {
-          "title": "Culture",
-          "path": "artanddesign/series/guardian-australia-culture-podcast",
-          "sections": []
-        },
-        {
-          "title": "Global development",
-          "path": "global-development/series/global-development-podcast",
           "sections": []
         }
       ]
