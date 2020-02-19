@@ -48,10 +48,6 @@
           "path": "australia-news"
         },
         {
-          "title": "Cities",
-          "path": "cities"
-        },
-        {
           "title": "Development",
           "path": "global-development"
         }

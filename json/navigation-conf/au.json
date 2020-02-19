@@ -238,10 +238,6 @@
       "path": "au/environment",
       "sections": [
         {
-          "title": "Cities",
-          "path": "cities"
-        },
-        {
           "title": "Development",
           "path": "global-development"
         }
