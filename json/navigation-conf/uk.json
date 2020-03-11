@@ -40,6 +40,11 @@
       ]
     },
     {
+      "title": "Coronavirus",
+      "path": "world/coronavirus-outbreak",
+      "sections": []
+    },
+    {
       "title": "Politics",
       "path": "politics",
       "sections": []
