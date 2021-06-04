@@ -87,6 +87,10 @@
       "path": "sport",
       "sections": [
         {
+          "title": "Euro 2020",
+          "path": "football/euro-2020"
+        },
+        {
           "title": "Football",
           "path": "football"
         },
@@ -135,7 +139,12 @@
     {
       "title": "Football",
       "path": "football",
-      "sections": []
+      "sections": [
+        {
+          "title": "Euro 2020",
+          "path": "football/euro-2020"
+        }
+      ]
     },
     {
       "title": "Opinion",
