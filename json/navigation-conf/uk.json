@@ -92,8 +92,8 @@
       "path": "uk/sport",
       "sections": [
         {
-          "title": "Euro 2020",
-          "path": "football/euro-2020"
+          "title": "Tokyo 2020",
+          "path": "sport/olympic-games-2020"
         },
         {
           "title": "Football",
@@ -144,12 +144,7 @@
     {
       "title": "Football",
       "path": "football",
-      "sections": [
-        {
-          "title": "Euro 2020",
-          "path": "football/euro-2020"
-        }
-      ]
+      "sections": []
     },
     {
       "title": "Opinion",
