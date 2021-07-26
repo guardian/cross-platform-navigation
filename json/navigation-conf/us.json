@@ -135,7 +135,8 @@
     },
     {
       "title": "Green Light",
-      "path": "environment/series/green-light"
+      "path": "environment/series/green-light",
+      "sections": []
     },
     {
       "title": "Lifestyle",
