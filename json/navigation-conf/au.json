@@ -243,31 +243,31 @@
       "sections": [
         {
           "title": "Climate Change",
-          "path": "climate-change"
+          "path": "environment/climate-change"
         },
         {
           "title": "Energy",
-          "path": "energy"
+          "path": "environment/energy"
         },
         {
           "title": "Wildlife",
-          "path": "wildlife"
+          "path": "environment/wildlife"
         },
         {
           "title": "Biodiversity",
-          "path": "biodiversity"
+          "path": "environment/biodiversity"
         },
         {
           "title": "Oceans",
-          "path": "oceans"
+          "path": "environment/oceans"
         },
         {
           "title": "Pollution",
-          "path": "pollution"
+          "path": "environment/pollution"
         },
         {
           "title": "Great Barrier Reef",
-          "path": "great-barrier-reef"
+          "path": "environment/great-barrier-reef"
         }
       ]
     },
