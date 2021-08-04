@@ -242,8 +242,32 @@
       "path": "au/environment",
       "sections": [
         {
-          "title": "Development",
-          "path": "global-development"
+          "title": "Climate Change",
+          "path": "climate-change"
+        },
+        {
+          "title": "Energy",
+          "path": "energy"
+        },
+        {
+          "title": "Wildlife",
+          "path": "wildlife"
+        },
+        {
+          "title": "Biodiversity",
+          "path": "biodiversity"
+        },
+        {
+          "title": "Oceans",
+          "path": "oceans"
+        },
+        {
+          "title": "Pollution",
+          "path": "pollution"
+        },
+        {
+          "title": "Great Barrier Reef",
+          "path": "great-barrier-reef"
         }
       ]
     },
