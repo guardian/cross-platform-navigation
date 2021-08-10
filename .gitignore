@@ -33,3 +33,6 @@ project/target/
 # Maven
 log/
 target/
+
+.vscode/
+.metals/

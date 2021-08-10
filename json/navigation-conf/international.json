@@ -87,10 +87,6 @@
       "path": "sport",
       "sections": [
         {
-          "title": "Tokyo 2020",
-          "path": "sport/olympic-games-2020"
-        },
-        {
           "title": "Football",
           "path": "football"
         },
