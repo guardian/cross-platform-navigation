@@ -54,10 +54,6 @@
       "path": "au/sport",
       "sections": [
         {
-          "title": "Tokyo 2020",
-          "path": "sport/olympic-games-2020"
-        },
-        {
           "title": "Australia sport",
           "path": "sport/australia-sport"
         },
