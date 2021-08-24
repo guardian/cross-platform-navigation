@@ -58,6 +58,10 @@
       "path": "us/sport",
       "sections": [
         {
+          "title":"Tokyo 2020 Paralympics",
+          "path": "sport/paralympic-games-2020"
+        },
+        {
           "title": "Soccer",
           "path": "football",
           "mobileOverride": "section-list"
