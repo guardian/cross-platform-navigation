@@ -190,6 +190,33 @@
       ]
     },
     {
+      "title": "Environment",
+      "path": "uk/environment",
+      "sections": [
+        {
+          "title": "Climate crisis",
+          "path": "environment/climate-crisis"
+        },
+        {
+          "title": "Wildlife",
+          "path": "environment/wildlife"
+        },
+        {
+          "title": "Energy",
+          "path": "environment/energy"
+        },
+        {
+          "title": "Pollution",
+          "path": "environment/pollution"
+        }
+      ]
+    },
+    {
+      "title": "Climate crisis",
+      "path": "environment/climate-crisis",
+      "sections": []
+    },
+    {
       "title": "Business",
       "path": "uk/business",
       "sections": [
@@ -257,28 +284,6 @@
       "title": "Fashion",
       "path": "fashion",
       "sections": []
-    },
-    {
-      "title": "Environment",
-      "path": "uk/environment",
-      "sections": [
-        {
-          "title": "Climate Crisis",
-          "path": "environment/climate-crisis"
-        },
-        {
-          "title": "Wildlife",
-          "path": "environment/wildlife"
-        },
-        {
-          "title": "Energy",
-          "path": "environment/energy"
-        },
-        {
-          "title": "Pollution",
-          "path": "environment/pollution"
-        }
-      ]
     },
     {
       "title": "Tech",
