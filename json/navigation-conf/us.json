@@ -230,10 +230,6 @@
       "path": "us/environment",
       "sections": [
         {
-          "title": "Climate Crisis",
-          "path": "environment/climate-crisis"
-        },
-        {
           "title": "Wildlife",
           "path": "environment/wildlife"
         },
