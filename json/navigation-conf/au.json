@@ -54,10 +54,6 @@
       "path": "au/sport",
       "sections": [
         {
-          "title":"Tokyo 2020 Paralympics",
-          "path": "sport/tokyo-paralympic-games-2020"
-        },
-        {
           "title": "Australia sport",
           "path": "sport/australia-sport"
         },
