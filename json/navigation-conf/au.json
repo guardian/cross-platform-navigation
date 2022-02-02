@@ -58,6 +58,10 @@
           "path": "sport/australia-sport"
         },
         {
+          "title": "Winter Olympics",
+          "path": "sport/winter-olympics-2022"
+        },
+        {
           "title": "AFL",
           "path": "sport/afl"
         },
