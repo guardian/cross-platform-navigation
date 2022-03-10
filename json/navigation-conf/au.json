@@ -292,8 +292,23 @@
           "sections": []
         },
         {
+          "title": "Politics Weekly UK",
+          "path": "politics/series/politicsweekly",
+          "sections": []
+        },
+        {
+          "title": "Politics Weekly America",
+          "path": "politics/series/politics-weekly-america",
+          "sections": []
+        },
+        {
           "title": "Today in Focus",
           "path": "news/series/todayinfocus",
+          "sections": []
+        },
+        {
+          "title": "Weekend",
+          "path": "lifeandstyle/series/weekend",
           "sections": []
         },
         {
