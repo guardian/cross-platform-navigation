@@ -82,6 +82,10 @@
         {
           "title": "NHL",
           "path": "sport/nhl"
+        },
+        {
+          "title": "F1",
+          "path": "sport/formulaone"
         }
       ]
     },
