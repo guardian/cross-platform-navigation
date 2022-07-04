@@ -135,12 +135,8 @@
     {
       "title": "Football",
       "path": "football",
-      "sections": [
-        {
-          "title": "Women's Euro 2022",
-          "path": "football/women-s-euro-2022"
-        }
-      ]
+
+      "sections": []
     },
     {
       "title": "Opinion",
