@@ -340,6 +340,11 @@
       ]
     },
     {
+      "title": "Obituaries",
+      "path": "obituaries",
+      "sections": []
+    },    
+    {
       "title": "Support us",
       "path": "membership",
       "sections": []
