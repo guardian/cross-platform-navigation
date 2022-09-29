@@ -437,6 +437,11 @@
       "title": "Support us",
       "path": "membership",
       "sections": []
+    },
+    {
+      "title": "Corrections",
+      "path": "theguardian/series/corrections-and-clarifications",
+      "sections": []
     }
   ]
 }
