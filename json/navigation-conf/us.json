@@ -86,6 +86,10 @@
         {
           "title": "F1",
           "path": "sport/formulaone"
+        },
+        {
+          "title": "Golf",
+          "path": "sport/golf"
         }
       ]
     },
