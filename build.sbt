@@ -2,9 +2,9 @@ import sbtrelease.ReleaseStateTransformations._
 
 name:="cross-platform-navigation"
 
-scalaVersion in ThisBuild := "2.12.18"
+ThisBuild / scalaVersion := "2.12.18"
 
-resolvers += Resolver.sonatypeRepo("releases")
+resolvers ++= Resolver.sonatypeOssRepos("releases")
 
 libraryDependencies ++= Seq(
   "com.fasterxml.jackson.core" % "jackson-databind" % "2.12.6.1",
@@ -13,7 +13,7 @@ libraryDependencies ++= Seq(
   "org.specs2" %% "specs2-core" % "3.8.6" % "test"
 )
 
-unmanagedResourceDirectories in Test += baseDirectory.value / "json"
+Test / unmanagedResourceDirectories += baseDirectory.value / "json"
 
 enablePlugins(RiffRaffArtifact, BuildInfoPlugin)
 
@@ -42,7 +42,7 @@ riffRaffManifestProjectName := s"Mobile::${name.value}"
 riffRaffArtifactResources ++= listJsonFilesInJsonDir
 
 publishMavenStyle := true
-publishArtifact in Test := false
+Test / publishArtifact := false
 pomIncludeRepository := {_ => false}
 description := "Provides scala representation of the navigation menus for the www.theguardian.com and guardian apps"
 
@@ -76,8 +76,7 @@ scmInfo := Some(ScmInfo(
   url("https://github.com/guardian/cross-platform-navigation"),
   "scm:git:git@github.com:guardian/cross-platform-navigation.git"
 ))
-javacOptions ++= Seq("-source", "1.7", "-target", "1.7")
-scalacOptions ++= Seq("-deprecation", "-unchecked")
+scalacOptions ++= Seq("-deprecation", "-unchecked", "-release:11")
 releaseProcess := Seq(
   checkSnapshotDependencies,
   inquireVersions,
@@ -90,3 +89,8 @@ releaseProcess := Seq(
   setNextVersion,
   commitNextVersion,
   releaseStepCommand("sonatypeReleaseAll"))
+
+Test/testOptions += Tests.Argument(
+  TestFrameworks.ScalaTest,
+  "-u", s"test-results/scala-${scalaVersion.value}", "-o"
+)
