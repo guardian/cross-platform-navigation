@@ -41,6 +41,7 @@ riffRaffUploadManifestBucket := Option("riffraff-builds")
 riffRaffManifestProjectName := s"Mobile::${name.value}"
 riffRaffArtifactResources ++= listJsonFilesInJsonDir
 
+publishTo := sonatypePublishToBundle.value
 publishMavenStyle := true
 Test / publishArtifact := false
 pomIncludeRepository := {_ => false}
