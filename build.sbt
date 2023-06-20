@@ -2,7 +2,9 @@ import sbtrelease.ReleaseStateTransformations._
 
 name:="cross-platform-navigation"
 
-ThisBuild / scalaVersion := "2.12.18"
+ThisBuild / scalaVersion := "2.13.11"
+
+crossScalaVersions := Seq(scalaVersion.value, "2.12.18")
 
 resolvers ++= Resolver.sonatypeOssRepos("releases")
 
@@ -10,7 +12,7 @@ libraryDependencies ++= Seq(
   "com.fasterxml.jackson.core" % "jackson-databind" % "2.12.7.1",
   "com.typesafe.play" %% "play-json" % "2.7.4",
   "org.slf4j" % "slf4j-api" % "1.7.36",
-  "org.specs2" %% "specs2-core" % "3.8.9" % "test"
+  "org.specs2" %% "specs2-core" % "4.20.0" % Test
 )
 
 Test / unmanagedResourceDirectories += baseDirectory.value / "json"
@@ -57,17 +59,6 @@ pomExtra in Global := {
     </developers>
 }
 
-//TODO scala version, cross scala version
-/*
-
-publishTo := {
-  val nexus = "https://oss.sonatype.org/"
-  if (version.value.trim.endsWith("SNAPSHOT"))
-    Some("snapshots" at nexus + "content/repositories/snapshots")
-  else
-    Some("releases"  at nexus + "service/local/staging/deploy/maven2")
-}
-*/
 
 //PgpPublis
 organization := "com.gu"
@@ -77,6 +68,7 @@ scmInfo := Some(ScmInfo(
   "scm:git:git@github.com:guardian/cross-platform-navigation.git"
 ))
 scalacOptions ++= Seq("-deprecation", "-unchecked", "-release:11")
+releaseCrossBuild := true
 releaseProcess := Seq(
   checkSnapshotDependencies,
   inquireVersions,
@@ -85,10 +77,12 @@ releaseProcess := Seq(
   setReleaseVersion,
   commitReleaseVersion,
   tagRelease,
-  ReleaseStep(action = Command.process("publishSigned", _)),
+  releaseStepCommandAndRemaining("+publishSigned"),
+  releaseStepCommand("sonatypeBundleRelease"),
   setNextVersion,
   commitNextVersion,
-  releaseStepCommand("sonatypeReleaseAll"))
+  pushChanges
+)
 
 Test/testOptions += Tests.Argument(
   TestFrameworks.ScalaTest,
