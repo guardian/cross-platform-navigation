@@ -10,7 +10,7 @@ libraryDependencies ++= Seq(
   "com.fasterxml.jackson.core" % "jackson-databind" % "2.12.7.1",
   "com.typesafe.play" %% "play-json" % "2.7.4",
   "org.slf4j" % "slf4j-api" % "1.7.36",
-  "org.specs2" %% "specs2-core" % "3.8.6" % "test"
+  "org.specs2" %% "specs2-core" % "3.8.9" % "test"
 )
 
 Test / unmanagedResourceDirectories += baseDirectory.value / "json"
