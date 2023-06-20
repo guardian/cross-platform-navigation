@@ -11,7 +11,7 @@ resolvers ++= Resolver.sonatypeOssRepos("releases")
 libraryDependencies ++= Seq(
   "com.fasterxml.jackson.core" % "jackson-databind" % "2.15.2",
   "com.typesafe.play" %% "play-json" % "2.9.4",
-  "org.slf4j" % "slf4j-api" % "1.7.36",
+  "org.slf4j" % "slf4j-api" % "2.0.7",
   "org.specs2" %% "specs2-core" % "4.20.0" % Test
 )
 
