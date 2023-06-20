@@ -2,7 +2,7 @@ import sbtrelease.ReleaseStateTransformations._
 
 name:="cross-platform-navigation"
 
-scalaVersion in ThisBuild := "2.12.4"
+scalaVersion in ThisBuild := "2.12.18"
 
 resolvers += Resolver.sonatypeRepo("releases")
 
