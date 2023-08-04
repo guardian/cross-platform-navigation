@@ -59,8 +59,8 @@
       "sections": [
         {
           "title": "Soccer",
-          "path": "football",
-          "mobileOverride": "section-list"
+          "path": "us/soccer",
+          "mobileOverride": "section-front"
         },
         {
           "title": "MLS",
@@ -95,7 +95,7 @@
     },
     {
       "title": "Soccer",
-      "path": "football",
+      "path": "us/soccer",
       "sections": []
     },
     {
