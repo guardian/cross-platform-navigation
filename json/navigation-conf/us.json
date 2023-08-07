@@ -96,6 +96,7 @@
     {
       "title": "Soccer",
       "path": "us/soccer",
+      "mobileOverride": "section-front",
       "sections": []
     },
     {
