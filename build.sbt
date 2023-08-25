@@ -17,7 +17,7 @@ libraryDependencies ++= Seq(
 
 Test / unmanagedResourceDirectories += baseDirectory.value / "json"
 
-enablePlugins(RiffRaffArtifact, BuildInfoPlugin)
+enablePlugins(BuildInfoPlugin)
 
 def listJsonFiles(file: File) : List[File] = {
   if(file.isDirectory) {
@@ -36,12 +36,6 @@ def listJsonFilesInJsonDir: List[(File, String)] = {
     file => file -> jsonDir.relativize(file.getAbsoluteFile.toPath).toString
   }
 }
-
-riffRaffPackageType := file(".nope")
-riffRaffUploadArtifactBucket := Option("riffraff-artifact")
-riffRaffUploadManifestBucket := Option("riffraff-builds")
-riffRaffManifestProjectName := s"Mobile::${name.value}"
-riffRaffArtifactResources ++= listJsonFilesInJsonDir
 
 publishTo := sonatypePublishToBundle.value
 publishMavenStyle := true
