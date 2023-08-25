@@ -9,22 +9,44 @@ on:
     branches:
       - main
 
+permissions:
+  id-token: write
+  contents: read
+
 jobs:
-  test:
+  ci:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v3
+
       - name: Setup JDK
         uses: actions/setup-java@v3
         with:
           distribution: corretto
           java-version: 11
           cache: sbt
-      - name: Build and Test
+
+      - name: Test
         run: sbt -v +test
+
       - name: Test Summary
         uses: test-summary/action@v2
         with:
           paths: "test-results/**/TEST-*.xml"
         if: always()
+
+      - uses: aws-actions/configure-aws-credentials@v2
+        with:
+          aws-region: eu-west-1
+          role-to-assume: ${{ secrets.GU_RIFF_RAFF_ROLE_ARN }}
+
+      - name: Upload to riff-raff
+        uses: guardian/actions-riff-raff@v2
+        with:
+          projectName: Mobile::cross-platform-navigation
+          buildNumberOffset: 196
+          configPath: riff-raff.yaml
+          contentDirectories: |
+            json:
+              - json/
