@@ -379,6 +379,11 @@
           "sections": []
         },
         {
+          "title": "Comfort Eating",
+          "path": "lifeandstyle/series/comforteatingwithgracedent",
+          "sections": []
+        },
+        {
           "title": "Audio Long Reads",
           "path": "news/series/the-audio-long-read",
           "sections": []
@@ -394,6 +399,11 @@
           "sections": []
         },
         {
+          "title": "Pop Culture",
+          "path": "society/series/pop-culture-with-chante-joseph",
+          "sections": []
+        },
+        {
           "title": "Weekend",
           "path": "lifeandstyle/series/weekend",
           "sections": []
@@ -406,11 +416,6 @@
         {
           "title": "Australian Politics",
           "path": "australia-news/series/australian-politics-live",
-          "sections": []
-        },
-        {
-          "title": "Neuroscientist Explains",
-          "path": "science/series/a-neuroscientist-explains-podcast",
           "sections": []
         }
       ]
