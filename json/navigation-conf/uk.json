@@ -379,6 +379,11 @@
           "sections": []
         },
         {
+          "title": "Comfort Eating",
+          "path": "lifeandstyle/series/comforteatingwithgracedent",
+          "sections": []
+        },
+        {
           "title": "Audio Long Reads",
           "path": "news/series/the-audio-long-read",
           "sections": []
@@ -394,6 +399,11 @@
           "sections": []
         },
         {
+          "title": "Pop Culture",
+          "path": "society/series/pop-culture-with-chante-joseph",
+          "sections": []
+        },
+        {
           "title": "Weekend",
           "path": "lifeandstyle/series/weekend",
           "sections": []
@@ -404,28 +414,8 @@
           "sections": []
         },
         {
-          "title": "Chips with Everything",
-          "path": "technology/series/chips-with-everything",
-          "sections": []
-        },
-        {
           "title": "Australian Politics",
           "path": "australia-news/series/australian-politics-live",
-          "sections": []
-        },
-        {
-          "title": "Small Changes",
-          "path": "global-development/series/global-development-podcast",
-          "sections": []
-        },
-        {
-          "title": "Brexit means...",
-          "path": "politics/series/brexit-means",
-          "sections": []
-        },
-        {
-          "title": "Neuroscientist Explains",
-          "path": "science/series/a-neuroscientist-explains-podcast",
           "sections": []
         }
       ]
