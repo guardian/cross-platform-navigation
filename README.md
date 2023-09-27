@@ -86,7 +86,7 @@ You won't be able to deploy a change to the CODE stage of cross-platform-navigat
 
 1. **Access the Mobile Account in AWS**: Go to [janus](https://janus.gutools.co.uk/) and navigate to the mobile account.
 2. **Locate the S3 Bucket**: Find the S3 bucket named "mobile-navigation-dist". 
-3. **Replace JSON File** In the "CODE" folder, replace the relevant JSON file with the version containing your local changes.
+3. **Replace JSON File**: In the "CODE" folder, replace the relevant JSON file with the version containing your local changes.
 4. **Redeploy mobile-fronts in riffraff**: Redeploy the mobile-fronts service in riffraff to CODE (as mobile-fronts caches a copy of the json).
 5. **Configure the Debug App**: On the debug app, go into the debug settings and get the app to use CODE mapi and clear your cache.
 6. **Verify your changes**: You should see the nav bar has changed. Make sure you're on the correct edition! 
