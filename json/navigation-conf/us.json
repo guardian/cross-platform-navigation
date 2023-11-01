@@ -143,14 +143,14 @@
       ]
     },
     {
-      "title": "Fight for Democracy",
-      "path": "us-news/series/the-fight-for-democracy",
-      "sections": []
-    },
-    {
       "title": "Lifestyle",
       "path": "lifeandstyle",
       "sections": [
+        {
+          "title": "Wellness",
+          "path": "us/wellness",
+          "sections": []
+        },
         {
           "title": "Food",
           "path": "food"
