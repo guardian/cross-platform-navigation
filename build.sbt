@@ -1,4 +1,5 @@
 import sbtrelease.ReleaseStateTransformations._
+import sbtversionpolicy.withsbtrelease.ReleaseVersion
 
 name:="cross-platform-navigation"
 
@@ -19,51 +20,13 @@ Test / unmanagedResourceDirectories += baseDirectory.value / "json"
 
 enablePlugins(BuildInfoPlugin)
 
-def listJsonFiles(file: File) : List[File] = {
-  if(file.isDirectory) {
-    file.listFiles().toList.flatMap(listJsonFiles)
-  } else {
-    List(file)
-  }
-}
-
-def listJsonFilesInJsonDir: List[(File, String)] = {
-
-  val jsonFilesDir = file("json")
-  val jsonDir = jsonFilesDir.getAbsoluteFile.toPath.getParent
-
-  listJsonFiles(jsonFilesDir).map {
-    file => file -> jsonDir.relativize(file.getAbsoluteFile.toPath).toString
-  }
-}
-
-publishTo := sonatypePublishToBundle.value
-publishMavenStyle := true
-Test / publishArtifact := false
-pomIncludeRepository := {_ => false}
 description := "Provides scala representation of the navigation menus for the www.theguardian.com and guardian apps"
 
-pomExtra in Global := {
-  <url>https://github.com/guardian/cross-platform-navigation</url>
-    <developers>
-      <developer>
-        <id>@guardian</id>
-        <name>The guardian</name>
-        <url>https://github.com/guardian</url>
-      </developer>
-    </developers>
-}
-
-
-//PgpPublis
 organization := "com.gu"
-licenses := Seq("Apache v2" -> url("http://www.apache.org/licenses/LICENSE-2.0.html"))
-scmInfo := Some(ScmInfo(
-  url("https://github.com/guardian/cross-platform-navigation"),
-  "scm:git:git@github.com:guardian/cross-platform-navigation.git"
-))
+licenses := Seq(License.Apache2)
 scalacOptions ++= Seq("-deprecation", "-unchecked", "-release:11")
 releaseCrossBuild := true
+releaseVersion := ReleaseVersion.fromAggregatedAssessedCompatibilityWithLatestRelease().value
 releaseProcess := Seq(
   checkSnapshotDependencies,
   inquireVersions,
@@ -72,11 +35,8 @@ releaseProcess := Seq(
   setReleaseVersion,
   commitReleaseVersion,
   tagRelease,
-  releaseStepCommandAndRemaining("+publishSigned"),
-  releaseStepCommand("sonatypeBundleRelease"),
   setNextVersion,
-  commitNextVersion,
-  pushChanges
+  commitNextVersion
 )
 
 Test/testOptions += Tests.Argument(
