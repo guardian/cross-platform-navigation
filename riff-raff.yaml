@@ -9,4 +9,5 @@ deployments:
       publicReadAcl: false
       prefixPackage: false
       prefixStack: false
-      bucket: mobile-navigation-dist
+      bucketSsmLookup: true
+      bucketSsmKey: /account/services/artifact.bucket.nav
