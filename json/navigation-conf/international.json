@@ -424,6 +424,11 @@
       ]
     },
     {
+      "title": "Live events",
+      "path": "guardian-live-events",
+      "sections": []
+    },    
+    {
       "title": "The Observer",
       "path": "observer",
       "sections": []
