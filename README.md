@@ -2,6 +2,7 @@ Cross Platform Navigation
 =========================
 
 [![cross-platform-navigation Scala version support](https://index.scala-lang.org/guardian/cross-platform-navigation/cross-platform-navigation/latest-by-scala-version.svg?platform=jvm)](https://index.scala-lang.org/guardian/cross-platform-navigation/cross-platform-navigation)
+[![Release](https://github.com/guardian/cross-platform-navigation/actions/workflows/release.yml/badge.svg)](https://github.com/guardian/cross-platform-navigation/actions/workflows/release.yml)
 
 A library to provide define and provide scala representations of the navigation across [theguardian.com](https://theguardian.com)
 and the guardian's cohort of [mobile apps](https://theguardian.com/mobile)
