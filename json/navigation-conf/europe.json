@@ -131,7 +131,12 @@
       "title": "Football",
       "path": "football",
 
-      "sections": []
+      "sections": [
+        {
+          "title": "Euro 2024",
+          "path": "football/euro-2024"
+        }
+      ]
     },
     {
       "title": "Opinion",
