@@ -58,6 +58,10 @@
           "path": "sport/australia-sport"
         },
         {
+          "title": "Euro 2024",
+          "path": "football/euro-2024"
+        },
+        {
           "title": "AFL",
           "path": "sport/afl"
         },

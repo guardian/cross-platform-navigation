@@ -68,6 +68,10 @@
       "path": "us/sport",
       "sections": [
         {
+          "title": "Euro 2024",
+          "path": "football/euro-2024"
+        },
+        {
           "title": "Soccer",
           "path": "us/soccer",
           "mobileOverride": "section-front"
