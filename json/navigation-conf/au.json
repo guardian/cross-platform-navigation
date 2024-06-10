@@ -54,12 +54,12 @@
       "path": "au/sport",
       "sections": [
         {
-          "title": "Australia sport",
-          "path": "sport/australia-sport"
-        },
-        {
           "title": "Euro 2024",
           "path": "football/euro-2024"
+        },
+        {
+          "title": "Australia sport",
+          "path": "sport/australia-sport"
         },
         {
           "title": "AFL",
