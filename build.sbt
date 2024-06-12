@@ -3,17 +3,17 @@ import sbtversionpolicy.withsbtrelease.ReleaseVersion
 
 name:="cross-platform-navigation"
 
-ThisBuild / scalaVersion := "2.13.11"
+ThisBuild / scalaVersion := "2.13.13"
 
-crossScalaVersions := Seq(scalaVersion.value, "2.12.18")
+crossScalaVersions := Seq(scalaVersion.value, "2.12.19")
 
 resolvers ++= Resolver.sonatypeOssRepos("releases")
 
 libraryDependencies ++= Seq(
-  "com.fasterxml.jackson.core" % "jackson-databind" % "2.15.2",
-  "com.typesafe.play" %% "play-json" % "2.9.4",
-  "org.slf4j" % "slf4j-api" % "2.0.7",
-  "org.specs2" %% "specs2-core" % "4.20.0" % Test
+  "com.fasterxml.jackson.core" % "jackson-databind" % "2.15.4",
+  "com.typesafe.play" %% "play-json" % "2.10.4",
+  "org.slf4j" % "slf4j-api" % "2.0.12",
+  "org.specs2" %% "specs2-core" % "4.20.5" % Test
 )
 
 Test / unmanagedResourceDirectories += baseDirectory.value / "json"
