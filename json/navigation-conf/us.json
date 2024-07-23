@@ -9,12 +9,7 @@
       "title": "US elections 2024",
       "path": "us-news/us-elections-2024",
       "sections": []
-    },
-    {
-      "title": "Donald Trump trials",
-      "path": "us-news/donald-trump-trials",
-      "sections": []
-    },    
+    },   
     {
       "title": "Politics",
       "path": "us-news/us-politics",
@@ -106,6 +101,11 @@
           "path": "sport/golf"
         }
       ]
+    },
+    {
+      "title": "Olympics 2024",
+      "path": "sport/olympic-games-2024",
+      "sections": []
     },
     {
       "title": "Soccer",
