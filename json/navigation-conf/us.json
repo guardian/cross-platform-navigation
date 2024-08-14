@@ -11,6 +11,11 @@
       "sections": []
     },   
     {
+      "title": "Democratic national convention",
+      "path": "us-news/democratic-national-convention-2024",
+      "sections": []
+    },   
+    {
       "title": "Politics",
       "path": "us-news/us-politics",
       "sections": []
@@ -63,10 +68,6 @@
       "path": "us/sport",
       "sections": [
         {
-          "title": "Olympics 2024",
-          "path": "sport/olympic-games-2024"
-        },
-        {
           "title": "Soccer",
           "path": "us/soccer",
           "mobileOverride": "section-front"
@@ -101,11 +102,6 @@
           "path": "sport/golf"
         }
       ]
-    },
-    {
-      "title": "Olympics 2024",
-      "path": "sport/olympic-games-2024",
-      "sections": []
     },
     {
       "title": "Soccer",
