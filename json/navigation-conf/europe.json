@@ -82,10 +82,6 @@
       "path": "sport",
       "sections": [
         {
-          "title": "Olympics 2024",
-          "path": "sport/olympic-games-2024"
-        },
-        {
           "title": "Football",
           "path": "football"
         },
