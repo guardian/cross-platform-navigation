@@ -54,6 +54,10 @@
       "path": "au/sport",
       "sections": [
         {
+          "title": "Paralympics 2024",
+          "path": "sport/paralympic-games-2024"
+        },
+        {
           "title": "Australia sport",
           "path": "sport/australia-sport"
         },
