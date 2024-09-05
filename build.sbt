@@ -26,7 +26,7 @@ organization := "com.gu"
 licenses := Seq(License.Apache2)
 scalacOptions ++= Seq("-deprecation", "-unchecked", "-release:11")
 releaseCrossBuild := true
-releaseVersion := ReleaseVersion.fromAggregatedAssessedCompatibilityWithLatestRelease().value
+// releaseVersion := ReleaseVersion.fromAggregatedAssessedCompatibilityWithLatestRelease().value
 releaseProcess := Seq(
   checkSnapshotDependencies,
   inquireVersions,
