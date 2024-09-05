@@ -3,9 +3,9 @@ import sbtversionpolicy.withsbtrelease.ReleaseVersion
 
 name:="cross-platform-navigation"
 
-ThisBuild / scalaVersion := "2.13.14"
+ThisBuild / scalaVersion := "3.3.3"
 
-crossScalaVersions := Seq(scalaVersion.value, "2.12.20")
+crossScalaVersions := Seq(scalaVersion.value, "2.13.14")
 
 resolvers ++= Resolver.sonatypeOssRepos("releases")
 

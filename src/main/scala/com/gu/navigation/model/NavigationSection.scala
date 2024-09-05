@@ -29,14 +29,14 @@ object NavigationSection  {
       (__ \ "mobileOverride").writeNullable[String] and
       (__ \ "sections").lazyWriteNullable(implicitly[Writes[List[NavigationSection]]]) and
       (__ \ "editionOverride").writeNullable[String]
-    )(unlift(NavigationSection.unapply _))
+    )(unlift((ns: NavigationSection) => Some((ns.title, ns.path, ns.mobileOverride, ns.sections, ns.editionOverride))))
 
   implicit lazy val disNavigationSectionFormat: Format[NavigationSection] = Format(navigationSectionReads, navigationSectionWrites)
 
 }
 
 object Navigation {
-  implicit val jf = Json.format[Navigation]
+  implicit val jf: Format[Navigation] = Json.format[Navigation]
 }
 
 case class Navigation(pillars: List[NavigationSection])
