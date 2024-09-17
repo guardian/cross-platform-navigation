@@ -63,10 +63,6 @@
       "path": "us/sport",
       "sections": [
         {
-          "title": "Paralympics 2024",
-          "path": "sport/paralympic-games-2024"
-        },
-        {
           "title": "Soccer",
           "path": "us/soccer",
           "mobileOverride": "section-front"
@@ -101,11 +97,6 @@
           "path": "sport/golf"
         }
       ]
-    },
-    {
-      "title": "Paralympics 2024",
-      "path": "sport/paralympic-games-2024",
-      "sections": []
     },
     {
       "title": "Soccer",

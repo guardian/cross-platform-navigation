@@ -87,10 +87,6 @@
       "path": "uk/sport",
       "sections": [
         {
-          "title": "Paralympics 2024",
-          "path": "sport/paralympic-games-2024"
-        },
-        {
           "title": "Football",
           "path": "football"
         },
