@@ -264,6 +264,11 @@
       ]
     },
     {
+      "title": "Health",
+      "path": "australia-news/health",
+      "sections": []
+    },
+    {
       "title": "Science",
       "path": "science",
       "sections": []
