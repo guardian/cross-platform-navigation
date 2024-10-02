@@ -3,7 +3,7 @@ import sbtversionpolicy.withsbtrelease.ReleaseVersion
 
 name:="cross-platform-navigation"
 
-ThisBuild / scalaVersion := "3.3.3"
+ThisBuild / scalaVersion := "3.3.4"
 
 crossScalaVersions := Seq(scalaVersion.value, "2.13.15")
 
