@@ -3,14 +3,14 @@ import sbtversionpolicy.withsbtrelease.ReleaseVersion
 
 name:="cross-platform-navigation"
 
-ThisBuild / scalaVersion := "3.3.3"
+ThisBuild / scalaVersion := "3.3.4"
 
 crossScalaVersions := Seq(scalaVersion.value, "2.13.15")
 
 resolvers ++= Resolver.sonatypeOssRepos("releases")
 
 libraryDependencies ++= Seq(
-  "com.fasterxml.jackson.core" % "jackson-databind" % "2.17.2",
+  "com.fasterxml.jackson.core" % "jackson-databind" % "2.18.0",
   "org.playframework" %% "play-json" % "3.0.4",
   "org.slf4j" % "slf4j-api" % "2.0.16",
   "org.specs2" %% "specs2-core" % "4.20.8" % Test
