@@ -246,6 +246,10 @@
           "path": "food"
         },
         {
+          "title": "The Filter",
+          "path": "uk/thefilter"
+        },
+        {
           "title": "Health & fitness",
           "path": "lifeandstyle/health-and-wellbeing"
         },
