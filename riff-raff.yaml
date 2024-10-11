@@ -1,10 +1,15 @@
 stacks: [mobile]
 regions: [eu-west-1]
-
+allowedStages:
+  - CODE
+  - PROD
 deployments:
   json:
     type: aws-s3
     parameters:
+      bucketSsmKeyStageParam:
+        CODE: /CODE/account/services/artifact.bucket.nav
+        PROD: /account/services/artifact.bucket.nav
       cacheControl: max-age=600
       publicReadAcl: false
       prefixPackage: false
