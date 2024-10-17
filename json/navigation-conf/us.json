@@ -85,6 +85,10 @@
           "path": "sport/nba"
         },
         {
+          "title": "WNBA",
+          "path": "sport/wnba"
+        },
+        {
           "title": "NHL",
           "path": "sport/nhl"
         },
@@ -361,7 +365,7 @@
     },
     {
       "title": "Support us",
-      "path": "membership",
+      "path": "insidetheguardian",
       "sections": []
     },
     {
