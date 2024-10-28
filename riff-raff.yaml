@@ -6,11 +6,10 @@ deployments:
   json:
     type: aws-s3
     parameters:
-      bucketSsmKeyStageParam:
-        CODE: /account/services/artifact.bucket.nav.test
       cacheControl: max-age=600
       publicReadAcl: false
       prefixPackage: false
       prefixStack: false
       prefixStage: true
       bucketSsmLookup: true
+      bucketSsmKey: /account/services/artifact.bucket.nav.test
