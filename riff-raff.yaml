@@ -13,4 +13,4 @@ deployments:
       prefixStack: false
       prefixStage: true
       bucketSsmLookup: true
-      bucketSsmKey: /account/services/artifact.bucket.nav.test
+      bucketSsmKey: /account/services/artifact.bucket.nav
