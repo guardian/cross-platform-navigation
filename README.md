@@ -26,7 +26,7 @@ You can den do something like
 
 #### Updating the navigation
 
-The directory [json](https://github.com/guardian/cross-platform-navigation/tree/nb-MSS-166-create-navigation/json) contains the definition for each of the guardians 4 editions as json files. Altering these files and releasing the project via riff-raff causes the updated files to be provisioned to s3. Your application can then retrieve (and cache) the json as you wish and use it at described above 
+The directory [json](https://github.com/guardian/cross-platform-navigation/tree/nb-MSS-166-create-navigation/json) contains the definition for each of the guardians 4 editions as json files. Altering these files and releasing the project via riff-raff causes the updated files to be provisioned to s3. Your application can then retrieve (and cache) the json as you wish and use it at described above
 
 #### Json Format
 
@@ -51,7 +51,7 @@ Here, there are only two pillars, with a cut down set of sections to indicate ho
           ]
         }
       ]
-    },     
+    },
     {
       "title": "sport",
       "path": "/sport",
@@ -77,20 +77,17 @@ Here, there are only two pillars, with a cut down set of sections to indicate ho
 
 #### Publishing and Deploying
 
-Update the scala functionality and publish to maven, making sure you update the version and the changelog. 
+Update the scala functionality and publish to maven, making sure you update the version and the changelog.
 
-Deploying the project via riff-raff will upload the latest editionalised json files to s3, via teamcity. This process checks the validity of the json in order to build successfully
+Deploying the project via riff-raff will upload the latest editionalised json files to s3. The CI (Github Actions) tests check the validity of the json in order to build successfully
 
 #### Testing your changes on the app
 
-You won't be able to deploy a change to the CODE stage of cross-platform-navigation as riffraff will block you from doing so, warning that any change deployed to CODE will actually be deployed to production. Therefore, you need to
-
-1. **Access the Mobile Account in AWS**: Go to [janus](https://janus.gutools.co.uk/) and navigate to the mobile account.
-2. **Locate the S3 Bucket**: Find the S3 bucket named "mobile-navigation-dist". 
-3. **Replace JSON File**: In the "CODE" folder, replace the relevant JSON file with the version containing your local changes.
-4. **Redeploy mobile-fronts in riffraff**: Redeploy the mobile-fronts service in riffraff to CODE (as mobile-fronts caches a copy of the json).
-5. **Configure the Debug App**: On the debug app, go into the debug settings and get the app to use CODE mapi and clear your cache.
-6. **Verify your changes**: You should see the nav bar has changed. Make sure you're on the correct edition! 
+1. Deploy the branch to CODE with riff-raff (`Mobile::cross-platform-navigation`)
+2. Redeploy the CODE mobile-fronts with riffraff (`Mobile::mobile-fronts`): mobile-fronts caches a copy of the json so redeploy any branch to invalidate
+   the cache.
+3. **Configure the Debug App**: On the debug app, go into the debug settings and get the app to use CODE mapi and clear your cache.
+4. **Verify your changes**: You should see the nav bar has changed. Make sure you're on the correct edition!
 
 Having done the above steps you should feel confident to merge your changes.
 
