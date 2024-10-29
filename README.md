@@ -84,10 +84,8 @@ Deploying the project via riff-raff will upload the latest editionalised json fi
 #### Testing your changes on the app
 
 1. Deploy the branch to CODE with riff-raff (`Mobile::cross-platform-navigation`)
-2. Redeploy the CODE mobile-fronts with riffraff (`Mobile::mobile-fronts`): mobile-fronts caches a copy of the json so redeploy any branch to invalidate
-   the cache.
-3. **Configure the Debug App**: On the debug app, go into the debug settings and get the app to use CODE mapi and clear your cache.
-4. **Verify your changes**: You should see the nav bar has changed. Make sure you're on the correct edition!
+2. **Configure the Debug App**: On the debug app, go into the debug settings and get the app to use CODE mapi and clear your cache.
+3. **Verify your changes**: You should see the nav bar has changed (it may take a few minutes to update due to the Fastly cache). Make sure you're on the correct edition!
 
 Having done the above steps you should feel confident to merge your changes.
 
