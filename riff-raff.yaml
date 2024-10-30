@@ -1,6 +1,8 @@
 stacks: [mobile]
 regions: [eu-west-1]
-
+allowedStages:
+  - CODE
+  - PROD
 deployments:
   json:
     type: aws-s3
@@ -9,5 +11,6 @@ deployments:
       publicReadAcl: false
       prefixPackage: false
       prefixStack: false
+      prefixStage: true
       bucketSsmLookup: true
       bucketSsmKey: /account/services/artifact.bucket.nav
