@@ -40,6 +40,11 @@
       ]
     },
     {
+      "title": "US elections 2024",
+      "path": "us-news/us-elections-2024",
+      "sections": []
+    },
+    {
       "title": "World",
       "path": "world",
       "sections": [
@@ -346,7 +351,7 @@
       "title": "Obituaries",
       "path": "tone/obituaries",
       "sections": []
-    },    
+    },
     {
       "title": "Video",
       "path": "video",
@@ -427,7 +432,7 @@
       "title": "Live events",
       "path": "guardian-live-events",
       "sections": []
-    },    
+    },
     {
       "title": "The Observer",
       "path": "observer",
