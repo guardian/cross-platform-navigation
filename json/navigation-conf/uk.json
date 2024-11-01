@@ -40,6 +40,11 @@
       ]
     },
     {
+      "title": "US elections 2024",
+      "path": "us-news/us-elections-2024",
+      "sections": []
+    },
+    {
       "title": "Politics",
       "path": "politics",
       "sections": []
@@ -351,7 +356,7 @@
     {
       "title": "Society",
       "path": "society",
-      "sections" : []
+      "sections": []
     },
     {
       "title": "Media",
@@ -362,7 +367,7 @@
       "title": "Obituaries",
       "path": "tone/obituaries",
       "sections": []
-    },    
+    },
     {
       "title": "Video",
       "path": "video",
