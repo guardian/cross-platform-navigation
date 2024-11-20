@@ -40,8 +40,8 @@
       ]
     },
     {
-      "title": "US elections 2024",
-      "path": "us-news/us-elections-2024",
+      "title": "US politics",
+      "path": "us-news/us-politics",
       "sections": []
     },
     {
@@ -80,6 +80,10 @@
         {
           "title": "Middle East",
           "path": "world/middleeast"
+        },
+        {
+          "title": "Ukraine",
+          "path": "world/ukraine"
         },
         {
           "title": "Development",

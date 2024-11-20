@@ -36,6 +36,10 @@
         {
           "title": "Middle East",
           "path": "world/middleeast"
+        },
+        {
+          "title": "Ukraine",
+          "path": "world/ukraine"
         }
       ]
     },
@@ -348,7 +352,7 @@
       "title": "Obituaries",
       "path": "tone/obituaries",
       "sections": []
-    },    
+    },
     {
       "title": "Support us",
       "path": "insidetheguardian",
