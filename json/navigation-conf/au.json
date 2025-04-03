@@ -242,6 +242,10 @@
       "path": "au/environment",
       "sections": [
         {
+          "title": "Climate crisis",
+          "path": "environment/climate-crisis"
+        },
+        {
           "title": "Energy",
           "path": "environment/energy"
         },
