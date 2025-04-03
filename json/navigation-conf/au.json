@@ -242,12 +242,12 @@
       "path": "au/environment",
       "sections": [
         {
-          "title": "Energy",
-          "path": "environment/energy"
-        },
-        {
           "title": "Climate crisis",
           "path": "environment/climate-crisis"
+        },
+        {
+          "title": "Energy",
+          "path": "environment/energy"
         },
         {
           "title": "Wildlife",
