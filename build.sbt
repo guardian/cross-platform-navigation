@@ -10,7 +10,7 @@ crossScalaVersions := Seq(scalaVersion.value, "2.13.16")
 resolvers ++= Resolver.sonatypeOssRepos("releases")
 
 libraryDependencies ++= Seq(
-  "com.fasterxml.jackson.core" % "jackson-databind" % "2.19.0",
+  "com.fasterxml.jackson.core" % "jackson-databind" % "2.19.1",
   "org.playframework" %% "play-json" % "3.0.4",
   "org.slf4j" % "slf4j-api" % "2.0.17",
   "org.specs2" %% "specs2-core" % "4.21.0" % Test
