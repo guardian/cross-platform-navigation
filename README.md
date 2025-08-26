@@ -84,7 +84,12 @@ Deploying the project via riff-raff will upload the latest editionalised json fi
 #### Testing your changes on the app
 
 1. Deploy the branch to CODE with riff-raff (`Mobile::cross-platform-navigation`)
-2. **Configure the Debug App**: On the debug app, go into the debug settings and get the app to use CODE mapi and clear your cache.
+2. **Configure the Debug App**: On the debug app, go into the debug settings and get the app to use CODE mapi and clear your cache. 
+
+
+* on iOS, use a feature flag to override the [remote config](https://github.com/guardian/ios-live/wiki/Remote-Config) (debug settings) to see the old navigation menu. 
+
+
 3. **Verify your changes**: You should see the nav bar has changed (it may take a few minutes to update due to the Fastly cache). Make sure you're on the correct edition!
 
 Having done the above steps you should feel confident to merge your changes.
