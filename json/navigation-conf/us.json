@@ -160,6 +160,10 @@
           "sections": []
         },
         {
+          "title": "The Filter US",
+          "path": "thefilter-us"
+        },
+        {
           "title": "Food",
           "path": "food"
         },
