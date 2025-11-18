@@ -5,7 +5,7 @@ name:="cross-platform-navigation"
 
 ThisBuild / scalaVersion := "3.3.6"
 
-crossScalaVersions := Seq(scalaVersion.value, "2.13.16")
+crossScalaVersions := Seq(scalaVersion.value, "2.13.17")
 
 resolvers ++= Resolver.sonatypeOssRepos("releases")
 
