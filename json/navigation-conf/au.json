@@ -58,6 +58,10 @@
       "path": "au/sport",
       "sections": [
         {
+          "title": "Winter Olympics",
+          "path": "sport/winter-olympics-2026"
+        },
+        {
           "title": "Australia sport",
           "path": "sport/australia-sport"
         },
