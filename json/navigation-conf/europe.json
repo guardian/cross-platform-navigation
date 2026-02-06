@@ -91,6 +91,10 @@
       "path": "sport",
       "sections": [
         {
+          "title": "Winter Olympics",
+          "path": "sport/winter-olympics-2026"
+        },
+        {
           "title": "Football",
           "path": "football"
         },
