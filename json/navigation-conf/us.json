@@ -62,6 +62,10 @@
       "path": "us/sport",
       "sections": [
         {
+          "title": "Winter Olympics",
+          "path": "sport/winter-olympics-2026"
+        },
+        {
           "title": "Soccer",
           "path": "us/soccer",
           "mobileOverride": "section-front"
