@@ -55,7 +55,12 @@
     {
       "title": "Opinion",
       "path": "us/commentisfree",
-      "sections": []
+      "sections": [
+        {
+          "title": "Columnists",
+          "path": "us/columnists"
+        }
+      ]
     },
     {
       "title": "Sports",
