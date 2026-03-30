@@ -149,7 +149,12 @@
     {
       "title": "Opinion",
       "path": "uk/commentisfree",
-      "sections": []
+      "sections": [
+        {
+          "title": "Columnists",
+          "path": "uk/columnists"
+        }
+      ]
     },
     {
       "title": "Culture",
