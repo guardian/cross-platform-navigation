@@ -110,7 +110,12 @@
       "title": "Soccer",
       "path": "us/soccer",
       "mobileOverride": "section-front",
-      "sections": []
+      "sections": [
+        {
+          "title": "World Cup 2026",
+          "path": "football/world-cup-2026"
+        }
+      ]
     },
     {
       "title": "Tech",

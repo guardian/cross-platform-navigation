@@ -144,7 +144,12 @@
     {
       "title": "Football",
       "path": "football",
-      "sections": []
+      "sections": [
+        {
+          "title": "World Cup 2026",
+          "path": "football/world-cup-2026"
+        }
+      ]
     },
     {
       "title": "Opinion",
