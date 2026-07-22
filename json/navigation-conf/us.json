@@ -67,10 +67,6 @@
       "path": "us/sport",
       "sections": [
         {
-          "title": "World Cup 2026",
-          "path": "football/world-cup-2026"
-        },
-        {
           "title": "Soccer",
           "path": "us/soccer",
           "mobileOverride": "section-front"
@@ -115,10 +111,6 @@
       "path": "us/soccer",
       "mobileOverride": "section-front",
       "sections": [
-        {
-          "title": "World Cup 2026",
-          "path": "football/world-cup-2026"
-        }
       ]
     },
     {
