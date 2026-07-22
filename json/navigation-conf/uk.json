@@ -96,10 +96,6 @@
       "path": "uk/sport",
       "sections": [
         {
-          "title": "World Cup 2026",
-          "path": "football/world-cup-2026"
-        },
-        {
           "title": "Football",
           "path": "football"
         },
@@ -149,10 +145,6 @@
       "title": "Football",
       "path": "football",
       "sections": [
-        {
-          "title": "World Cup 2026",
-          "path": "football/world-cup-2026"
-        }
       ]
     },
     {
