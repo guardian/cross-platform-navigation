@@ -1,3 +1,6 @@
+**Note:** This repo only serves navigation to older versions of the app. The latest app builds are served navigation from the [mapi-navigation-v3 project](https://github.com/guardian/mobile-apps-api/tree/main/mobile-navigation-v3)
+
+
 Cross Platform Navigation
 =========================
 
